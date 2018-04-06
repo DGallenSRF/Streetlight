@@ -1,0 +1,1094 @@
+Device Type,Origin Zone ID,Origin Zone Name,Origin Zone Is Pass-Through,Origin Zone Direction (degrees),Origin Zone is Bi-Direction,Middle Filter Zone ID,Middle Filter Zone Name,Middle Filter Zone Direction (degrees),Middle Filter Zone is Bi-Direction,Destination Zone ID,Destination Zone Name,Destination Zone Is Pass-Through,Destination Zone Direction (degrees),Destination Zone is Bi-Direction,Day Type,Day Part,O-M-D Traffic (StL Index),Origin Zone Traffic (StL Index),Middle Filter Zone Traffic (StL Index),Destination Zone Traffic (StL Index),Avg Trip Duration (sec)
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),253,11071,19787,19499,272
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),17,2530,4066,4022,244
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),87,4249,7302,7128,313
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),87,3341,5976,5915,293
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),61,881,2233,2225,192
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),235,11411,19065,18939,314
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),78,3991,5838,5713,457
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),78,3365,5932,5932,279
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),78,939,2176,2191,205
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),296,10259,20666,20075,191
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),59,1360,2217,2129,244
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),118,4760,10023,9698,172
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),89,3282,6031,5884,194
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),30,798,2217,2188,148
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,11071,19787,872,653
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,2530,4066,52,653
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,11411,19065,814,653
+Personal,4,Norell Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,3052,4852,94,653
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),166,11071,8227,40193,556
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),79,2530,1440,8384,533
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),70,4249,3193,15128,516
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),17,3341,2347,12231,821
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),203,11411,8437,39929,535
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),125,3052,1925,10753,534
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),47,3991,2990,13571,348
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),31,3365,2348,12099,821
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),148,10259,6918,38820,617
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),148,4760,3282,17414,617
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),26,11071,8227,19499,929
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,4249,3193,7128,1348
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),17,3341,2347,5915,719
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),31,11411,8437,18939,1046
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,3991,2990,5713,1348
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,3365,2348,5932,743
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,11071,8227,872,616
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,4249,3193,419,616
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,11411,8437,814,616
+Personal,4,Norell Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,3991,2990,376,616
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),5374,40193,19787,19499,73
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),26,419,209,209,28
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),707,8384,4066,4022,62
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),2024,15128,7302,7128,93
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),1980,12231,5976,5915,66
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),637,4031,2233,2225,47
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),5087,39929,19065,18939,60
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),1: Early AM (12am-6am),16,423,266,266,26
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),830,10753,4852,4837,64
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),1377,13571,5838,5713,61
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),2301,12099,5932,5932,62
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),563,3084,2176,2191,42
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),5913,38820,20666,20075,98
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),59,562,177,177,30
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),384,3755,2217,2129,56
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),3045,17414,10023,9698,130
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),1656,12063,6031,5884,75
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),769,5026,2217,2188,46
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,40193,19787,9483,819
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,12231,5976,3115,819
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),17,40193,19787,16184,N/A
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,8384,4066,2835,N/A
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,12231,5976,5714,N/A
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,39929,19065,17343,N/A
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,10753,4852,3616,N/A
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,38820,20666,14280,N/A
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,12063,6031,4553,N/A
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),26,40193,19787,12676,440
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,8384,4066,2076,N/A
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,15128,7302,5156,291
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,12231,5976,4441,588
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),31,39929,19065,13132,440
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,13571,5838,4571,291
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,12099,5932,5024,588
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),26,40193,19787,11429,538
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,8384,4066,1884,N/A
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),17,12231,5976,4004,538
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),59,38820,20666,11649,538
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),59,12063,6031,3962,538
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,40193,19787,1631,338
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,12231,5976,489,338
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,39929,19065,1816,338
+Personal,6,West TH 36,yes,N/A,no,1,Manning Ave,N/A,no,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,12099,5932,563,338
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),96,40193,7939,11071,489
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,8384,1361,2530,1101
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),17,15128,3289,4249,535
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),52,12231,2792,3341,361
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),17,4031,445,881,519
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),110,39929,7779,11411,516
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,10753,1534,3052,1101
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,13571,2880,3991,564
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),63,12099,2974,3365,321
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),16,3084,360,939,663
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),118,38820,7983,10259,442
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,17414,4051,4760,506
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),59,12063,2454,3282,443
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),30,5026,473,798,376
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),35,40193,7939,19499,N/A
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,15128,3289,7128,N/A
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),17,12231,2792,5915,N/A
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,4031,445,2225,N/A
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),31,39929,7779,18939,N/A
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,13571,2880,5713,N/A
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,12099,2974,5932,N/A
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,38820,7983,20075,N/A
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,12063,2454,5884,N/A
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,40193,7939,872,N/A
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,12231,2792,288,N/A
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,39929,7779,814,N/A
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,12099,2974,250,N/A
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),183,40193,7939,23355,709
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),26,8384,1361,4013,774
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),96,15128,3289,9161,881
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),61,12231,2792,7346,410
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),157,39929,7779,22101,777
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,10753,1534,4931,1194
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),78,13571,2880,7889,1085
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),63,12099,2974,7106,287
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),237,38820,7983,23830,587
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),59,3755,917,2306,564
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),89,17414,4051,10614,615
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),89,12063,2454,7303,575
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),855,40193,7939,9483,241
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),70,8384,1361,1413,163
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),401,15128,3289,4100,267
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),340,12231,2792,3115,234
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),44,4031,445,846,175
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),892,39929,7779,9736,214
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),125,10753,1534,1518,163
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),344,13571,2880,3960,251
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),360,12099,2974,3287,203
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),63,3084,360,955,177
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),769,38820,7983,9195,228
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),503,17414,4051,4287,233
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),237,12063,2454,2957,224
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),30,5026,473,710,169
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),35,40193,7939,3211,799
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),17,15128,3289,1335,1055
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),17,12231,2792,1213,542
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,11,Oak Green Ave South,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,39929,7779,3146,586
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,11,Oak Green Ave South,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,12099,2974,1346,586
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,11,Oak Green Ave South,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,38820,7983,3045,481
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,11,Oak Green Ave South,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,17414,4051,1744,481
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),17,40193,7939,131,150
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,8384,1361,44,209
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,12231,2792,17,91
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,39929,7779,110,91
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,12099,2974,16,91
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),131,40193,7939,1274,178
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),26,8384,1361,262,174
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),52,15128,3289,602,154
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),52,12231,2792,332,208
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),157,39929,7779,1487,187
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),31,10753,1534,360,81
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),47,13571,2880,610,189
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),78,12099,2974,407,238
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),89,38820,7983,739,180
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),30,3755,917,118,361
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,17414,4051,473,90
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,12063,2454,118,89
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),35,40193,7939,6945,413
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,8384,1361,1091,472
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,15128,3289,3245,244
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),17,12231,2792,1989,469
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,14,Greeley St,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),31,39929,7779,7310,327
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,14,Greeley St,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,13571,2880,3303,244
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,14,Greeley St,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,12099,2974,2129,410
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,38820,7983,5499,472
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),30,3755,917,621,472
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),105,40193,7939,10705,717
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),52,15128,3289,4266,1067
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),44,12231,2792,3542,361
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,4031,445,872,400
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),94,39929,7779,10847,824
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),47,13571,2880,4148,1309
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),31,12099,2974,3600,309
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),16,3084,360,845,400
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),118,38820,7983,10023,390
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,17414,4051,4760,376
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),89,12063,2454,3045,395
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),340,40193,7939,16184,153
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),52,8384,1361,2835,112
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),87,15128,3289,5871,178
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),183,12231,2792,5714,135
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),17,4031,445,1666,281
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),297,39929,7779,17343,124
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),47,10753,1534,3616,127
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),63,13571,2880,5463,140
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),188,12099,2974,6433,120
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),473,38820,7983,14280,194
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),89,3755,917,1419,97
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),118,17414,4051,6830,247
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),237,12063,2454,4553,157
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),30,5026,473,1419,394
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),1029,40193,7939,12676,213
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),113,8384,1361,2076,135
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),489,15128,3289,5156,250
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),393,12231,2792,4441,193
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),35,4031,445,986,154
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),1017,39929,7779,13132,228
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),94,10753,1534,2551,139
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),470,13571,2880,4571,286
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),438,12099,2974,5024,187
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),16,3084,360,955,160
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),1094,38820,7983,10969,192
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),148,3755,917,1212,134
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),562,17414,4051,5854,195
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),325,12063,2454,3282,223
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),59,5026,473,621,145
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),1518,40193,7939,11429,153
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),9,419,52,131,93
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),209,8384,1361,1884,127
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),680,15128,3289,4353,148
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),497,12231,2792,4004,180
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),122,4031,445,1056,125
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),1221,39929,7779,11066,159
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),203,10753,1534,2144,130
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),595,13571,2880,4023,153
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),391,12099,2974,4007,188
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),31,3084,360,798,108
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),2010,38820,7983,11649,148
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),30,562,89,237,93
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),237,3755,917,1153,127
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),857,17414,4051,4997,146
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),650,12063,2454,3962,167
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),237,5026,473,1301,130
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),236,40193,7939,1631,233
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),105,8384,1361,375,128
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),87,15128,3289,585,278
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),44,12231,2792,489,392
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),250,39929,7779,1816,260
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),94,10753,1534,501,108
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),94,13571,2880,517,326
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),63,12099,2974,563,390
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),89,38820,7983,1035,233
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),30,3755,917,89,141
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,17414,4051,503,156
+Personal,6,West TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,12063,2454,384,402
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),26,40193,8227,19499,N/A
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,15128,3193,7128,N/A
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,12231,2347,5915,N/A
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,4031,1178,2225,N/A
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,39929,8437,18939,N/A
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,13571,2990,5713,N/A
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,38820,6918,20075,N/A
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,12063,2158,5884,N/A
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,40193,8227,872,N/A
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,12231,2347,288,N/A
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,39929,8437,814,N/A
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,12099,2348,250,N/A
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,40193,8227,9483,1083
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,15128,3193,4100,1083
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,40193,8227,3211,1628
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,15128,3193,1335,1628
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,40193,8227,10705,1306
+Personal,6,West TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,15128,3193,4266,1306
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),427,19499,19787,11071,279
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),70,4022,4066,2530,313
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),148,7128,7302,4249,248
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),174,5915,5976,3341,317
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),35,2225,2233,881,146
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),454,18939,19065,11411,275
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),78,4837,4852,3052,315
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),110,5713,5838,3991,284
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),219,5932,5932,3365,284
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),47,2191,2176,939,144
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),355,20075,20666,10259,237
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),30,2129,2217,1360,178
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),237,9698,10023,4760,241
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),59,5884,6031,3282,296
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),30,2188,2217,798,150
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),5357,19499,19787,40193,37
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),131,209,209,419,30
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),1850,4022,4066,8384,36
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),1893,7128,7302,15128,36
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),1099,5915,5976,12231,43
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),384,2225,2233,4031,29
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),5447,18939,19065,39929,37
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),1: Early AM (12am-6am),203,266,266,423,30
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),2426,4837,4852,10753,39
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),1784,5713,5838,13571,35
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),751,5932,5932,12099,42
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),282,2191,2176,3084,28
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),5174,20075,20666,38820,35
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),59,177,177,562,31
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),710,2129,2217,3755,27
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),2306,9698,10023,17414,38
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),1597,5884,6031,12063,38
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),503,2188,2217,5026,26
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),96,19499,19787,872,94
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,4022,4066,52,81
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),44,7128,7302,419,115
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),26,5915,5976,288,79
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),17,2225,2233,105,69
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),78,18939,19065,814,95
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,4837,4852,94,81
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),31,5713,5838,376,79
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),31,5932,5932,250,119
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),89,20075,20666,1035,115
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,9698,10023,532,280
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,5884,6031,355,0
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),30,2188,2217,148,64
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),838,19499,19787,23355,275
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),148,4022,4066,4013,234
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),314,7128,7302,9161,257
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),288,5915,5976,7346,317
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),87,2225,2233,2652,273
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,9,East TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),689,18939,19065,22101,271
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,9,East TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),141,4837,4852,4931,212
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,9,East TH 36,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),203,5713,5838,7889,254
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,9,East TH 36,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),235,5932,5932,7106,308
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,9,East TH 36,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),110,2191,2176,2050,302
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),1123,20075,20666,23830,247
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),148,2129,2217,2306,208
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),473,9698,10023,10614,261
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),414,5884,6031,7303,253
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),89,2188,2217,3252,205
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),585,19499,19787,9483,264
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),140,4022,4066,1413,243
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),270,7128,7302,4100,250
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),148,5915,5976,3115,287
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),26,2225,2233,846,393
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),517,18939,19065,9736,284
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),47,4837,4852,1518,285
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),282,5713,5838,3960,255
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),141,5932,5932,3287,306
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),47,2191,2176,955,393
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),650,20075,20666,9195,247
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),207,2129,2217,1242,239
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),266,9698,10023,4287,254
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),177,5884,6031,2957,246
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),26,19499,19787,3211,249
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),17,4022,4066,401,264
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,2225,2233,244,219
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,11,Oak Green Ave South,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,18939,19065,3146,270
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,11,Oak Green Ave South,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,4837,4852,454,270
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,11,Oak Green Ave South,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,20075,20666,3045,219
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,11,Oak Green Ave South,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),30,2188,2217,237,219
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,19499,19787,131,190
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,4022,4066,44,190
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,18939,19065,110,190
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,4837,4852,31,190
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,13,58th St West,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),70,19499,19787,1274,192
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,13,58th St West,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),9,209,209,9,134
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,13,58th St West,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),52,4022,4066,262,207
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,13,58th St West,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,7128,7302,602,160
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,13,58th St West,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),94,18939,19065,1487,207
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,13,58th St West,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),94,4837,4852,360,207
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),59,20075,20666,739,147
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),30,177,177,30,134
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,9698,10023,473,160
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),157,19499,19787,6945,351
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),52,4022,4066,1091,371
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),44,7128,7302,3245,333
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),44,5915,5976,1989,378
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),17,2225,2233,593,264
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,14,Greeley St,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),125,18939,19065,7310,339
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,14,Greeley St,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),63,4837,4852,1362,342
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,14,Greeley St,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),31,5713,5838,3303,370
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,14,Greeley St,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,5932,5932,2129,358
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,14,Greeley St,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),16,2191,2176,517,248
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),148,20075,20666,5499,275
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,9698,10023,2986,370
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),89,5884,6031,1271,242
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),30,2188,2217,532,280
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),332,19499,19787,10705,303
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),9,209,209,61,232
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),70,4022,4066,1963,220
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),140,7128,7302,4266,322
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),105,5915,5976,3542,335
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,2225,2233,872,353
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),219,18939,19065,10847,366
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,4837,4852,2223,193
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),94,5713,5838,4148,382
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),94,5932,5932,3600,381
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),16,2191,2176,845,353
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),443,20075,20666,10023,277
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),118,2129,2217,1271,223
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),237,9698,10023,4760,306
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),89,5884,6031,3045,269
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),619,19499,19787,16184,222
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),17,209,209,96,129
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),105,4022,4066,2835,239
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),227,7128,7302,5871,236
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),192,5915,5976,5714,239
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),79,2225,2233,1666,143
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),532,18939,19065,17343,189
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),1: Early AM (12am-6am),31,266,266,110,129
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),141,4837,4852,3616,251
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),125,5713,5838,5463,142
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),172,5932,5932,6433,199
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),63,2191,2176,1722,151
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),857,20075,20666,14280,252
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),59,2129,2217,1419,201
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),473,9698,10023,6830,282
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),266,5884,6031,4553,250
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),59,2188,2217,1419,70
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),794,19499,19787,12676,256
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),192,4022,4066,2076,246
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),201,7128,7302,5156,313
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),349,5915,5976,4441,241
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),52,2225,2233,986,182
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),845,18939,19065,13132,257
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),235,4837,4852,2551,263
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),172,5713,5838,4571,295
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),407,5932,5932,5024,241
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),31,2191,2176,955,215
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),443,20075,20666,10969,301
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),89,2129,2217,1212,198
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),237,9698,10023,5854,388
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),118,5884,6031,3282,203
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),52,19499,19787,11429,395
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),35,7128,7302,4353,423
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),17,5915,5976,4004,339
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),47,18939,19065,11066,584
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,5713,5838,4023,1073
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),31,5932,5932,4007,339
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),89,20075,20666,11649,206
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),89,9698,10023,4997,206
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),35,19499,19787,1631,209
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),26,4022,4066,375,216
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,2225,2233,183,186
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),47,18939,19065,1816,216
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),47,4837,4852,501,216
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),105,19499,19787,358,36
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),52,4022,4066,87,36
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),26,7128,7302,140,39
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),26,5915,5976,87,34
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,20,North Frontage Road,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),110,18939,19065,376,39
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,20,North Frontage Road,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),78,4837,4852,141,39
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,20,North Frontage Road,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,5713,5838,125,32
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,20,North Frontage Road,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,5932,5932,110,42
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,20,North Frontage Road,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),89,20075,20666,148,39
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,20,North Frontage Road,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,9698,10023,59,55
+Personal,7,North Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,20,North Frontage Road,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),59,5884,6031,59,30
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),44,19499,7939,11071,494
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,7128,3289,4249,582
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),35,5915,2792,3341,473
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),31,18939,7779,11411,432
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),31,5932,2974,3365,432
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),59,20075,7983,10259,475
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,9698,4051,4760,582
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,5884,2454,3282,369
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),44,19499,7939,40193,N/A
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),26,7128,3289,15128,N/A
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),17,5915,2792,12231,N/A
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),47,18939,7779,39929,N/A
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),31,5713,2880,13571,N/A
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,5932,2974,12099,N/A
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),44,19499,7939,23355,517
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,7128,3289,9161,185
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),35,5915,2792,7346,600
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),31,18939,7779,22101,438
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),31,5932,2974,7106,438
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),59,20075,7983,23830,480
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,9698,4051,10614,185
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,5884,2454,7303,775
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),593,19499,7939,9483,271
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),140,4022,1361,1413,243
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),270,7128,3289,4100,250
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),157,5915,2792,3115,312
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),26,2225,445,846,393
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),517,18939,7779,9736,284
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),47,4837,1534,1518,285
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),282,5713,2880,3960,255
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),141,5932,2974,3287,306
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),47,2191,360,955,393
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),650,20075,7983,9195,247
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),207,2129,917,1242,239
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),266,9698,4051,4287,254
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),177,5884,2454,2957,246
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,19499,7939,131,190
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,4022,1361,44,190
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,18939,7779,110,190
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,4837,1534,31,190
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),61,19499,7939,1274,177
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),9,209,52,9,134
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),44,4022,1361,262,189
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,7128,3289,602,160
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),78,18939,7779,1487,189
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),78,4837,1534,360,189
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),59,20075,7983,739,147
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),30,177,89,30,134
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,9698,4051,473,160
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),26,19499,7939,10705,777
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,7128,3289,4266,582
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),17,5915,2792,3542,874
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,18939,7779,10847,1037
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,5932,2974,3600,1037
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),59,20075,7983,10023,647
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,9698,4051,4760,582
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,5884,2454,3045,712
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),602,19499,7939,16184,225
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),17,209,52,96,129
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),113,4022,1361,2835,237
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),227,7128,3289,5871,241
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),174,5915,2792,5714,239
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),70,2225,445,1666,142
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),532,18939,7779,17343,191
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),1: Early AM (12am-6am),31,266,31,110,129
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),157,4837,1534,3616,248
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),125,5713,2880,5463,142
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),172,5932,2974,6433,199
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),47,2191,360,1722,149
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),798,20075,7983,14280,259
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),59,2129,917,1419,201
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),473,9698,4051,6830,294
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),207,5884,2454,4553,254
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),59,2188,473,1419,70
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),776,19499,7939,12676,258
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),183,4022,1361,2076,243
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),209,7128,3289,5156,312
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),332,5915,2792,4441,245
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),52,2225,445,986,182
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),814,18939,7779,13132,261
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),219,4837,1534,2551,260
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),188,5713,2880,4571,295
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),376,5932,2974,5024,248
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),31,2191,360,955,215
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),443,20075,7983,10969,301
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),89,2129,917,1212,198
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),237,9698,4051,5854,388
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),118,5884,2454,3282,203
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),70,19499,7939,11429,381
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),35,7128,3289,4353,423
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),26,5915,2792,4004,396
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,2225,445,1056,168
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),47,18939,7779,11066,584
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,5713,2880,4023,1073
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),31,5932,2974,4007,339
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),148,20075,7983,11649,259
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),89,9698,4051,4997,206
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,5884,2454,3962,511
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),30,2188,473,1301,168
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),35,19499,7939,1631,209
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),26,4022,1361,375,216
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,2225,445,183,186
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),47,18939,7779,1816,216
+Personal,7,North Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),47,4837,1534,501,216
+Personal,7,North Manning Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),44,19499,8227,40193,N/A
+Personal,7,North Manning Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),26,7128,3193,15128,N/A
+Personal,7,North Manning Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),17,5915,2347,12231,N/A
+Personal,7,North Manning Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),47,18939,8437,39929,N/A
+Personal,7,North Manning Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),31,5713,2990,13571,N/A
+Personal,7,North Manning Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,5932,2348,12099,N/A
+Personal,7,North Manning Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,19499,8227,23355,867
+Personal,7,North Manning Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,5915,2347,7346,867
+Personal,7,North Manning Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,19499,8227,6945,875
+Personal,7,North Manning Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,5915,2347,1989,875
+Personal,8,South Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,872,19787,40193,N/A
+Personal,8,South Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,419,7302,15128,N/A
+Personal,8,South Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,814,19065,39929,N/A
+Personal,8,South Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,376,5838,13571,N/A
+Personal,8,South Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),113,872,19787,19499,86
+Personal,8,South Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),70,419,7302,7128,93
+Personal,8,South Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),17,288,5976,5915,117
+Personal,8,South Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),26,105,2233,2225,47
+Personal,8,South Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),78,814,19065,18939,88
+Personal,8,South Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),47,376,5838,5713,99
+Personal,8,South Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,250,5932,5932,94
+Personal,8,South Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),16,78,2176,2191,51
+Personal,8,South Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),177,1035,20666,20075,79
+Personal,8,South Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),89,532,10023,9698,81
+Personal,8,South Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,355,6031,5884,140
+Personal,8,South Manning Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),59,148,2217,2188,46
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,872,7939,40193,N/A
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,52,1361,8384,N/A
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,814,7779,39929,N/A
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,94,1534,10753,N/A
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),44,872,7939,9483,205
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,52,1361,1413,399
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),26,419,3289,4100,163
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,288,2792,3115,137
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),63,814,7779,9736,222
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,94,1534,1518,399
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),31,376,2880,3960,177
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,250,2974,3287,137
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,1035,7983,9195,134
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,532,4051,4287,134
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),26,872,7939,16184,135
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,52,1361,2835,87
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),17,419,3289,5871,159
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),31,814,7779,17343,112
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,94,1534,3616,87
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,376,2880,5463,137
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,1035,7983,14280,181
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,532,4051,6830,181
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),26,872,7939,12676,206
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,419,3289,5156,200
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),17,288,2792,4441,209
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,814,7779,13132,253
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,250,2974,5024,253
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),59,1035,7983,10969,182
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,532,4051,5854,200
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,355,2454,3282,164
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),35,872,7939,11429,153
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,52,1361,1884,182
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),17,419,3289,4353,148
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,288,2792,4004,135
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),31,814,7779,11066,172
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,94,1534,2144,182
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,376,2880,4023,162
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),59,1035,7983,11649,134
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,532,4051,4997,133
+Personal,8,South Manning Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,355,2454,3962,135
+Personal,8,South Manning Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,872,8227,40193,N/A
+Personal,8,South Manning Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,52,1440,8384,N/A
+Personal,8,South Manning Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,814,8437,39929,N/A
+Personal,8,South Manning Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,94,1925,10753,N/A
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,23355,19787,40193,591
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,7346,5976,12231,591
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,23830,20666,38820,591
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,7303,6031,12063,591
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),558,23355,19787,19499,242
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),44,4013,4066,4022,190
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),192,9161,7302,7128,272
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),157,7346,5976,5915,279
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),166,2652,2233,2225,188
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),485,22101,19065,18939,252
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),63,4931,4852,4837,195
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),157,7889,5838,5713,323
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),125,7106,5932,5932,285
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),141,2050,2176,2191,175
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),621,23830,20666,20075,223
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),237,10614,10023,9698,228
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),177,7303,6031,5884,231
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),207,3252,2217,2188,209
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,23355,19787,872,405
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,2652,2233,105,405
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,23830,20666,1035,405
+Personal,9,East TH 36,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),30,3252,2217,148,405
+Personal,9,East TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,23355,7939,9483,450
+Personal,9,East TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,7346,2792,3115,450
+Personal,9,East TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,23830,7983,9195,450
+Personal,9,East TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,7303,2454,2957,450
+Personal,9,East TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,23355,7939,12676,396
+Personal,9,East TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,4013,1361,2076,396
+Personal,9,East TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,22101,7779,13132,396
+Personal,9,East TH 36,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,4931,1534,2551,396
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),157,23355,8227,40193,754
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),52,4013,1440,8384,678
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),87,9161,3193,15128,845
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),17,2652,1178,4031,526
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),188,22101,8437,39929,759
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),94,4931,1925,10753,678
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),78,7889,2990,13571,875
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),16,2050,1127,3084,663
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),148,23830,6918,38820,653
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),118,10614,3282,17414,719
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),30,3252,887,5026,389
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),44,23355,8227,19499,681
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),17,9161,3193,7128,849
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),26,7346,2347,5915,570
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),47,22101,8437,18939,797
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,7889,2990,5713,1439
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),31,7106,2348,5932,477
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,23830,6918,20075,260
+Personal,9,East TH 36,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,10614,3282,9698,260
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),17,9483,19787,40193,495
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,1413,4066,8384,N/A
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,846,2233,4031,495
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,9736,19065,39929,N/A
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,1518,4852,10753,N/A
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,9195,20666,38820,495
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),30,710,2217,5026,495
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),550,9483,19787,19499,226
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),35,1413,4066,4022,329
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),218,4100,7302,7128,189
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),192,3115,5976,5915,255
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),105,846,2233,2225,221
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),610,9736,19065,18939,202
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),47,1518,4852,4837,238
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),250,3960,5838,5713,196
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),203,3287,5932,5932,213
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),110,955,2176,2191,184
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),443,9195,20666,20075,248
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),148,4287,10023,9698,158
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),237,2957,6031,5884,314
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),59,710,2217,2188,164
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,9483,19787,10705,N/A
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,4100,7302,4266,N/A
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,9736,19065,10847,N/A
+Personal,10,Crestview Blvd E,yes,N/A,no,1,Manning Ave,N/A,no,15,Washington Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,3960,5838,4148,N/A
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),1187,9483,8227,40193,192
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),244,1413,1440,8384,193
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),515,4100,3193,15128,191
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),279,3115,2347,12231,205
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),148,846,1178,4031,171
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),1205,9736,8437,39929,206
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),329,1518,1925,10753,202
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),485,3960,2990,13571,219
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),282,3287,2348,12099,200
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),110,955,1127,3084,180
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),1064,9195,6918,38820,170
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),118,1242,443,3755,185
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),503,4287,3282,17414,161
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),296,2957,2158,12063,165
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),148,710,887,5026,193
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),550,9483,8227,19499,225
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),26,1413,1440,4022,238
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),227,4100,3193,7128,192
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),183,3115,2347,5915,254
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),113,846,1178,2225,240
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),610,9736,8437,18939,202
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),47,1518,1925,4837,238
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),250,3960,2990,5713,196
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),203,3287,2348,5932,213
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),110,955,1127,2191,184
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),473,9195,6918,20075,262
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),177,4287,3282,9698,180
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),207,2957,2158,5884,321
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),89,710,887,2188,264
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),61,9483,8227,872,265
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),17,4100,3193,419,280
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),35,3115,2347,288,251
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,846,1178,105,290
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),63,9736,8437,814,283
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,3960,2990,376,266
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),31,3287,2348,250,287
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),16,955,1127,78,290
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),89,9195,6918,1035,241
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,4287,3282,532,293
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),59,2957,2158,355,215
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,9483,8227,10705,N/A
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,4100,3193,4266,N/A
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,15,Washington Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,9736,8437,10847,N/A
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,15,Washington Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,3960,2990,4148,N/A
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),17,9483,8227,358,193
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),17,4100,3193,140,193
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,20,North Frontage Road,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),31,9736,8437,376,193
+Personal,10,Crestview Blvd E,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,20,North Frontage Road,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),31,3960,2990,125,193
+Personal,11,Oak Green Ave South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),44,3211,19787,19499,305
+Personal,11,Oak Green Ave South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),35,1213,5976,5915,315
+Personal,11,Oak Green Ave South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,244,2233,2225,267
+Personal,11,Oak Green Ave South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),63,3146,19065,18939,303
+Personal,11,Oak Green Ave South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),47,1346,5932,5932,315
+Personal,11,Oak Green Ave South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),16,250,2176,2191,267
+Personal,11,Oak Green Ave South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,3211,8227,40193,579
+Personal,11,Oak Green Ave South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,401,1440,8384,579
+Personal,11,Oak Green Ave South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,3146,8437,39929,579
+Personal,11,Oak Green Ave South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,454,1925,10753,579
+Personal,12,Stillwater Motors,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,131,19787,19499,165
+Personal,12,Stillwater Motors,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,70,7302,7128,165
+Personal,12,Stillwater Motors,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,110,19065,18939,165
+Personal,12,Stillwater Motors,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,63,5838,5713,165
+Personal,12,Stillwater Motors,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),17,131,8227,40193,197
+Personal,12,Stillwater Motors,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,44,1440,8384,164
+Personal,12,Stillwater Motors,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,17,2347,12231,230
+Personal,12,Stillwater Motors,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,131,8227,9483,N/A
+Personal,12,Stillwater Motors,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,70,3193,4100,N/A
+Personal,12,Stillwater Motors,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,131,8227,3211,1040
+Personal,12,Stillwater Motors,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,70,3193,1335,1040
+Personal,12,Stillwater Motors,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,131,8227,10705,N/A
+Personal,12,Stillwater Motors,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,70,3193,4266,N/A
+Personal,13,58th St West,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),61,1274,19787,19499,365
+Personal,13,58th St West,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,262,4066,4022,160
+Personal,13,58th St West,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),35,602,7302,7128,250
+Personal,13,58th St West,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,332,5976,5915,278
+Personal,13,58th St West,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,70,2233,2225,1112
+Personal,13,58th St West,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),63,1487,19065,18939,447
+Personal,13,58th St West,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,360,4852,4837,160
+Personal,13,58th St West,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),31,610,5838,5713,258
+Personal,13,58th St West,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),16,110,2176,2191,1112
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),131,1274,8227,40193,243
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),44,262,1440,8384,221
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),61,602,3193,15128,193
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),17,332,2347,12231,519
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,70,1178,4031,108
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),188,1487,8437,39929,195
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),63,360,1925,10753,223
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),94,610,2990,13571,194
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,407,2348,12099,179
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),16,110,1127,3084,108
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,739,6918,38820,186
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,473,3282,17414,186
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),61,1274,8227,19499,365
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,262,1440,4022,160
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),35,602,3193,7128,250
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,332,2347,5915,278
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,70,1178,2225,1112
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),63,1487,8437,18939,447
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,360,1925,4837,160
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),31,610,2990,5713,258
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),16,110,1127,2191,1112
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),17,1274,8227,872,390
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,602,3193,419,205
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,332,2347,288,575
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),31,1487,8437,814,390
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,610,2990,376,205
+Personal,13,58th St West,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,407,2348,250,575
+Personal,14,Greeley St,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),70,6945,19787,19499,330
+Personal,14,Greeley St,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,1091,4066,4022,236
+Personal,14,Greeley St,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),44,3245,7302,7128,395
+Personal,14,Greeley St,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),17,1989,5976,5915,216
+Personal,14,Greeley St,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),78,7310,19065,18939,350
+Personal,14,Greeley St,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),47,3303,5838,5713,439
+Personal,14,Greeley St,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),31,2129,5932,5932,216
+Personal,14,Greeley St,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),59,5499,20666,20075,284
+Personal,14,Greeley St,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),30,621,2217,2129,236
+Personal,14,Greeley St,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,2986,10023,9698,332
+Personal,14,Greeley St,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),35,6945,8227,40193,1135
+Personal,14,Greeley St,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),17,1091,1440,8384,831
+Personal,14,Greeley St,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),17,3245,3193,15128,1439
+Personal,14,Greeley St,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),47,7310,8437,39929,1181
+Personal,14,Greeley St,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,1362,1925,10753,665
+Personal,14,Greeley St,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),31,3303,2990,13571,1439
+Personal,14,Greeley St,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,5499,6918,38820,996
+Personal,14,Greeley St,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),30,621,443,3755,996
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),314,10705,19787,19499,232
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,1963,4066,4022,245
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),122,4266,7302,7128,230
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),96,3542,5976,5915,272
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),87,872,2233,2225,192
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),376,10847,19065,18939,239
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,2223,4852,4837,245
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),125,4148,5838,5713,218
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),125,3600,5932,5932,299
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),110,845,2176,2191,194
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),296,10023,20666,20075,216
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),177,4760,10023,9698,245
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),59,3045,6031,5884,208
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),59,857,2217,2188,136
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,10705,19787,358,183
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,4266,7302,140,183
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,20,North Frontage Road,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,10847,19065,376,183
+Personal,15,Washington Ave,yes,N/A,no,1,Manning Ave,N/A,no,20,North Frontage Road,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,4148,5838,125,183
+Personal,15,Washington Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,10705,7939,16184,212
+Personal,15,Washington Ave,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,3542,2792,5714,212
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),79,10705,8227,40193,504
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),35,1963,1440,8384,637
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),35,4266,3193,15128,418
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,872,1178,4031,318
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),78,10847,8437,39929,442
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),31,2223,1925,10753,559
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),47,4148,2990,13571,364
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),89,10023,6918,38820,604
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),30,1271,443,3755,912
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,4760,3282,17414,580
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),30,857,887,5026,318
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),26,10705,8227,19499,535
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),17,3542,2347,5915,616
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,872,1178,2225,373
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),47,10847,8437,18939,535
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),31,3600,2348,5932,616
+Personal,15,Washington Ave,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),16,845,1127,2191,373
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,16184,19787,11071,654
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,5871,7302,4249,654
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,14280,20666,10259,654
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,6830,10023,4760,654
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),17,16184,19787,40193,469
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,2835,4066,8384,408
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,5871,7302,15128,529
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,17343,19065,39929,408
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,3616,4852,10753,408
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,14280,20666,38820,529
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,6830,10023,17414,529
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),707,16184,19787,19499,200
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),79,2835,4066,4022,157
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),236,5871,7302,7128,201
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),192,5714,5976,5915,206
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),201,1666,2233,2225,211
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),626,17343,19065,18939,206
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),78,3616,4852,4837,201
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),78,5463,5838,5713,211
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),219,6433,5932,5932,201
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),250,1722,2176,2191,211
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),887,14280,20666,20075,212
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),59,1419,2217,2129,107
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),503,6830,10023,9698,214
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),177,4553,6031,5884,227
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),148,1419,2217,2188,231
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,16184,19787,9483,N/A
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,5714,5976,3115,N/A
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,14280,20666,9195,N/A
+Personal,16,Stillwater Blvd South,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,4553,6031,2957,N/A
+Personal,16,Stillwater Blvd South,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,16184,7939,9483,N/A
+Personal,16,Stillwater Blvd South,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,5714,2792,3115,N/A
+Personal,16,Stillwater Blvd South,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,14280,7983,9195,N/A
+Personal,16,Stillwater Blvd South,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,4553,2454,2957,N/A
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),401,16184,8227,40193,248
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),131,2835,1440,8384,213
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),122,5871,3193,15128,325
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),122,5714,2347,12231,239
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),26,1666,1178,4031,234
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),438,17343,8437,39929,264
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),172,3616,1925,10753,184
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),94,5463,2990,13571,432
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),125,6433,2348,12099,303
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),47,1722,1127,3084,234
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),296,14280,6918,38820,213
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),30,1419,443,3755,212
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),177,6830,3282,17414,240
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),89,4553,2158,12063,170
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),689,16184,8227,19499,204
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),79,2835,1440,4022,157
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),244,5871,3193,7128,213
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),174,5714,2347,5915,234
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),192,1666,1178,2225,186
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),595,17343,8437,18939,190
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),78,3616,1925,4837,201
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),78,5463,2990,5713,211
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),188,6433,2348,5932,205
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),250,1722,1127,2191,170
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),887,14280,6918,20075,243
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),59,1419,443,2129,107
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),532,6830,3282,9698,231
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),177,4553,2158,5884,311
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),118,1419,887,2188,263
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,16184,8227,872,168
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,5714,2347,288,168
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,17343,8437,814,168
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,6433,2348,250,168
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,16184,8227,9483,N/A
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,5714,2347,3115,N/A
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,14280,6918,9195,N/A
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,4553,2158,2957,N/A
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),26,16184,8227,358,219
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,2835,1440,87,109
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,5871,3193,140,459
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,1666,1178,44,89
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,20,North Frontage Road,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),31,17343,8437,376,284
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,20,North Frontage Road,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,3616,1925,141,109
+Personal,16,Stillwater Blvd South,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,20,North Frontage Road,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,5463,2990,125,459
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),35,12676,19787,40193,490
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),26,2076,4066,8384,490
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,986,2233,4031,N/A
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),31,13132,19065,39929,490
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),31,2551,4852,10753,490
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,10969,20666,38820,N/A
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),30,1212,2217,3755,N/A
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),925,12676,19787,19499,219
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),113,2076,4066,4022,256
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),358,5156,7302,7128,216
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),340,4441,5976,5915,223
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),113,986,2233,2225,177
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),877,13132,19065,18939,205
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),141,2551,4852,4837,217
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),297,4571,5838,5713,198
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),297,5024,5932,5932,221
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),141,955,2176,2191,173
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),680,10969,20666,20075,229
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),414,5854,10023,9698,241
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),237,3282,6031,5884,215
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),30,621,2217,2188,174
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,12676,19787,9483,N/A
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,4441,5976,3115,N/A
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,10969,20666,9195,N/A
+Personal,17,58th St East,yes,N/A,no,1,Manning Ave,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,3282,6031,2957,N/A
+Personal,17,58th St East,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,12676,7939,9483,N/A
+Personal,17,58th St East,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,4441,2792,3115,N/A
+Personal,17,58th St East,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,10969,7983,9195,N/A
+Personal,17,58th St East,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,3282,2454,2957,N/A
+Personal,17,58th St East,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,12676,7939,16184,N/A
+Personal,17,58th St East,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,4441,2792,5714,N/A
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),995,12676,8227,40193,214
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),9,17,70,419,160
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),314,2076,1440,8384,207
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),340,5156,3193,15128,207
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),227,4441,2347,12231,257
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),105,986,1178,4031,163
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),1033,13132,8437,39929,211
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),1: Early AM (12am-6am),16,31,47,423,160
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),470,2551,1925,10753,218
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),250,4571,2990,13571,206
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),219,5024,2348,12099,220
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),78,955,1127,3084,160
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),621,10969,6918,38820,204
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),89,1212,443,3755,138
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),384,5854,3282,17414,222
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),118,3282,2158,12063,202
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),30,621,887,5026,174
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),881,12676,8227,19499,226
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),87,2076,1440,4022,300
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),332,5156,3193,7128,217
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),349,4441,2347,5915,232
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),113,986,1178,2225,178
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),845,13132,8437,18939,211
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),125,2551,1925,4837,257
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),266,4571,2990,5713,198
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),297,5024,2348,5932,221
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),157,955,1127,2191,174
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),680,10969,6918,20075,247
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),414,5854,3282,9698,241
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),266,3282,2158,5884,257
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),61,12676,8227,872,284
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),17,5156,3193,419,164
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),44,4441,2347,288,308
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),63,13132,8437,814,384
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),31,4571,2990,376,164
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),31,5024,2348,250,494
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),89,10969,6918,1035,184
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),89,3282,2158,355,184
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,12676,8227,23355,N/A
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,2076,1440,4013,N/A
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,10969,6918,23830,N/A
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),30,1212,443,2306,N/A
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,12676,8227,9483,N/A
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,4441,2347,3115,N/A
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,10969,6918,9195,N/A
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,3282,2158,2957,N/A
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,12676,8227,16184,N/A
+Personal,17,58th St East,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,4441,2347,5714,N/A
+Personal,18,North Stillwater Blvd,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),26,11429,19787,40193,646
+Personal,18,North Stillwater Blvd,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),17,1884,4066,8384,646
+Personal,18,North Stillwater Blvd,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,1056,2233,4031,N/A
+Personal,18,North Stillwater Blvd,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,11066,19065,39929,N/A
+Personal,18,North Stillwater Blvd,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,2144,4852,10753,N/A
+Personal,18,North Stillwater Blvd,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,11649,20666,38820,646
+Personal,18,North Stillwater Blvd,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),30,1153,2217,3755,646
+Personal,18,North Stillwater Blvd,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),70,11429,19787,19499,203
+Personal,18,North Stillwater Blvd,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,1884,4066,4022,502
+Personal,18,North Stillwater Blvd,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,4353,7302,7128,262
+Personal,18,North Stillwater Blvd,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),52,4004,5976,5915,144
+Personal,18,North Stillwater Blvd,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),110,11066,19065,18939,161
+Personal,18,North Stillwater Blvd,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,4023,5838,5713,262
+Personal,18,North Stillwater Blvd,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),94,4007,5932,5932,144
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),1745,11429,8227,40193,138
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),26,131,70,419,91
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),384,1884,1440,8384,165
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),602,4353,3193,15128,131
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),436,4004,2347,12231,142
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),297,1056,1178,4031,119
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),1675,11066,8437,39929,139
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),1: Early AM (12am-6am),16,94,47,423,91
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),501,2144,1925,10753,177
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),642,4023,2990,13571,123
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),329,4007,2348,12099,120
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),188,798,1127,3084,124
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),1715,11649,6918,38820,125
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),59,237,148,562,90
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),89,1153,443,3755,127
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),532,4997,3282,17414,131
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),562,3962,2158,12063,133
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),473,1301,887,5026,111
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),61,11429,8227,19499,161
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,4353,3193,7128,262
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),52,4004,2347,5915,144
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),110,11066,8437,18939,161
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,4023,2990,5713,262
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),94,4007,2348,5932,144
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),52,11429,8227,872,412
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),35,4353,3193,419,424
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),17,4004,2347,288,390
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),47,11066,8437,814,673
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),31,4023,2990,376,701
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,4007,2348,250,618
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),59,11649,6918,1035,152
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,4997,3282,532,142
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,3962,2158,355,161
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,11429,8227,358,127
+Personal,18,North Stillwater Blvd,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),9,1056,1178,44,127
+Personal,19,Crestview Blvd W,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,1631,19787,40193,353
+Personal,19,Crestview Blvd W,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,375,4066,8384,353
+Personal,19,Crestview Blvd W,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,1816,19065,39929,353
+Personal,19,Crestview Blvd W,yes,N/A,no,1,Manning Ave,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,501,4852,10753,353
+Personal,19,Crestview Blvd W,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),17,1631,19787,19499,137
+Personal,19,Crestview Blvd W,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),17,585,7302,7128,137
+Personal,19,Crestview Blvd W,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,1816,19065,18939,133
+Personal,19,Crestview Blvd W,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,517,5838,5713,133
+Personal,19,Crestview Blvd W,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,1035,20666,20075,142
+Personal,19,Crestview Blvd W,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,503,10023,9698,142
+Personal,19,Crestview Blvd W,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,1631,19787,872,442
+Personal,19,Crestview Blvd W,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),9,375,4066,52,442
+Personal,19,Crestview Blvd W,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,1816,19065,814,442
+Personal,19,Crestview Blvd W,yes,N/A,no,1,Manning Ave,N/A,no,8,South Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),16,501,4852,94,442
+Personal,19,Crestview Blvd W,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),209,1631,8227,40193,176
+Personal,19,Crestview Blvd W,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),35,375,1440,8384,195
+Personal,19,Crestview Blvd W,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),96,585,3193,15128,172
+Personal,19,Crestview Blvd W,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),52,489,2347,12231,113
+Personal,19,Crestview Blvd W,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),26,183,1178,4031,291
+Personal,19,Crestview Blvd W,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),250,1816,8437,39929,168
+Personal,19,Crestview Blvd W,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),2: Peak AM (6am-10am),47,501,1925,10753,117
+Personal,19,Crestview Blvd W,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),110,517,2990,13571,164
+Personal,19,Crestview Blvd W,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),63,563,2348,12099,119
+Personal,19,Crestview Blvd W,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,1: Average Weekday (M-Th),5: Late PM (7pm-12am),31,235,1127,3084,355
+Personal,19,Crestview Blvd W,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,1035,6918,38820,114
+Personal,19,Crestview Blvd W,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),30,384,2158,12063,114
+Personal,19,Crestview Blvd W,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,1631,8227,19499,133
+Personal,19,Crestview Blvd W,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,585,3193,7128,133
+Personal,19,Crestview Blvd W,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,1816,8437,18939,133
+Personal,19,Crestview Blvd W,yes,N/A,no,3,TH 36 WB Stillwater Blvd On-Ramp,N/A,no,7,North Manning Ave,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,517,2990,5713,133
+Personal,20,North Frontage Road,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,358,19787,19499,125
+Personal,20,North Frontage Road,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,140,7302,7128,125
+Personal,20,North Frontage Road,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),30,148,20666,20075,125
+Personal,20,North Frontage Road,yes,N/A,no,1,Manning Ave,N/A,no,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),30,59,10023,9698,125
+Personal,20,North Frontage Road,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),9,358,7939,9483,352
+Personal,20,North Frontage Road,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,87,2792,3115,352
+Personal,20,North Frontage Road,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),16,376,7779,9736,352
+Personal,20,North Frontage Road,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,110,2974,3287,352
+Personal,20,North Frontage Road,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),17,358,7939,12676,157
+Personal,20,North Frontage Road,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),9,140,3289,5156,128
+Personal,20,North Frontage Road,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),9,87,2792,4441,185
+Personal,20,North Frontage Road,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),0: All Day (12am-12am),31,376,7779,13132,157
+Personal,20,North Frontage Road,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),3: Mid-Day (10am-3pm),16,125,2880,4571,128
+Personal,20,North Frontage Road,yes,N/A,no,2,TH 36 EB Stillwater Blvd Off Ramp,N/A,no,17,58th St East,yes,N/A,no,1: Average Weekday (M-Th),4: Peak PM (3pm-7pm),16,110,2974,5024,185

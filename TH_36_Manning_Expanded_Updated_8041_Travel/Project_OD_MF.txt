@@ -1,0 +1,34 @@
+Project: TH-36Manning-Expanded-Updated
+
+Created by: pkulis@srfconsulting.com
+Created on: 2017-12-14
+Organization: Minnesota DOT (MNDOT) - Regional Subscription
+
+Project Type: O-D Analysis with Middle Filter (GPS Data)
+
+Data Period: 2017:[9, 10] 
+Trip Type: Locked to Route
+
+Day Type: 
+0: Average Day (M-Su)
+1: Average Weekday (M-Th)
+2: Average Weekend Day (Sa-Su)
+
+Day Part: 
+0: All Day (12am-12am)
+1: Early AM (12am-6am)
+2: Peak AM (6am-10am)
+3: Mid-Day (10am-3pm)
+4: Peak PM (3pm-7pm)
+5: Late PM (7pm-12am)
+
+Commercial Vehicle Results by Weight Class: Disabled
+
+
+
+
+Country: USA
+
+Metrics Version: R32-M41
+
+Copyright © 2011 - 2017, StreetLight Data, Inc. All rights reserved.
