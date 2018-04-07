@@ -1,0 +1,31 @@
+---
+title: "Streetlight"
+output: html_notebook
+---
+
+```{r setup}
+
+knitr::opts_knit$set(root.dir = "C:/Users/Declan/Desktop/Data/R/Streetlight/Streetlight/TH_36_Manning_Expanded_Updated_8041_Travel")
+
+library(tidyverse)
+library(lubridate)
+library(gridExtra)
+library(reshape2)
+library(zoo)
+library(rgdal)
+
+
+```
+
+Look at the files in the folder
+
+```{r files in folder}
+
+dir()
+
+```
+
+We have:
+
+* 2 .txt files. From inspecting directly, one is a description of the variables and one includes details of the data pull
+*
