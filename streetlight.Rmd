@@ -13,7 +13,7 @@ library(gridExtra)
 library(reshape2)
 library(zoo)
 library(rgdal)
-
+library(readtext)
 
 ```
 
@@ -28,4 +28,18 @@ dir()
 We have:
 
 * 2 .txt files. From inspecting directly, one is a description of the variables and one includes details of the data pull
-*
+* 5 .csv files containing the traffic data.
+* 3 shape files showing the origin destination and pass through zones.
+
+## Text File
+
+```{r Project.txt}
+
+project <- read.table("Project_OD_MF.txt",sep='\n',stringsAsFactors = FALSE)%>%
+  separate(V1,c('variable','value'),':')
+
+project$binary <- ifelse(unlist(lapply(project$variable,function(x) any(x==c(0:10))))==TRUE,NA,project$variable)%>%
+  na.locf()
+
+```
+

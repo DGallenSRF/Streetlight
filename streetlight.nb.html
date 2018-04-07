@@ -175,14 +175,66 @@ $(document).ready(function () {
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxua25pdHI6Om9wdHNfa25pdCRzZXQocm9vdC5kaXIgPSBcIkM6L1VzZXJzL0RlY2xhbi9EZXNrdG9wL0RhdGEvUi9TdHJlZXRsaWdodC9TdHJlZXRsaWdodC9USF8zNl9NYW5uaW5nX0V4cGFuZGVkX1VwZGF0ZWRfODA0MV9UcmF2ZWxcIilcbmxpYnJhcnkodGlkeXZlcnNlKVxubGlicmFyeShsdWJyaWRhdGUpXG5saWJyYXJ5KGdyaWRFeHRyYSlcbmxpYnJhcnkocmVzaGFwZTIpXG5saWJyYXJ5KHpvbylcbmxpYnJhcnkocmdkYWwpXG5gYGAifQ== -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxua25pdHI6Om9wdHNfa25pdCRzZXQocm9vdC5kaXIgPSBcIkM6L1VzZXJzL0RlY2xhbi9EZXNrdG9wL0RhdGEvUi9TdHJlZXRsaWdodC9TdHJlZXRsaWdodC9USF8zNl9NYW5uaW5nX0V4cGFuZGVkX1VwZGF0ZWRfODA0MV9UcmF2ZWxcIilcbmxpYnJhcnkodGlkeXZlcnNlKVxuYGBgIn0= -->
 <pre class="r"><code>knitr::opts_knit$set(root.dir = &quot;C:/Users/Declan/Desktop/Data/R/Streetlight/Streetlight/TH_36_Manning_Expanded_Updated_8041_Travel&quot;)
-library(tidyverse)
-library(lubridate)
-library(gridExtra)
-library(reshape2)
-library(zoo)
-library(rgdal)</code></pre>
+library(tidyverse)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXHUwMDFiWzM3bS0tIFx1MDAxYlsxbUF0dGFjaGluZyBwYWNrYWdlc1x1MDAxYlsyMm0gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHRpZHl2ZXJzZSAxLjIuMSAtLVx1MDAxYlszOW1cblx1MDAxYlszN21cdTAwMWJbMzJtdlx1MDAxYlszN20gXHUwMDFiWzM0bWdncGxvdDJcdTAwMWJbMzdtIDIuMi4xICAgICBcdTAwMWJbMzJtdlx1MDAxYlszN20gXHUwMDFiWzM0bXB1cnJyICBcdTAwMWJbMzdtIDAuMi40XG5cdTAwMWJbMzJtdlx1MDAxYlszN20gXHUwMDFiWzM0bXRpYmJsZSBcdTAwMWJbMzdtIDEuNC4yICAgICBcdTAwMWJbMzJtdlx1MDAxYlszN20gXHUwMDFiWzM0bWRwbHlyICBcdTAwMWJbMzdtIDAuNy40XG5cdTAwMWJbMzJtdlx1MDAxYlszN20gXHUwMDFiWzM0bXRpZHlyICBcdTAwMWJbMzdtIDAuOC4wICAgICBcdTAwMWJbMzJtdlx1MDAxYlszN20gXHUwMDFiWzM0bXN0cmluZ3JcdTAwMWJbMzdtIDEuMy4wXG5cdTAwMWJbMzJtdlx1MDAxYlszN20gXHUwMDFiWzM0bXJlYWRyICBcdTAwMWJbMzdtIDEuMS4xICAgICBcdTAwMWJbMzJtdlx1MDAxYlszN20gXHUwMDFiWzM0bWZvcmNhdHNcdTAwMWJbMzdtIDAuMy4wXHUwMDFiWzM5bVxuXHUwMDFiWzM3bS0tIFx1MDAxYlsxbUNvbmZsaWN0c1x1MDAxYlsyMm0gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHRpZHl2ZXJzZV9jb25mbGljdHMoKSAtLVxuXHUwMDFiWzMxbXhcdTAwMWJbMzdtIFx1MDAxYlszNG1kcGx5clx1MDAxYlszN206Olx1MDAxYlszMm1maWx0ZXIoKVx1MDAxYlszN20gbWFza3MgXHUwMDFiWzM0bXN0YXRzXHUwMDFiWzM3bTo6ZmlsdGVyKClcblx1MDAxYlszMW14XHUwMDFiWzM3bSBcdTAwMWJbMzRtZHBseXJcdTAwMWJbMzdtOjpcdTAwMWJbMzJtbGFnKClcdTAwMWJbMzdtICAgIG1hc2tzIFx1MDAxYlszNG1zdGF0c1x1MDAxYlszN206OmxhZygpXHUwMDFiWzM5bVxuIn0= -->
+<pre><code>[37m-- [1mAttaching packages[22m --------------------------------------- tidyverse 1.2.1 --[39m
+[37m[32mv[37m [34mggplot2[37m 2.2.1     [32mv[37m [34mpurrr  [37m 0.2.4
+[32mv[37m [34mtibble [37m 1.4.2     [32mv[37m [34mdplyr  [37m 0.7.4
+[32mv[37m [34mtidyr  [37m 0.8.0     [32mv[37m [34mstringr[37m 1.3.0
+[32mv[37m [34mreadr  [37m 1.1.1     [32mv[37m [34mforcats[37m 0.3.0[39m
+[37m-- [1mConflicts[22m ------------------------------------------ tidyverse_conflicts() --
+[31mx[37m [34mdplyr[37m::[32mfilter()[37m masks [34mstats[37m::filter()
+[31mx[37m [34mdplyr[37m::[32mlag()[37m    masks [34mstats[37m::lag()[39m</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShsdWJyaWRhdGUpXG5gYGAifQ== -->
+<pre class="r"><code>library(lubridate)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5BdHRhY2hpbmcgcGFja2FnZTog46S847ixbHVicmlkYXRl46S847iyXG5cblRoZSBmb2xsb3dpbmcgb2JqZWN0IGlzIG1hc2tlZCBmcm9tIOOkvOO4sXBhY2thZ2U6YmFzZeOkvOO4sjpcblxuICAgIGRhdGVcbiJ9 -->
+<pre><code>
+Attaching package: &lt;U+393C&gt;&lt;U+3E31&gt;lubridate&lt;U+393C&gt;&lt;U+3E32&gt;
+
+The following object is masked from &lt;U+393C&gt;&lt;U+3E31&gt;package:base&lt;U+393C&gt;&lt;U+3E32&gt;:
+
+    date</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShncmlkRXh0cmEpXG5gYGAifQ== -->
+<pre class="r"><code>library(gridExtra)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoicGFja2FnZSDjpLzjuLFncmlkRXh0cmHjpLzjuLIgd2FzIGJ1aWx0IHVuZGVyIFIgdmVyc2lvbiAzLjQuNFxuQXR0YWNoaW5nIHBhY2thZ2U6IOOkvOO4sWdyaWRFeHRyYeOkvOO4slxuXG5UaGUgZm9sbG93aW5nIG9iamVjdCBpcyBtYXNrZWQgZnJvbSDjpLzjuLFwYWNrYWdlOmRwbHly46S847iyOlxuXG4gICAgY29tYmluZVxuIn0= -->
+<pre><code>package &lt;U+393C&gt;&lt;U+3E31&gt;gridExtra&lt;U+393C&gt;&lt;U+3E32&gt; was built under R version 3.4.4
+Attaching package: &lt;U+393C&gt;&lt;U+3E31&gt;gridExtra&lt;U+393C&gt;&lt;U+3E32&gt;
+
+The following object is masked from &lt;U+393C&gt;&lt;U+3E31&gt;package:dplyr&lt;U+393C&gt;&lt;U+3E32&gt;:
+
+    combine</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShyZXNoYXBlMilcbmBgYCJ9 -->
+<pre class="r"><code>library(reshape2)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5BdHRhY2hpbmcgcGFja2FnZTog46S847ixcmVzaGFwZTLjpLzjuLJcblxuVGhlIGZvbGxvd2luZyBvYmplY3QgaXMgbWFza2VkIGZyb20g46S847ixcGFja2FnZTp0aWR5cuOkvOO4sjpcblxuICAgIHNtaXRoc1xuIn0= -->
+<pre><code>
+Attaching package: &lt;U+393C&gt;&lt;U+3E31&gt;reshape2&lt;U+393C&gt;&lt;U+3E32&gt;
+
+The following object is masked from &lt;U+393C&gt;&lt;U+3E31&gt;package:tidyr&lt;U+393C&gt;&lt;U+3E32&gt;:
+
+    smiths</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeSh6b28pXG5gYGAifQ== -->
+<pre class="r"><code>library(zoo)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoicGFja2FnZSDjpLzjuLF6b2/jpLzjuLIgd2FzIGJ1aWx0IHVuZGVyIFIgdmVyc2lvbiAzLjQuNFxuQXR0YWNoaW5nIHBhY2thZ2U6IOOkvOO4sXpvb+OkvOO4slxuXG5UaGUgZm9sbG93aW5nIG9iamVjdHMgYXJlIG1hc2tlZCBmcm9tIOOkvOO4sXBhY2thZ2U6YmFzZeOkvOO4sjpcblxuICAgIGFzLkRhdGUsIGFzLkRhdGUubnVtZXJpY1xuIn0= -->
+<pre><code>package &lt;U+393C&gt;&lt;U+3E31&gt;zoo&lt;U+393C&gt;&lt;U+3E32&gt; was built under R version 3.4.4
+Attaching package: &lt;U+393C&gt;&lt;U+3E31&gt;zoo&lt;U+393C&gt;&lt;U+3E32&gt;
+
+The following objects are masked from &lt;U+393C&gt;&lt;U+3E31&gt;package:base&lt;U+393C&gt;&lt;U+3E32&gt;:
+
+    as.Date, as.Date.numeric</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShyZ2RhbClcbmBgYCJ9 -->
+<pre class="r"><code>library(rgdal)</code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-output-begin eyJkYXRhIjoicGFja2FnZSCRcmdkYWySIHdhcyBidWlsdCB1bmRlciBSIHZlcnNpb24gMy40LjRMb2FkaW5nIHJlcXVpcmVkIHBhY2thZ2U6IHNwXG5wYWNrYWdlIJFzcJIgd2FzIGJ1aWx0IHVuZGVyIFIgdmVyc2lvbiAzLjQuNHJnZGFsOiB2ZXJzaW9uOiAxLjItMTgsIChTVk4gcmV2aXNpb24gNzE4KVxuIEdlb3NwYXRpYWwgRGF0YSBBYnN0cmFjdGlvbiBMaWJyYXJ5IGV4dGVuc2lvbnMgdG8gUiBzdWNjZXNzZnVsbHkgbG9hZGVkXG4gTG9hZGVkIEdEQUwgcnVudGltZTogR0RBTCAyLjIuMywgcmVsZWFzZWQgMjAxNy8xMS8yMFxuIFBhdGggdG8gR0RBTCBzaGFyZWQgZmlsZXM6IEM6L1VzZXJzL0RlY2xhbi9Eb2N1bWVudHMvUi93aW4tbGlicmFyeS8zLjQvcmdkYWwvZ2RhbFxuIEdEQUwgYmluYXJ5IGJ1aWx0IHdpdGggR0VPUzogVFJVRSBcbiBMb2FkZWQgUFJPSi40IHJ1bnRpbWU6IFJlbC4gNC45LjMsIDE1IEF1Z3VzdCAyMDE2LCBbUEpfVkVSU0lPTjogNDkzXVxuIFBhdGggdG8gUFJPSi40IHNoYXJlZCBmaWxlczogQzovVXNlcnMvRGVjbGFuL0RvY3VtZW50cy9SL3dpbi1saWJyYXJ5LzMuNC9yZ2RhbC9wcm9qXG4gTGlua2luZyB0byBzcCB2ZXJzaW9uOiAxLjItNyBcbiJ9 -->
 <pre><code>package &lt;U+393C&gt;&lt;U+3E31&gt;rgdal&lt;U+393C&gt;&lt;U+3E32&gt; was built under R version 3.4.4Loading required package: sp
@@ -195,6 +247,9 @@ package &lt;U+393C&gt;&lt;U+3E31&gt;sp&lt;U+393C&gt;&lt;U+3E32&gt; was built und
  Path to PROJ.4 shared files: C:/Users/Declan/Documents/R/win-library/3.4/rgdal/proj
  Linking to sp version: 1.2-7 </code></pre>
 <!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShyZWFkdGV4dClcbmBgYCJ9 -->
+<pre class="r"><code>library(readtext)</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>Look at the files in the folder</p>
@@ -232,11 +287,28 @@ package &lt;U+393C&gt;&lt;U+3E31&gt;sp&lt;U+393C&gt;&lt;U+3E32&gt; was built und
 <p>We have:</p>
 <ul>
 <li>2 .txt files. From inspecting directly, one is a description of the variables and one includes details of the data pull</li>
-<li></li>
+<li>5 .csv files containing the traffic data.</li>
+<li>3 shape files showing the origin destination and pass through zones.</li>
 </ul>
+<div id="text-file" class="section level2">
+<h2>Text File</h2>
 <!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuXG5wcm9qZWN0IDwtIHJlYWQudGFibGUoXCJQcm9qZWN0X09EX01GLnR4dFwiLHNlcD0nXFxuJyxzdHJpbmdzQXNGYWN0b3JzID0gRkFMU0UpJT4lXG4gIHNlcGFyYXRlKFYxLGMoJ3ZhcmlhYmxlJywndmFsdWUnKSwnOicpXG5cbnByb2plY3QkYmluYXJ5IDwtIGlmZWxzZSh1bmxpc3QobGFwcGx5KHByb2plY3QkdmFyaWFibGUsZnVuY3Rpb24oeCkgYW55KHg9PWMoMDoxMCkpKSk9PVRSVUUsTkEscHJvamVjdCR2YXJpYWJsZSklPiVcbiAgbmEubG9jZigpXG5cbmBgYCJ9 -->
+<pre class="r"><code>
+project &lt;- read.table(&quot;Project_OD_MF.txt&quot;,sep='\n',stringsAsFactors = FALSE)%&gt;%
+  separate(V1,c('variable','value'),':')
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIlN0cmVldGxpZ2h0Ig0Kb3V0cHV0OiBodG1sX25vdGVib29rDQotLS0NCg0KYGBge3Igc2V0dXB9DQoNCmtuaXRyOjpvcHRzX2tuaXQkc2V0KHJvb3QuZGlyID0gIkM6L1VzZXJzL0RlY2xhbi9EZXNrdG9wL0RhdGEvUi9TdHJlZXRsaWdodC9TdHJlZXRsaWdodC9USF8zNl9NYW5uaW5nX0V4cGFuZGVkX1VwZGF0ZWRfODA0MV9UcmF2ZWwiKQ0KDQpsaWJyYXJ5KHRpZHl2ZXJzZSkNCmxpYnJhcnkobHVicmlkYXRlKQ0KbGlicmFyeShncmlkRXh0cmEpDQpsaWJyYXJ5KHJlc2hhcGUyKQ0KbGlicmFyeSh6b28pDQpsaWJyYXJ5KHJnZGFsKQ0KDQoNCmBgYA0KDQpMb29rIGF0IHRoZSBmaWxlcyBpbiB0aGUgZm9sZGVyDQoNCmBgYHtyIGZpbGVzIGluIGZvbGRlcn0NCg0KZGlyKCkNCg0KYGBgDQoNCldlIGhhdmU6DQoNCiogMiAudHh0IGZpbGVzLiBGcm9tIGluc3BlY3RpbmcgZGlyZWN0bHksIG9uZSBpcyBhIGRlc2NyaXB0aW9uIG9mIHRoZSB2YXJpYWJsZXMgYW5kIG9uZSBpbmNsdWRlcyBkZXRhaWxzIG9mIHRoZSBkYXRhIHB1bGwNCio=</div>
+project$binary &lt;- ifelse(unlist(lapply(project$variable,function(x) any(x==c(0:10))))==TRUE,NA,project$variable)%&gt;%
+  na.locf()
+</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+</div>
+
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIlN0cmVldGxpZ2h0Ig0Kb3V0cHV0OiBodG1sX25vdGVib29rDQotLS0NCg0KYGBge3Igc2V0dXB9DQoNCmtuaXRyOjpvcHRzX2tuaXQkc2V0KHJvb3QuZGlyID0gIkM6L1VzZXJzL0RlY2xhbi9EZXNrdG9wL0RhdGEvUi9TdHJlZXRsaWdodC9TdHJlZXRsaWdodC9USF8zNl9NYW5uaW5nX0V4cGFuZGVkX1VwZGF0ZWRfODA0MV9UcmF2ZWwiKQ0KDQpsaWJyYXJ5KHRpZHl2ZXJzZSkNCmxpYnJhcnkobHVicmlkYXRlKQ0KbGlicmFyeShncmlkRXh0cmEpDQpsaWJyYXJ5KHJlc2hhcGUyKQ0KbGlicmFyeSh6b28pDQpsaWJyYXJ5KHJnZGFsKQ0KbGlicmFyeShyZWFkdGV4dCkNCg0KYGBgDQoNCkxvb2sgYXQgdGhlIGZpbGVzIGluIHRoZSBmb2xkZXINCg0KYGBge3IgZmlsZXMgaW4gZm9sZGVyfQ0KDQpkaXIoKQ0KDQpgYGANCg0KV2UgaGF2ZToNCg0KKiAyIC50eHQgZmlsZXMuIEZyb20gaW5zcGVjdGluZyBkaXJlY3RseSwgb25lIGlzIGEgZGVzY3JpcHRpb24gb2YgdGhlIHZhcmlhYmxlcyBhbmQgb25lIGluY2x1ZGVzIGRldGFpbHMgb2YgdGhlIGRhdGEgcHVsbA0KKiA1IC5jc3YgZmlsZXMgY29udGFpbmluZyB0aGUgdHJhZmZpYyBkYXRhLg0KKiAzIHNoYXBlIGZpbGVzIHNob3dpbmcgdGhlIG9yaWdpbiBkZXN0aW5hdGlvbiBhbmQgcGFzcyB0aHJvdWdoIHpvbmVzLg0KDQojIyBUZXh0IEZpbGUNCg0KYGBge3IgUHJvamVjdC50eHR9DQoNCnByb2plY3QgPC0gcmVhZC50YWJsZSgiUHJvamVjdF9PRF9NRi50eHQiLHNlcD0nXG4nLHN0cmluZ3NBc0ZhY3RvcnMgPSBGQUxTRSklPiUNCiAgc2VwYXJhdGUoVjEsYygndmFyaWFibGUnLCd2YWx1ZScpLCc6JykNCg0KcHJvamVjdCRiaW5hcnkgPC0gaWZlbHNlKHVubGlzdChsYXBwbHkocHJvamVjdCR2YXJpYWJsZSxmdW5jdGlvbih4KSBhbnkoeD09YygwOjEwKSkpKT09VFJVRSxOQSxwcm9qZWN0JHZhcmlhYmxlKSU+JQ0KICBuYS5sb2NmKCkNCg0KYGBgDQoNCg==</div>
 
 
 
