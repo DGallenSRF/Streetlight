@@ -33,13 +33,62 @@ We have:
 
 ## Text File
 
-```{r Project.txt}
+We will organise the "Project" text file. It contains information regarding the data pull from the Streetlight website and the data itself.
+
+```{r Project.txt,warning=FALSE}
 
 project <- read.table("Project_OD_MF.txt",sep='\n',stringsAsFactors = FALSE)%>%
   separate(V1,c('variable','value'),':')
 
-project$binary <- ifelse(unlist(lapply(project$variable,function(x) any(x==c(0:10))))==TRUE,NA,project$variable)%>%
+project$Info <- ifelse(unlist(lapply(project$variable,function(x) any(x==c(0:10))))==TRUE,NA,project$variable)%>%
   na.locf()
+
+project_details <- select(project,Info,value)%>%
+  filter(value!=' ')
+rm(project)
+print(project_details)
+```
+
+We my need this data later, so now we have it in a format we can use. We may need to dcast and remelt to fix the day types and day types.
+
+## Data files 
+
+### mf_commerical
+
+We examine the first csv file
+
+```{r mf_commerical read data}
+
+mf_com <- read.csv("TH_36_Manning_Expanded_8041_mf_commercial.csv",stringsAsFactors = FALSE)
+
+str(mf_com)
 
 ```
 
+Lets sgtart at the end with the most interesting field; "Avg.Trip.Duration..sec". We want to check the data for outliers, missing values or interesting trents
+
+```{r mf_com avg trip duration}
+
+### change variable to numeric
+
+
+mf_com$Avg.Trip.Duration..sec. <-  as.numeric(mf_com$Avg.Trip.Duration..sec.)
+
+hist(mf_com$Avg.Trip.Duration..sec.,breaks = 200)
+
+table(is.na(mf_com$Avg.Trip.Duration..sec.))
+
+```
+
+Looks like we have some extreme outliers and 10% NAs which is significant.
+
+Lets invesitgate the NAs.
+
+```{r mf_com NAs}
+
+
+head(mf_com[is.na(mf_com$Avg.Trip.Duration..sec.),])
+tail(mf_com[is.na(mf_com$Avg.Trip.Duration..sec.),])
+```
+
+Unclear as to why these values are NA. Check with the experts. 
