@@ -3,6 +3,8 @@ title: "Streetlight"
 output: html_notebook
 ---
 
+## Setup
+
 ```{r setup}
 
 knitr::opts_knit$set(root.dir = "C:/Users/Declan/Desktop/Data/R/Streetlight/Streetlight/TH_36_Manning_Expanded_Updated_8041_Travel")
@@ -14,10 +16,11 @@ library(reshape2)
 library(zoo)
 library(rgdal)
 library(readtext)
+library(leaflet)
 
 ```
 
-Look at the files in the folder
+Look at the files in the folder:
 
 ```{r files in folder}
 
@@ -53,13 +56,17 @@ We my need this data later, so now we have it in a format we can use. We may nee
 
 ## Data files 
 
+
+
 ### mf_commerical
 
-We examine the first csv file
+We examine the first csv file. We want to set a function that will find a the right file regardless of the name. 
 
 ```{r mf_commerical read data}
 
-mf_com <- read.csv("TH_36_Manning_Expanded_8041_mf_commercial.csv",stringsAsFactors = FALSE)
+mf_com_name <- dir()[grepl("*_mf_commercial.csv",dir())][1]
+
+mf_com <- read.csv(mf_com_name,stringsAsFactors = FALSE)
 
 str(mf_com)
 
@@ -92,3 +99,140 @@ tail(mf_com[is.na(mf_com$Avg.Trip.Duration..sec.),])
 ```
 
 Unclear as to why these values are NA. Check with the experts. 
+
+We now melt down the commerical dataset. We want each row to be an origin, a pass_through or a destination. We can now easily use group by operations. Wide to long.
+
+v
+
+Each row is now as we want.
+
+## mf_personnal
+
+
+```{r mf_personal read data}
+
+mf_pers_name <- dir()[grepl("*_mf_personal.csv",dir())][1]
+
+mf_pers <- read.csv(mf_pers_name,stringsAsFactors = FALSE)
+dir()
+str(mf_pers)
+
+```
+
+Lets sgtart at the end with the most interesting field; "Avg.Trip.Duration..sec". We want to check the data for outliers, missing values or interesting trents
+
+```{r mf_com avg trip duration}
+
+### change variable to numeric
+
+
+mf_pers$Avg.Trip.Duration..sec. <-  as.numeric(mf_pers$Avg.Trip.Duration..sec.)
+
+hist(mf_pers$Avg.Trip.Duration..sec.,breaks = 200)
+
+table(is.na(mf_pers$Avg.Trip.Duration..sec.))
+
+```
+
+```{r melt down mfcom}
+
+mf_pers_melt <- melt(mf_pers,measure.vars = colnames(mf_pers)[2:15],id.vars = colnames(mf_pers)[c(1,16:22)])
+
+mf_pers_melt$group <- ifelse(grepl("Origin",mf_pers_melt$variable),"From",
+                            ifelse(grepl("Middle",mf_pers_melt$variable),"Through",
+                            ifelse(grepl("Destination",mf_pers_melt$variable),"To",NA)))
+```
+
+
+## Combined Data
+
+We combine the commerical and personnal dataset. 
+
+```{r bind pers and com}
+
+mf <- rbind(mf_pers_melt,mf_com_melt)
+
+```
+
+
+
+## Shapefiles
+
+Load the shapefiles
+
+There are 3 shapefiles in the directory, again one for the origin, middle and destination.
+
+### Origin Shapefile
+
+```{r origin}
+shape_org_name <- dir()[grepl("*_origin_zone_set.cpg*",dir())]
+shape_org_name <- substr(shape_org_name,1,nchar(shape_org_name)-4)
+
+shape_org <- rgdal::readOGR(dsn='.',layer = shape_org_name)
+
+```
+
+```{r leaflet origin}
+
+labels_org <- paste('ID:',shape_org$id,', ', shape_org$name,sep='')
+
+leaflet(shape_org) %>%
+  addTiles(group = "OSM (default)") %>%
+  addPolygons(color = "red", weight = 1, smoothFactor = 0.5,
+    opacity = 1.0, fillOpacity = 0.5,
+    highlightOptions = highlightOptions(color = "white", weight = 5,
+      bringToFront = TRUE),label=labels_org)
+```
+
+
+
+### Destination Shapefile
+
+```{r origin}
+shape_dest_name <- dir()[grepl("*_destination_zone_set.cpg*",dir())]
+shape_dest_name <- substr(shape_dest_name,1,nchar(shape_dest_name)-4)
+
+shape_dest <- rgdal::readOGR(dsn='.',layer = shape_dest_name)
+
+```
+
+```{r leaflet destination}
+
+
+labels_dest <- paste('ID:',shape_dest$id,', ', shape_dest$name,sep='')
+
+leaflet(shape_dest) %>%
+  addTiles(group = "OSM (default)") %>%
+  addPolygons(color = "red", weight = 1, smoothFactor = 0.5,
+    opacity = 1.0, fillOpacity = 0.5,
+    highlightOptions = highlightOptions(color = "white", weight = 5,
+      bringToFront = TRUE),label=labels_dest)
+
+```
+
+
+
+
+
+
+### Middle Shapefile
+
+```{r origin}
+shape_mid_name <- dir()[grepl("*_filter_zone_set.cpg*",dir())]
+shape_mid_name <- substr(shape_mid_name,1,nchar(shape_mid_name)-4)
+
+shape_mid <- rgdal::readOGR(dsn='.',layer = shape_mid_name)
+
+```
+
+```{r leaflet middle}
+
+labels_mid <- paste('ID:',shape_mid$id,', ', shape_mid$name,sep='')
+
+leaflet(shape_mid) %>%
+  addTiles(group = "OSM (default)") %>%
+  addPolygons(color = "red", weight = 1, smoothFactor = 0.5,
+    opacity = 1.0, fillOpacity = 0.5,
+    highlightOptions = highlightOptions(color = "white", weight = 5,
+      bringToFront = TRUE),label=labels_mid)
+```
