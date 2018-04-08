@@ -164,7 +164,7 @@ There are 3 shapefiles in the directory, again one for the origin, middle and de
 
 ### Origin Shapefile
 
-```{r origin}
+```{r shape origin}
 shape_org_name <- dir()[grepl("*_origin_zone_set.cpg*",dir())]
 shape_org_name <- substr(shape_org_name,1,nchar(shape_org_name)-4)
 
@@ -188,7 +188,7 @@ leaflet(shape_org) %>%
 
 ### Destination Shapefile
 
-```{r origin}
+```{r shape destination}
 shape_dest_name <- dir()[grepl("*_destination_zone_set.cpg*",dir())]
 shape_dest_name <- substr(shape_dest_name,1,nchar(shape_dest_name)-4)
 
@@ -217,7 +217,7 @@ leaflet(shape_dest) %>%
 
 ### Middle Shapefile
 
-```{r origin}
+```{r shape middle}
 shape_mid_name <- dir()[grepl("*_filter_zone_set.cpg*",dir())]
 shape_mid_name <- substr(shape_mid_name,1,nchar(shape_mid_name)-4)
 
