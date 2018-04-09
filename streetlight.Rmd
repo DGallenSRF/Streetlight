@@ -17,7 +17,8 @@ library(zoo)
 library(rgdal)
 library(readtext)
 library(leaflet)
-
+library(circlize)
+library(rgeos)
 ```
 
 Look at the files in the folder:
@@ -55,8 +56,6 @@ print(project_details)
 We my need this data later, so now we have it in a format we can use. We may need to dcast and remelt to fix the day types and day types.
 
 ## Data files 
-
-
 
 ### mf_commerical
 
@@ -106,7 +105,7 @@ v
 
 Each row is now as we want.
 
-## mf_personnal
+### mf_personnal
 
 
 ```{r mf_personal read data}
@@ -121,7 +120,7 @@ str(mf_pers)
 
 Lets sgtart at the end with the most interesting field; "Avg.Trip.Duration..sec". We want to check the data for outliers, missing values or interesting trents
 
-```{r mf_com avg trip duration}
+```{r mf_pers avg trip duration}
 
 ### change variable to numeric
 
@@ -144,7 +143,7 @@ mf_pers_melt$group <- ifelse(grepl("Origin",mf_pers_melt$variable),"From",
 ```
 
 
-## Combined Data
+### Combined Data
 
 We combine the commerical and personnal dataset. 
 
@@ -169,10 +168,20 @@ shape_org_name <- dir()[grepl("*_origin_zone_set.cpg*",dir())]
 shape_org_name <- substr(shape_org_name,1,nchar(shape_org_name)-4)
 
 shape_org <- rgdal::readOGR(dsn='.',layer = shape_org_name)
-
 ```
 
+```{r}
+trueCentroids <- as.data.frame(gCentroid(shape_dest,byid = TRUE))
+```
+
+
 ```{r leaflet origin}
+
+icons <- awesomeIcons(
+  icon = 'ion-model-s',
+  iconColor = 'red',
+  library = 'ion'
+)
 
 labels_org <- paste('ID:',shape_org$id,', ', shape_org$name,sep='')
 
@@ -181,7 +190,8 @@ leaflet(shape_org) %>%
   addPolygons(color = "red", weight = 1, smoothFactor = 0.5,
     opacity = 1.0, fillOpacity = 0.5,
     highlightOptions = highlightOptions(color = "white", weight = 5,
-      bringToFront = TRUE),label=labels_org)
+      bringToFront = TRUE),label=labels_org)%>%
+  addAwesomeMarkers(trueCentroids,lng = ~trueCentroids$x,lat=~trueCentroids$y,icon = icons)
 ```
 
 
@@ -236,3 +246,10 @@ leaflet(shape_mid) %>%
     highlightOptions = highlightOptions(color = "white", weight = 5,
       bringToFront = TRUE),label=labels_mid)
 ```
+
+## Circlize
+
+```{r}
+
+```
+
