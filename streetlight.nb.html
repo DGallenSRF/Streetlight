@@ -189,31 +189,141 @@ $(document).ready(function () {
 <h2>Setup</h2>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuXG5rbml0cjo6b3B0c19rbml0JHNldChyb290LmRpciA9IFwiQzovVXNlcnMvRGVjbGFuL0Rlc2t0b3AvRGF0YS9SL1N0cmVldGxpZ2h0L1N0cmVldGxpZ2h0L1RIXzM2X01hbm5pbmdfRXhwYW5kZWRfVXBkYXRlZF84MDQxX1RyYXZlbFwiKVxuXG5saWJyYXJ5KHRpZHl2ZXJzZSlcbmxpYnJhcnkobHVicmlkYXRlKVxubGlicmFyeShncmlkRXh0cmEpXG5saWJyYXJ5KHJlc2hhcGUyKVxubGlicmFyeSh6b28pXG5saWJyYXJ5KHJnZGFsKVxubGlicmFyeShyZWFkdGV4dClcbmxpYnJhcnkobGVhZmxldClcbmxpYnJhcnkoY2lyY2xpemUpXG5saWJyYXJ5KHJnZW9zKVxuYGBgIn0= -->
-<pre class="r"><code>
-knitr::opts_knit$set(root.dir = &quot;C:/Users/Declan/Desktop/Data/R/Streetlight/Streetlight/TH_36_Manning_Expanded_Updated_8041_Travel&quot;)
-
-library(tidyverse)
-library(lubridate)
-library(gridExtra)
-library(reshape2)
-library(zoo)
-library(rgdal)
-library(readtext)
-library(leaflet)
-library(circlize)
-library(rgeos)</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxua25pdHI6Om9wdHNfa25pdCRzZXQocm9vdC5kaXIgPSBcIkM6L1VzZXJzL0RlY2xhbi9EZXNrdG9wL0RhdGEvUi9TdHJlZXRsaWdodC9TdHJlZXRsaWdodC9USF8zNl9NYW5uaW5nX0V4cGFuZGVkX1VwZGF0ZWRfODA0MV9UcmF2ZWxcIilcbmxpYnJhcnkodGlkeXZlcnNlKVxuYGBgIn0= -->
+<pre class="r"><code>knitr::opts_knit$set(root.dir = &quot;C:/Users/Declan/Desktop/Data/R/Streetlight/Streetlight/TH_36_Manning_Expanded_Updated_8041_Travel&quot;)
+library(tidyverse)</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXHUwMDFiWzM3bS0tIFx1MDAxYlsxbUF0dGFjaGluZyBwYWNrYWdlc1x1MDAxYlsyMm0gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHRpZHl2ZXJzZSAxLjIuMSAtLVx1MDAxYlszOW1cblx1MDAxYlszN21cdTAwMWJbMzJtdlx1MDAxYlszN20gXHUwMDFiWzM0bWdncGxvdDJcdTAwMWJbMzdtIDIuMi4xICAgICBcdTAwMWJbMzJtdlx1MDAxYlszN20gXHUwMDFiWzM0bXB1cnJyICBcdTAwMWJbMzdtIDAuMi40XG5cdTAwMWJbMzJtdlx1MDAxYlszN20gXHUwMDFiWzM0bXRpYmJsZSBcdTAwMWJbMzdtIDEuNC4yICAgICBcdTAwMWJbMzJtdlx1MDAxYlszN20gXHUwMDFiWzM0bWRwbHlyICBcdTAwMWJbMzdtIDAuNy40XG5cdTAwMWJbMzJtdlx1MDAxYlszN20gXHUwMDFiWzM0bXRpZHlyICBcdTAwMWJbMzdtIDAuOC4wICAgICBcdTAwMWJbMzJtdlx1MDAxYlszN20gXHUwMDFiWzM0bXN0cmluZ3JcdTAwMWJbMzdtIDEuMy4wXG5cdTAwMWJbMzJtdlx1MDAxYlszN20gXHUwMDFiWzM0bXJlYWRyICBcdTAwMWJbMzdtIDEuMS4xICAgICBcdTAwMWJbMzJtdlx1MDAxYlszN20gXHUwMDFiWzM0bWZvcmNhdHNcdTAwMWJbMzdtIDAuMy4wXHUwMDFiWzM5bVxuXHUwMDFiWzM3bS0tIFx1MDAxYlsxbUNvbmZsaWN0c1x1MDAxYlsyMm0gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHRpZHl2ZXJzZV9jb25mbGljdHMoKSAtLVxuXHUwMDFiWzMxbXhcdTAwMWJbMzdtIFx1MDAxYlszNG1kcGx5clx1MDAxYlszN206Olx1MDAxYlszMm1maWx0ZXIoKVx1MDAxYlszN20gbWFza3MgXHUwMDFiWzM0bXN0YXRzXHUwMDFiWzM3bTo6ZmlsdGVyKClcblx1MDAxYlszMW14XHUwMDFiWzM3bSBcdTAwMWJbMzRtZHBseXJcdTAwMWJbMzdtOjpcdTAwMWJbMzJtbGFnKClcdTAwMWJbMzdtICAgIG1hc2tzIFx1MDAxYlszNG1zdGF0c1x1MDAxYlszN206OmxhZygpXHUwMDFiWzM5bVxuIn0= -->
+<pre><code>[37m-- [1mAttaching packages[22m --------------------------------------- tidyverse 1.2.1 --[39m
+[37m[32mv[37m [34mggplot2[37m 2.2.1     [32mv[37m [34mpurrr  [37m 0.2.4
+[32mv[37m [34mtibble [37m 1.4.2     [32mv[37m [34mdplyr  [37m 0.7.4
+[32mv[37m [34mtidyr  [37m 0.8.0     [32mv[37m [34mstringr[37m 1.3.0
+[32mv[37m [34mreadr  [37m 1.1.1     [32mv[37m [34mforcats[37m 0.3.0[39m
+[37m-- [1mConflicts[22m ------------------------------------------ tidyverse_conflicts() --
+[31mx[37m [34mdplyr[37m::[32mfilter()[37m masks [34mstats[37m::filter()
+[31mx[37m [34mdplyr[37m::[32mlag()[37m    masks [34mstats[37m::lag()[39m</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShsdWJyaWRhdGUpXG5gYGAifQ== -->
+<pre class="r"><code>library(lubridate)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5BdHRhY2hpbmcgcGFja2FnZTog46S847ixbHVicmlkYXRl46S847iyXG5cblRoZSBmb2xsb3dpbmcgb2JqZWN0IGlzIG1hc2tlZCBmcm9tIOOkvOO4sXBhY2thZ2U6YmFzZeOkvOO4sjpcblxuICAgIGRhdGVcbiJ9 -->
+<pre><code>
+Attaching package: &lt;U+393C&gt;&lt;U+3E31&gt;lubridate&lt;U+393C&gt;&lt;U+3E32&gt;
+
+The following object is masked from &lt;U+393C&gt;&lt;U+3E31&gt;package:base&lt;U+393C&gt;&lt;U+3E32&gt;:
+
+    date</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShncmlkRXh0cmEpXG5gYGAifQ== -->
+<pre class="r"><code>library(gridExtra)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoicGFja2FnZSDjpLzjuLFncmlkRXh0cmHjpLzjuLIgd2FzIGJ1aWx0IHVuZGVyIFIgdmVyc2lvbiAzLjQuNFxuQXR0YWNoaW5nIHBhY2thZ2U6IOOkvOO4sWdyaWRFeHRyYeOkvOO4slxuXG5UaGUgZm9sbG93aW5nIG9iamVjdCBpcyBtYXNrZWQgZnJvbSDjpLzjuLFwYWNrYWdlOmRwbHly46S847iyOlxuXG4gICAgY29tYmluZVxuIn0= -->
+<pre><code>package &lt;U+393C&gt;&lt;U+3E31&gt;gridExtra&lt;U+393C&gt;&lt;U+3E32&gt; was built under R version 3.4.4
+Attaching package: &lt;U+393C&gt;&lt;U+3E31&gt;gridExtra&lt;U+393C&gt;&lt;U+3E32&gt;
+
+The following object is masked from &lt;U+393C&gt;&lt;U+3E31&gt;package:dplyr&lt;U+393C&gt;&lt;U+3E32&gt;:
+
+    combine</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShyZXNoYXBlMilcbmBgYCJ9 -->
+<pre class="r"><code>library(reshape2)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5BdHRhY2hpbmcgcGFja2FnZTog46S847ixcmVzaGFwZTLjpLzjuLJcblxuVGhlIGZvbGxvd2luZyBvYmplY3QgaXMgbWFza2VkIGZyb20g46S847ixcGFja2FnZTp0aWR5cuOkvOO4sjpcblxuICAgIHNtaXRoc1xuIn0= -->
+<pre><code>
+Attaching package: &lt;U+393C&gt;&lt;U+3E31&gt;reshape2&lt;U+393C&gt;&lt;U+3E32&gt;
+
+The following object is masked from &lt;U+393C&gt;&lt;U+3E31&gt;package:tidyr&lt;U+393C&gt;&lt;U+3E32&gt;:
+
+    smiths</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeSh6b28pXG5gYGAifQ== -->
+<pre class="r"><code>library(zoo)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoicGFja2FnZSDjpLzjuLF6b2/jpLzjuLIgd2FzIGJ1aWx0IHVuZGVyIFIgdmVyc2lvbiAzLjQuNFxuQXR0YWNoaW5nIHBhY2thZ2U6IOOkvOO4sXpvb+OkvOO4slxuXG5UaGUgZm9sbG93aW5nIG9iamVjdHMgYXJlIG1hc2tlZCBmcm9tIOOkvOO4sXBhY2thZ2U6YmFzZeOkvOO4sjpcblxuICAgIGFzLkRhdGUsIGFzLkRhdGUubnVtZXJpY1xuIn0= -->
+<pre><code>package &lt;U+393C&gt;&lt;U+3E31&gt;zoo&lt;U+393C&gt;&lt;U+3E32&gt; was built under R version 3.4.4
+Attaching package: &lt;U+393C&gt;&lt;U+3E31&gt;zoo&lt;U+393C&gt;&lt;U+3E32&gt;
+
+The following objects are masked from &lt;U+393C&gt;&lt;U+3E31&gt;package:base&lt;U+393C&gt;&lt;U+3E32&gt;:
+
+    as.Date, as.Date.numeric</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShyZ2RhbClcbmBgYCJ9 -->
+<pre class="r"><code>library(rgdal)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoicGFja2FnZSCRcmdkYWySIHdhcyBidWlsdCB1bmRlciBSIHZlcnNpb24gMy40LjRMb2FkaW5nIHJlcXVpcmVkIHBhY2thZ2U6IHNwXG5wYWNrYWdlIJFzcJIgd2FzIGJ1aWx0IHVuZGVyIFIgdmVyc2lvbiAzLjQuNHJnZGFsOiB2ZXJzaW9uOiAxLjItMTgsIChTVk4gcmV2aXNpb24gNzE4KVxuIEdlb3NwYXRpYWwgRGF0YSBBYnN0cmFjdGlvbiBMaWJyYXJ5IGV4dGVuc2lvbnMgdG8gUiBzdWNjZXNzZnVsbHkgbG9hZGVkXG4gTG9hZGVkIEdEQUwgcnVudGltZTogR0RBTCAyLjIuMywgcmVsZWFzZWQgMjAxNy8xMS8yMFxuIFBhdGggdG8gR0RBTCBzaGFyZWQgZmlsZXM6IEM6L1VzZXJzL0RlY2xhbi9Eb2N1bWVudHMvUi93aW4tbGlicmFyeS8zLjQvcmdkYWwvZ2RhbFxuIEdEQUwgYmluYXJ5IGJ1aWx0IHdpdGggR0VPUzogVFJVRSBcbiBMb2FkZWQgUFJPSi40IHJ1bnRpbWU6IFJlbC4gNC45LjMsIDE1IEF1Z3VzdCAyMDE2LCBbUEpfVkVSU0lPTjogNDkzXVxuIFBhdGggdG8gUFJPSi40IHNoYXJlZCBmaWxlczogQzovVXNlcnMvRGVjbGFuL0RvY3VtZW50cy9SL3dpbi1saWJyYXJ5LzMuNC9yZ2RhbC9wcm9qXG4gTGlua2luZyB0byBzcCB2ZXJzaW9uOiAxLjItNyBcbiJ9 -->
+<pre><code>package &lt;U+393C&gt;&lt;U+3E31&gt;rgdal&lt;U+393C&gt;&lt;U+3E32&gt; was built under R version 3.4.4Loading required package: sp
+package &lt;U+393C&gt;&lt;U+3E31&gt;sp&lt;U+393C&gt;&lt;U+3E32&gt; was built under R version 3.4.4rgdal: version: 1.2-18, (SVN revision 718)
+ Geospatial Data Abstraction Library extensions to R successfully loaded
+ Loaded GDAL runtime: GDAL 2.2.3, released 2017/11/20
+ Path to GDAL shared files: C:/Users/Declan/Documents/R/win-library/3.4/rgdal/gdal
+ GDAL binary built with GEOS: TRUE 
+ Loaded PROJ.4 runtime: Rel. 4.9.3, 15 August 2016, [PJ_VERSION: 493]
+ Path to PROJ.4 shared files: C:/Users/Declan/Documents/R/win-library/3.4/rgdal/proj
+ Linking to sp version: 1.2-7 </code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShyZWFkdGV4dClcbmxpYnJhcnkobGVhZmxldClcbmBgYCJ9 -->
+<pre class="r"><code>library(readtext)
+library(leaflet)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoicGFja2FnZSDjpLzjuLFsZWFmbGV046S847iyIHdhcyBidWlsdCB1bmRlciBSIHZlcnNpb24gMy40LjRcbiJ9 -->
+<pre><code>package &lt;U+393C&gt;&lt;U+3E31&gt;leaflet&lt;U+393C&gt;&lt;U+3E32&gt; was built under R version 3.4.4</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShjaXJjbGl6ZSlcbmBgYCJ9 -->
+<pre class="r"><code>library(circlize)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoicGFja2FnZSDjpLzjuLFjaXJjbGl6ZeOkvOO4siB3YXMgYnVpbHQgdW5kZXIgUiB2ZXJzaW9uIDMuNC40PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PVxuY2lyY2xpemUgdmVyc2lvbiAwLjQuM1xuQ1JBTiBwYWdlOiBodHRwczovL2NyYW4uci1wcm9qZWN0Lm9yZy9wYWNrYWdlPWNpcmNsaXplXG5HaXRodWIgcGFnZTogaHR0cHM6Ly9naXRodWIuY29tL2pva2VyZ29vL2NpcmNsaXplXG5Eb2N1bWVudGF0aW9uOiBodHRwOi8vam9rZXJnb28uZ2l0aHViLmlvL2NpcmNsaXplX2Jvb2svYm9vay9cblxuSWYgeW91IHVzZSBpdCBpbiBwdWJsaXNoZWQgcmVzZWFyY2gsIHBsZWFzZSBjaXRlOlxuR3UsIFouIGNpcmNsaXplIGltcGxlbWVudHMgYW5kIGVuaGFuY2VzIGNpcmN1bGFyIHZpc3VhbGl6YXRpb24gXG4gIGluIFIuIEJpb2luZm9ybWF0aWNzIDIwMTQuXG49PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09XG4ifQ== -->
+<pre><code>package &lt;U+393C&gt;&lt;U+3E31&gt;circlize&lt;U+393C&gt;&lt;U+3E32&gt; was built under R version 3.4.4========================================
+circlize version 0.4.3
+CRAN page: https://cran.r-project.org/package=circlize
+Github page: https://github.com/jokergoo/circlize
+Documentation: http://jokergoo.github.io/circlize_book/book/
+
+If you use it in published research, please cite:
+Gu, Z. circlize implements and enhances circular visualization 
+  in R. Bioinformatics 2014.
+========================================</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShyZ2VvcylcbmBgYCJ9 -->
+<pre class="r"><code>library(rgeos)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoicGFja2FnZSDjpLzjuLFyZ2Vvc+OkvOO4siB3YXMgYnVpbHQgdW5kZXIgUiB2ZXJzaW9uIDMuNC40cmdlb3MgdmVyc2lvbjogMC4zLTI2LCAoU1ZOIHJldmlzaW9uIDU2MClcbiBHRU9TIHJ1bnRpbWUgdmVyc2lvbjogMy42LjEtQ0FQSS0xLjEwLjEgcjAgXG4gTGlua2luZyB0byBzcCB2ZXJzaW9uOiAxLjItNyBcbiBQb2x5Z29uIGNoZWNraW5nOiBUUlVFIFxuIn0= -->
+<pre><code>package &lt;U+393C&gt;&lt;U+3E31&gt;rgeos&lt;U+393C&gt;&lt;U+3E32&gt; was built under R version 3.4.4rgeos version: 0.3-26, (SVN revision 560)
+ GEOS runtime version: 3.6.1-CAPI-1.10.1 r0 
+ Linking to sp version: 1.2-7 
+ Polygon checking: TRUE </code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>Look at the files in the folder:</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuXG5kaXIoKVxuXG5gYGAifQ== -->
-<pre class="r"><code>
-dir()
-</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZGlyKClcbmBgYCJ9 -->
+<pre class="r"><code>dir()</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiIFsxXSBcIlByb2plY3RfT0RfTUYudHh0XCIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuIFsyXSBcIlJFQURNRV9PRF9NRi50eHRcIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuIFszXSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfODA0MV9tZl9jb21tZXJjaWFsLmNzdlwiICAgICAgICAgICAgIFxuIFs0XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfODA0MV9tZl9wZXJzb25hbC5jc3ZcIiAgICAgICAgICAgICAgIFxuIFs1XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfODA0MV96b25lX3RyYWZmaWNfbWZfY29tbWVyY2lhbC5jc3ZcIlxuIFs2XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfODA0MV96b25lX3RyYWZmaWNfbWZfcGVyc29uYWwuY3N2XCIgIFxuIFs3XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfODA0MV96b25lcy5jc3ZcIiAgICAgICAgICAgICAgICAgICAgIFxuIFs4XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfZGVzdGluYXRpb25fem9uZV9zZXQuY3BnXCIgICAgICAgICAgIFxuIFs5XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfZGVzdGluYXRpb25fem9uZV9zZXQuZGJmXCIgICAgICAgICAgIFxuWzEwXSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfZGVzdGluYXRpb25fem9uZV9zZXQucHJqXCIgICAgICAgICAgIFxuWzExXSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfZGVzdGluYXRpb25fem9uZV9zZXQuc2hwXCIgICAgICAgICAgIFxuWzEyXSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfZGVzdGluYXRpb25fem9uZV9zZXQuc2h4XCIgICAgICAgICAgIFxuWzEzXSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfbWlkZGxlX2ZpbHRlcl96b25lX3NldC5jcGdcIiAgICAgICAgIFxuWzE0XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfbWlkZGxlX2ZpbHRlcl96b25lX3NldC5kYmZcIiAgICAgICAgIFxuWzE1XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfbWlkZGxlX2ZpbHRlcl96b25lX3NldC5wcmpcIiAgICAgICAgIFxuWzE2XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfbWlkZGxlX2ZpbHRlcl96b25lX3NldC5zaHBcIiAgICAgICAgIFxuWzE3XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfbWlkZGxlX2ZpbHRlcl96b25lX3NldC5zaHhcIiAgICAgICAgIFxuWzE4XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfb3JpZ2luX3pvbmVfc2V0LmNwZ1wiICAgICAgICAgICAgICAgIFxuWzE5XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfb3JpZ2luX3pvbmVfc2V0LmRiZlwiICAgICAgICAgICAgICAgIFxuWzIwXSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfb3JpZ2luX3pvbmVfc2V0LnByalwiICAgICAgICAgICAgICAgIFxuWzIxXSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfb3JpZ2luX3pvbmVfc2V0LnNocFwiICAgICAgICAgICAgICAgIFxuWzIyXSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfb3JpZ2luX3pvbmVfc2V0LnNoeFwiICAgICAgICAgICAgICAgIFxuIn0= -->
+<pre><code> [1] &quot;Project_OD_MF.txt&quot;                                         
+ [2] &quot;README_OD_MF.txt&quot;                                          
+ [3] &quot;TH_36_Manning_Expanded_8041_mf_commercial.csv&quot;             
+ [4] &quot;TH_36_Manning_Expanded_8041_mf_personal.csv&quot;               
+ [5] &quot;TH_36_Manning_Expanded_8041_zone_traffic_mf_commercial.csv&quot;
+ [6] &quot;TH_36_Manning_Expanded_8041_zone_traffic_mf_personal.csv&quot;  
+ [7] &quot;TH_36_Manning_Expanded_8041_zones.csv&quot;                     
+ [8] &quot;TH_36_Manning_Expanded_destination_zone_set.cpg&quot;           
+ [9] &quot;TH_36_Manning_Expanded_destination_zone_set.dbf&quot;           
+[10] &quot;TH_36_Manning_Expanded_destination_zone_set.prj&quot;           
+[11] &quot;TH_36_Manning_Expanded_destination_zone_set.shp&quot;           
+[12] &quot;TH_36_Manning_Expanded_destination_zone_set.shx&quot;           
+[13] &quot;TH_36_Manning_Expanded_middle_filter_zone_set.cpg&quot;         
+[14] &quot;TH_36_Manning_Expanded_middle_filter_zone_set.dbf&quot;         
+[15] &quot;TH_36_Manning_Expanded_middle_filter_zone_set.prj&quot;         
+[16] &quot;TH_36_Manning_Expanded_middle_filter_zone_set.shp&quot;         
+[17] &quot;TH_36_Manning_Expanded_middle_filter_zone_set.shx&quot;         
+[18] &quot;TH_36_Manning_Expanded_origin_zone_set.cpg&quot;                
+[19] &quot;TH_36_Manning_Expanded_origin_zone_set.dbf&quot;                
+[20] &quot;TH_36_Manning_Expanded_origin_zone_set.prj&quot;                
+[21] &quot;TH_36_Manning_Expanded_origin_zone_set.shp&quot;                
+[22] &quot;TH_36_Manning_Expanded_origin_zone_set.shx&quot;                </code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>We have:</p>
@@ -228,19 +338,23 @@ dir()
 <p>We will organise the “Project” text file. It contains information regarding the data pull from the Streetlight website and the data itself.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuXG5wcm9qZWN0IDwtIHJlYWQudGFibGUoXCJQcm9qZWN0X09EX01GLnR4dFwiLHNlcD0nXFxuJyxzdHJpbmdzQXNGYWN0b3JzID0gRkFMU0UpJT4lXG4gIHNlcGFyYXRlKFYxLGMoJ3ZhcmlhYmxlJywndmFsdWUnKSwnOicpXG5cbnByb2plY3QkSW5mbyA8LSBpZmVsc2UodW5saXN0KGxhcHBseShwcm9qZWN0JHZhcmlhYmxlLGZ1bmN0aW9uKHgpIGFueSh4PT1jKDA6MTApKSkpPT1UUlVFLE5BLHByb2plY3QkdmFyaWFibGUpJT4lXG4gIG5hLmxvY2YoKVxuXG5wcm9qZWN0X2RldGFpbHMgPC0gc2VsZWN0KHByb2plY3QsSW5mbyx2YWx1ZSklPiVcbiAgZmlsdGVyKHZhbHVlIT0nICcpXG5ybShwcm9qZWN0KVxucHJpbnQocHJvamVjdF9kZXRhaWxzKVxuYGBgIn0= -->
-<pre class="r"><code>
-project &lt;- read.table(&quot;Project_OD_MF.txt&quot;,sep='\n',stringsAsFactors = FALSE)%&gt;%
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucHJvamVjdCA8LSByZWFkLnRhYmxlKFwiUHJvamVjdF9PRF9NRi50eHRcIixzZXA9J1xcbicsc3RyaW5nc0FzRmFjdG9ycyA9IEZBTFNFKSU+JVxuICBzZXBhcmF0ZShWMSxjKCd2YXJpYWJsZScsJ3ZhbHVlJyksJzonKVxucHJvamVjdCRJbmZvIDwtIGlmZWxzZSh1bmxpc3QobGFwcGx5KHByb2plY3QkdmFyaWFibGUsZnVuY3Rpb24oeCkgYW55KHg9PWMoMDoxMCkpKSk9PVRSVUUsTkEscHJvamVjdCR2YXJpYWJsZSklPiVcbiAgbmEubG9jZigpXG5wcm9qZWN0X2RldGFpbHMgPC0gc2VsZWN0KHByb2plY3QsSW5mbyx2YWx1ZSklPiVcbiAgZmlsdGVyKHZhbHVlIT0nICcpXG5ybShwcm9qZWN0KVxucHJpbnQocHJvamVjdF9kZXRhaWxzKVxuYGBgIn0= -->
+<pre class="r"><code>project &lt;- read.table(&quot;Project_OD_MF.txt&quot;,sep='\n',stringsAsFactors = FALSE)%&gt;%
   separate(V1,c('variable','value'),':')
-
 project$Info &lt;- ifelse(unlist(lapply(project$variable,function(x) any(x==c(0:10))))==TRUE,NA,project$variable)%&gt;%
   na.locf()
-
 project_details &lt;- select(project,Info,value)%&gt;%
   filter(value!=' ')
 rm(project)
 print(project_details)</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-frame-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbImRhdGEuZnJhbWUiXSwibmNvbCI6MiwibnJvdyI6MTl9LCJyZGYiOiJINHNJQUFBQUFBQUFCclZVWFcvVE1CVE4wbzdTd21DaVNBZ0pvZnU0Z1ZLdDNiUzlVclhqUTFwWTFYWnNyMjdpdGFhdUhkbk90dkxFTHgvY0pIYVg1WTBISWlYeFBjZm54am4zMnVQaFZhOTExZkk4ei9kcTlacm4xM0JZOS9HeDVkVzladmErODd4YU81L2dlYnQ0dHkzUkdDbjVrMGJHaHEyQm9zVFFHR2JyS2lLRlJaNmZxemtSN0JjeDdBR3phV0M2VHFqRm5nMkpJVENpaXNuWVFzMnBZa2w1enRNaFdmOXpQQ0xLL0tmNHcwQ3VWbFJGakhENFFSY3M0aFRHVktmY2FMUUVMaW1iTHd3TU9OSGFHVGlRcVRESzJmVXlwRWF4U0tOYTZjeWZ4M2EvaCtuWDRQQTRKRUl3TVE5Tzd4SWlZaG9IRjBtY21XeG52WVZrbVhLbVAybDFIVW1SZlI1bmR5SzVjdFpDNzZCN0VuUjdRZmZJUWgwSW1SQlVTL1I4ZUQ2RnZmQTd2dllod1BYUGNTSDRRNU4wcGlNc1FLbHVIK0U4R0VJZjJiVm1HbTZaV1dDZU9NYmYvc3k0b1FyMnZvd21rRlZ5MzBxMjgyL2JZQmZPWkxURTdqQVN4akkxcms1dDZOOVFSZVlVTW9QM3dtQ1NPdjJiRFhWSjZUSXU2T25DMGU4ZTBWVEVSWVlKS2FWNERYM09DN3piSTZzZ2V6eHdwMFR4TmZSRFN4NC9jRzNzUnJMTXFlTk1kbENtOExlRElpWEN3V0d5b1Y0VnFoR3FFQTFPa3BMb0RLdVdNNGcrV2tZVGhreVRHZC9VdEE0WGs3N3JPaGdmOW9Md3FGdlpwZHVDcktpMkxlTTc0VGR4TGQyRUc4SlRXbEUxbGJ6dE9PVk9wdnp0NVZlN21qN0srN1pJNzhBV05oN3BYQ3ZVWTNSZmtUUmszaTBvOHJQVG8xRVJiNmtzUXc0VVY1bDhacytFanJremxXbmw4WTRkdDB0anYxaUcvOGVtYk5pVVQ2aVlNK0dhYkpzcUpaVUxPSmxSN3BaOVMxUzJ3V3o0QWgzS0Rlb2tpb25OV1llbzdoamNNRTdXaWlSM1NPNkZkLzhYeWNTMWNsc0ZBQUE9In0= -->
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["Info"],"name":[1],"type":["chr"],"align":["left"]},{"label":["value"],"name":[2],"type":["chr"],"align":["left"]}],"data":[{"1":"Project","2":"TH-36Manning-Expanded-Updated"},{"1":"Created by","2":"pkulis@srfconsulting.com"},{"1":"Created on","2":"2017-12-14"},{"1":"Organization","2":"Minnesota DOT (MNDOT) - Regional Subscription"},{"1":"Project Type","2":"O-D Analysis with Middle Filter (GPS Data)"},{"1":"Data Period","2":"2017"},{"1":"Trip Type","2":"Locked to Route"},{"1":"Day Type","2":"Average Day (M-Su)"},{"1":"Day Type","2":"Average Weekday (M-Th)"},{"1":"Day Type","2":"Average Weekend Day (Sa-Su)"},{"1":"Day Part","2":"All Day (12am-12am)"},{"1":"Day Part","2":"Early AM (12am-6am)"},{"1":"Day Part","2":"Peak AM (6am-10am)"},{"1":"Day Part","2":"Mid-Day (10am-3pm)"},{"1":"Day Part","2":"Peak PM (3pm-7pm)"},{"1":"Day Part","2":"Late PM (7pm-12am)"},{"1":"Commercial Vehicle Results by Weight Class","2":"Disabled"},{"1":"Country","2":"USA"},{"1":"Metrics Version","2":"R32-M41"}],"options":{"columns":{"min":{},"max":[10],"total":[2]},"rows":{"min":[10],"max":[10],"total":[19]},"pages":{}}}
+  </script>
+</div>
+<!-- rnb-frame-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>We my need this data later, so now we have it in a format we can use. We may need to dcast and remelt to fix the day types and day types.</p>
@@ -252,44 +366,88 @@ print(project_details)</code></pre>
 <p>We examine the first csv file. We want to set a function that will find a the right file regardless of the name.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuXG5tZl9jb21fbmFtZSA8LSBkaXIoKVtncmVwbChcIipfbWZfY29tbWVyY2lhbC5jc3ZcIixkaXIoKSldWzFdXG5cbm1mX2NvbSA8LSByZWFkLmNzdihtZl9jb21fbmFtZSxzdHJpbmdzQXNGYWN0b3JzID0gRkFMU0UpXG5cbnN0cihtZl9jb20pXG5cbmBgYCJ9 -->
-<pre class="r"><code>
-mf_com_name &lt;- dir()[grepl(&quot;*_mf_commercial.csv&quot;,dir())][1]
-
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubWZfY29tX25hbWUgPC0gZGlyKClbZ3JlcGwoXCIqX21mX2NvbW1lcmNpYWwuY3N2XCIsZGlyKCkpXVsxXVxubWZfY29tIDwtIHJlYWQuY3N2KG1mX2NvbV9uYW1lLHN0cmluZ3NBc0ZhY3RvcnMgPSBGQUxTRSlcbnN0cihtZl9jb20pXG5gYGAifQ== -->
+<pre class="r"><code>mf_com_name &lt;- dir()[grepl(&quot;*_mf_commercial.csv&quot;,dir())][1]
 mf_com &lt;- read.csv(mf_com_name,stringsAsFactors = FALSE)
-
-str(mf_com)
-</code></pre>
+str(mf_com)</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiJ2RhdGEuZnJhbWUnOlx0MTE5NCBvYnMuIG9mICAyMiB2YXJpYWJsZXM6XG4gJCBEZXZpY2UuVHlwZSAgICAgICAgICAgICAgICAgICAgICAgICAgIDogY2hyICBcIkNvbW1lcmNpYWxcIiBcIkNvbW1lcmNpYWxcIiBcIkNvbW1lcmNpYWxcIiBcIkNvbW1lcmNpYWxcIiAuLi5cbiAkIE9yaWdpbi5ab25lLklEICAgICAgICAgICAgICAgICAgICAgICAgOiBpbnQgIDQgNCA0IDQgNCA0IDQgNCA0IDQgLi4uXG4gJCBPcmlnaW4uWm9uZS5OYW1lICAgICAgICAgICAgICAgICAgICAgIDogY2hyICBcIk5vcmVsbCBBdmVcIiBcIk5vcmVsbCBBdmVcIiBcIk5vcmVsbCBBdmVcIiBcIk5vcmVsbCBBdmVcIiAuLi5cbiAkIE9yaWdpbi5ab25lLklzLlBhc3MuVGhyb3VnaCAgICAgICAgICAgOiBjaHIgIFwieWVzXCIgXCJ5ZXNcIiBcInllc1wiIFwieWVzXCIgLi4uXG4gJCBPcmlnaW4uWm9uZS5EaXJlY3Rpb24uLmRlZ3JlZXMuICAgICAgIDogY2hyICBcIk4vQVwiIFwiTi9BXCIgXCJOL0FcIiBcIk4vQVwiIC4uLlxuICQgT3JpZ2luLlpvbmUuaXMuQmkuRGlyZWN0aW9uICAgICAgICAgICA6IGNociAgXCJub1wiIFwibm9cIiBcIm5vXCIgXCJub1wiIC4uLlxuICQgTWlkZGxlLkZpbHRlci5ab25lLklEICAgICAgICAgICAgICAgICA6IGludCAgMSAxIDEgMSAxIDEgMSAxIDEgMSAuLi5cbiAkIE1pZGRsZS5GaWx0ZXIuWm9uZS5OYW1lICAgICAgICAgICAgICAgOiBjaHIgIFwiTWFubmluZyBBdmVcIiBcIk1hbm5pbmcgQXZlXCIgXCJNYW5uaW5nIEF2ZVwiIFwiTWFubmluZyBBdmVcIiAuLi5cbiAkIE1pZGRsZS5GaWx0ZXIuWm9uZS5EaXJlY3Rpb24uLmRlZ3JlZXMuOiBjaHIgIFwiTi9BXCIgXCJOL0FcIiBcIk4vQVwiIFwiTi9BXCIgLi4uXG4gJCBNaWRkbGUuRmlsdGVyLlpvbmUuaXMuQmkuRGlyZWN0aW9uICAgIDogY2hyICBcIm5vXCIgXCJub1wiIFwibm9cIiBcIm5vXCIgLi4uXG4gJCBEZXN0aW5hdGlvbi5ab25lLklEICAgICAgICAgICAgICAgICAgIDogaW50ICA3IDcgNyA3IDcgNyA3IDcgNyA3IC4uLlxuICQgRGVzdGluYXRpb24uWm9uZS5OYW1lICAgICAgICAgICAgICAgICA6IGNociAgXCJOb3J0aCBNYW5uaW5nIEF2ZVwiIFwiTm9ydGggTWFubmluZyBBdmVcIiBcIk5vcnRoIE1hbm5pbmcgQXZlXCIgXCJOb3J0aCBNYW5uaW5nIEF2ZVwiIC4uLlxuICQgRGVzdGluYXRpb24uWm9uZS5Jcy5QYXNzLlRocm91Z2ggICAgICA6IGNociAgXCJ5ZXNcIiBcInllc1wiIFwieWVzXCIgXCJ5ZXNcIiAuLi5cbiAkIERlc3RpbmF0aW9uLlpvbmUuRGlyZWN0aW9uLi5kZWdyZWVzLiAgOiBjaHIgIFwiTi9BXCIgXCJOL0FcIiBcIk4vQVwiIFwiTi9BXCIgLi4uXG4gJCBEZXN0aW5hdGlvbi5ab25lLmlzLkJpLkRpcmVjdGlvbiAgICAgIDogY2hyICBcIm5vXCIgXCJub1wiIFwibm9cIiBcIm5vXCIgLi4uXG4gJCBEYXkuVHlwZSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogY2hyICBcIjA6IEF2ZXJhZ2UgRGF5IChNLVN1KVwiIFwiMDogQXZlcmFnZSBEYXkgKE0tU3UpXCIgXCIwOiBBdmVyYWdlIERheSAoTS1TdSlcIiBcIjA6IEF2ZXJhZ2UgRGF5IChNLVN1KVwiIC4uLlxuICQgRGF5LlBhcnQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA6IGNociAgXCIwOiBBbGwgRGF5ICgxMmFtLTEyYW0pXCIgXCIyOiBQZWFrIEFNICg2YW0tMTBhbSlcIiBcIjM6IE1pZC1EYXkgKDEwYW0tM3BtKVwiIFwiNDogUGVhayBQTSAoM3BtLTdwbSlcIiAuLi5cbiAkIE8uTS5ELlRyYWZmaWMuLlN0TC5JbmRleC4gICAgICAgICAgICAgOiBpbnQgIDE0MSAxMyA2NCAzOSAyNiAxNzMgMTMgOTQgNDYgMjEgLi4uXG4gJCBPcmlnaW4uWm9uZS5UcmFmZmljLi5TdEwuSW5kZXguICAgICAgIDogaW50ICA3MTU3IDE1MjIgMzAwNyAxMTY3IDc3NiA4NzkxIDE5MjggMzg0OCAxMzgxIDg5MSAuLi5cbiAkIE1pZGRsZS5GaWx0ZXIuWm9uZS5UcmFmZmljLi5TdEwuSW5kZXguOiBpbnQgIDc3MjAgMjI5OCAyOTc4IDE4MTYgMzg0IDk3NTEgMjg5MiAzNzk1IDIzNjIgNDE5IC4uLlxuICQgRGVzdGluYXRpb24uWm9uZS5UcmFmZmljLi5TdEwuSW5kZXguICA6IGludCAgNzcyMSAyMjk2IDI5ODkgMTgxMCAzODQgOTc2NCAyOTAwIDM3OTUgMjM3MCA0MTkgLi4uXG4gJCBBdmcuVHJpcC5EdXJhdGlvbi4uc2VjLiAgICAgICAgICAgICAgIDogY2hyICBcIjIwMlwiIFwiMTYwXCIgXCIyMDVcIiBcIjE3NVwiIC4uLlxuIn0= -->
+<pre><code>'data.frame':   1194 obs. of  22 variables:
+ $ Device.Type                           : chr  &quot;Commercial&quot; &quot;Commercial&quot; &quot;Commercial&quot; &quot;Commercial&quot; ...
+ $ Origin.Zone.ID                        : int  4 4 4 4 4 4 4 4 4 4 ...
+ $ Origin.Zone.Name                      : chr  &quot;Norell Ave&quot; &quot;Norell Ave&quot; &quot;Norell Ave&quot; &quot;Norell Ave&quot; ...
+ $ Origin.Zone.Is.Pass.Through           : chr  &quot;yes&quot; &quot;yes&quot; &quot;yes&quot; &quot;yes&quot; ...
+ $ Origin.Zone.Direction..degrees.       : chr  &quot;N/A&quot; &quot;N/A&quot; &quot;N/A&quot; &quot;N/A&quot; ...
+ $ Origin.Zone.is.Bi.Direction           : chr  &quot;no&quot; &quot;no&quot; &quot;no&quot; &quot;no&quot; ...
+ $ Middle.Filter.Zone.ID                 : int  1 1 1 1 1 1 1 1 1 1 ...
+ $ Middle.Filter.Zone.Name               : chr  &quot;Manning Ave&quot; &quot;Manning Ave&quot; &quot;Manning Ave&quot; &quot;Manning Ave&quot; ...
+ $ Middle.Filter.Zone.Direction..degrees.: chr  &quot;N/A&quot; &quot;N/A&quot; &quot;N/A&quot; &quot;N/A&quot; ...
+ $ Middle.Filter.Zone.is.Bi.Direction    : chr  &quot;no&quot; &quot;no&quot; &quot;no&quot; &quot;no&quot; ...
+ $ Destination.Zone.ID                   : int  7 7 7 7 7 7 7 7 7 7 ...
+ $ Destination.Zone.Name                 : chr  &quot;North Manning Ave&quot; &quot;North Manning Ave&quot; &quot;North Manning Ave&quot; &quot;North Manning Ave&quot; ...
+ $ Destination.Zone.Is.Pass.Through      : chr  &quot;yes&quot; &quot;yes&quot; &quot;yes&quot; &quot;yes&quot; ...
+ $ Destination.Zone.Direction..degrees.  : chr  &quot;N/A&quot; &quot;N/A&quot; &quot;N/A&quot; &quot;N/A&quot; ...
+ $ Destination.Zone.is.Bi.Direction      : chr  &quot;no&quot; &quot;no&quot; &quot;no&quot; &quot;no&quot; ...
+ $ Day.Type                              : chr  &quot;0: Average Day (M-Su)&quot; &quot;0: Average Day (M-Su)&quot; &quot;0: Average Day (M-Su)&quot; &quot;0: Average Day (M-Su)&quot; ...
+ $ Day.Part                              : chr  &quot;0: All Day (12am-12am)&quot; &quot;2: Peak AM (6am-10am)&quot; &quot;3: Mid-Day (10am-3pm)&quot; &quot;4: Peak PM (3pm-7pm)&quot; ...
+ $ O.M.D.Traffic..StL.Index.             : int  141 13 64 39 26 173 13 94 46 21 ...
+ $ Origin.Zone.Traffic..StL.Index.       : int  7157 1522 3007 1167 776 8791 1928 3848 1381 891 ...
+ $ Middle.Filter.Zone.Traffic..StL.Index.: int  7720 2298 2978 1816 384 9751 2892 3795 2362 419 ...
+ $ Destination.Zone.Traffic..StL.Index.  : int  7721 2296 2989 1810 384 9764 2900 3795 2370 419 ...
+ $ Avg.Trip.Duration..sec.               : chr  &quot;202&quot; &quot;160&quot; &quot;205&quot; &quot;175&quot; ...</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>Lets sgtart at the end with the most interesting field; “Avg.Trip.Duration..sec”. We want to check the data for outliers, missing values or interesting trents</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuXG4jIyMgY2hhbmdlIHZhcmlhYmxlIHRvIG51bWVyaWNcblxuXG5tZl9jb20kQXZnLlRyaXAuRHVyYXRpb24uLnNlYy4gPC0gIGFzLm51bWVyaWMobWZfY29tJEF2Zy5UcmlwLkR1cmF0aW9uLi5zZWMuKVxuXG5oaXN0KG1mX2NvbSRBdmcuVHJpcC5EdXJhdGlvbi4uc2VjLixicmVha3MgPSAyMDApXG5cbnRhYmxlKGlzLm5hKG1mX2NvbSRBdmcuVHJpcC5EdXJhdGlvbi4uc2VjLikpXG5cbmBgYCJ9 -->
-<pre class="r"><code>
-### change variable to numeric
-
-
-mf_com$Avg.Trip.Duration..sec. &lt;-  as.numeric(mf_com$Avg.Trip.Duration..sec.)
-
-hist(mf_com$Avg.Trip.Duration..sec.,breaks = 200)
-
-table(is.na(mf_com$Avg.Trip.Duration..sec.))
-</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyMjIGNoYW5nZSB2YXJpYWJsZSB0byBudW1lcmljXG5tZl9jb20kQXZnLlRyaXAuRHVyYXRpb24uLnNlYy4gPC0gIGFzLm51bWVyaWMobWZfY29tJEF2Zy5UcmlwLkR1cmF0aW9uLi5zZWMuKVxuYGBgIn0= -->
+<pre class="r"><code>### change variable to numeric
+mf_com$Avg.Trip.Duration..sec. &lt;-  as.numeric(mf_com$Avg.Trip.Duration..sec.)</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiTkFzIGludHJvZHVjZWQgYnkgY29lcmNpb25cbiJ9 -->
+<pre><code>NAs introduced by coercion</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaGlzdChtZl9jb20kQXZnLlRyaXAuRHVyYXRpb24uLnNlYy4sYnJlYWtzID0gMjAwKVxuYGBgIn0= -->
+<pre class="r"><code>hist(mf_com$Avg.Trip.Duration..sec.,breaks = 200)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-plot-begin eyJjb25kaXRpb25zIjpbXSwiaGVpZ2h0Ijo0MzIuNjMyOSwic2l6ZV9iZWhhdmlvciI6MCwid2lkdGgiOjcwMH0= -->
+<p><img src="data:image/png;base64,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" /></p>
+<!-- rnb-plot-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudGFibGUoaXMubmEobWZfY29tJEF2Zy5UcmlwLkR1cmF0aW9uLi5zZWMuKSlcbmBgYCJ9 -->
+<pre class="r"><code>table(is.na(mf_com$Avg.Trip.Duration..sec.))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5GQUxTRSAgVFJVRSBcbiAxMDQ3ICAgMTQ3IFxuIn0= -->
+<pre><code>
+FALSE  TRUE 
+ 1047   147 </code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>Looks like we have some extreme outliers and 10% NAs which is significant.</p>
 <p>Lets invesitgate the NAs.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuXG5cbmhlYWQobWZfY29tW2lzLm5hKG1mX2NvbSRBdmcuVHJpcC5EdXJhdGlvbi4uc2VjLiksXSlcbnRhaWwobWZfY29tW2lzLm5hKG1mX2NvbSRBdmcuVHJpcC5EdXJhdGlvbi4uc2VjLiksXSlcbmBgYCJ9 -->
-<pre class="r"><code>
-
-head(mf_com[is.na(mf_com$Avg.Trip.Duration..sec.),])
-tail(mf_com[is.na(mf_com$Avg.Trip.Duration..sec.),])</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaGVhZChtZl9jb21baXMubmEobWZfY29tJEF2Zy5UcmlwLkR1cmF0aW9uLi5zZWMuKSxdKVxuYGBgIn0= -->
+<pre class="r"><code>head(mf_com[is.na(mf_com$Avg.Trip.Duration..sec.),])</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-frame-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbImRhdGEuZnJhbWUiXSwibmNvbCI6MjIsIm5yb3ciOjZ9LCJyZGYiOiJINHNJQUFBQUFBQUFCdDFXelcvVE1CUjMyMzEwQmFaS1ZUdE5TTU5DTUpYRHpDalNEaHhBM2JLdGsrZzJhS1ZOWENhVHVKMjF4S21jdEZ0UG5MaHpRMXo1ajdqelIzQkdZdkRTeGsyYUpvQXFGUkNIWC96ODN2UHppOStIL1ZJN3JlUk9jd2loTk1yTVpWQTZBK1JjR2o0cE5JZVd2UEVLb1V3QmlCSWdEMWp3QmJrZDI3S1kxRGsxWjhoQjZOWmd6MlNNK1hUQ0hCYzNhL2p4MWd3NTQzdG0rc3labG94WU9ueFluWlljdDVRVzloUlVjTmFwQklUM3VGR25RbkRSeHRVZW16WHJYejJuSlIvTFB2SWhqSEp5bDBaemFaS3pMeGt6V1I4MzNFUk9zZUZ5MDd5a0xwTjQyK3dadUdGMzNmT2ZDLy9mVEEzYldLczg4YkpFMGpiREo0eGRNR0ZnamZaeHVVRTNHdDBIZjAycnVCbG9EYVQxWHd2SC82emtLWm5tVU9GUmhWb2IzbWRrQXJ3NFp2UUNWK3U0dk9VSk53UGhuMTRhRklVcWdLeVBtNERGUUg3L0EyVDNpMkI4K3htaDlaMUFudjBFTWY0V2pHdGxvTDhHOHVKN3VLRXM2RWZ2WU41Q2FCWFdaMnQrQVM2OCtZSzg3VDcrN2hpNTdlWUZ0VWJaWGxLdFNHTTlyalBTN0hkVWQxbytrcnpOQlhsbEMwWU9OSitiRDNNUHdaTFB2ejJtN1pCajZqaWtlUzd0YmxzVjhKMndpc1lsMDExdUMwSU0xb1pHNEpBNFM5d2gyenhRVnZHcGM4TXdHZG5qSm5TRGlJY3JNY0tRbytzeDRtUm43c1pveC90VTBPRDI1SUlPekl4N1ZKd1FoZnpCayt0aVQrL2VoRjZ5MTVNMjQzM09RdnFIUXo2WUgxT3ArdkhxRWFrVGpUUWxiYlc0VGtqRGZVNE9oTUd1U0Z4SWs5WGl6anhaZS9KUGszVlhxcjAyaUhtSGFGMDVYRUVjcHBOSXppOUorNUtvdkZkRi9CVHdETEFMMkFQc0EyclJZdEZOQ0lWZkxJcVpNNmhMU1V0NlFVVG9PckprMGU1NGZzQ2lkQ0hVTGthUFRlbFpRTVBIQm9wYXRscG51bTNodzZvVDBrcjVUcWQ4YzRvdURYZE9mNCswMUFVbUlDZ3FxUE5NU2x1cWlVbGZNL1VJWFlaVEdSd0s2VWd1UnRjeWNCM2kybTd3V05WdFUzRUcvNHV1ZndCSUs0cFdWUXNBQUE9PSJ9 -->
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["Device.Type"],"name":[1],"type":["chr"],"align":["left"]},{"label":["Origin.Zone.ID"],"name":[2],"type":["int"],"align":["right"]},{"label":["Origin.Zone.Name"],"name":[3],"type":["chr"],"align":["left"]},{"label":["Origin.Zone.Is.Pass.Through"],"name":[4],"type":["chr"],"align":["left"]},{"label":["Origin.Zone.Direction..degrees."],"name":[5],"type":["chr"],"align":["left"]},{"label":["Origin.Zone.is.Bi.Direction"],"name":[6],"type":["chr"],"align":["left"]},{"label":["Middle.Filter.Zone.ID"],"name":[7],"type":["int"],"align":["right"]},{"label":["Middle.Filter.Zone.Name"],"name":[8],"type":["chr"],"align":["left"]},{"label":["Middle.Filter.Zone.Direction..degrees."],"name":[9],"type":["chr"],"align":["left"]},{"label":["Middle.Filter.Zone.is.Bi.Direction"],"name":[10],"type":["chr"],"align":["left"]},{"label":["Destination.Zone.ID"],"name":[11],"type":["int"],"align":["right"]},{"label":["Destination.Zone.Name"],"name":[12],"type":["chr"],"align":["left"]},{"label":["Destination.Zone.Is.Pass.Through"],"name":[13],"type":["chr"],"align":["left"]},{"label":["Destination.Zone.Direction..degrees."],"name":[14],"type":["chr"],"align":["left"]},{"label":["Destination.Zone.is.Bi.Direction"],"name":[15],"type":["chr"],"align":["left"]},{"label":["Day.Type"],"name":[16],"type":["chr"],"align":["left"]},{"label":["Day.Part"],"name":[17],"type":["chr"],"align":["left"]},{"label":["O.M.D.Traffic..StL.Index."],"name":[18],"type":["int"],"align":["right"]},{"label":["Origin.Zone.Traffic..StL.Index."],"name":[19],"type":["int"],"align":["right"]},{"label":["Middle.Filter.Zone.Traffic..StL.Index."],"name":[20],"type":["int"],"align":["right"]},{"label":["Destination.Zone.Traffic..StL.Index."],"name":[21],"type":["int"],"align":["right"]},{"label":["Avg.Trip.Duration..sec."],"name":[22],"type":["dbl"],"align":["right"]}],"data":[{"1":"Commercial","2":"6","3":"West TH 36","4":"yes","5":"N/A","6":"no","7":"1","8":"Manning Ave","9":"N/A","10":"no","11":"9","12":"East TH 36","13":"yes","14":"N/A","15":"no","16":"2: Average Weekend Day (Sa-Su)","17":"0: All Day (12am-12am)","18":"16","19":"9625","20":"2257","21":"5527","22":"NA","_rn_":"62"},{"1":"Commercial","2":"6","3":"West TH 36","4":"yes","5":"N/A","6":"no","7":"1","8":"Manning Ave","9":"N/A","10":"no","11":"9","12":"East TH 36","13":"yes","14":"N/A","15":"no","16":"2: Average Weekend Day (Sa-Su)","17":"2: Peak AM (6am-10am)","18":"16","19":"2641","20":"765","21":"1133","22":"NA","_rn_":"63"},{"1":"Commercial","2":"6","3":"West TH 36","4":"yes","5":"N/A","6":"no","7":"1","8":"Manning Ave","9":"N/A","10":"no","11":"14","12":"Greeley St","13":"yes","14":"N/A","15":"no","16":"2: Average Weekend Day (Sa-Su)","17":"0: All Day (12am-12am)","18":"8","19":"9625","20":"2257","21":"400","22":"NA","_rn_":"69"},{"1":"Commercial","2":"6","3":"West TH 36","4":"yes","5":"N/A","6":"no","7":"1","8":"Manning Ave","9":"N/A","10":"no","11":"14","12":"Greeley St","13":"yes","14":"N/A","15":"no","16":"2: Average Weekend Day (Sa-Su)","17":"2: Peak AM (6am-10am)","18":"8","19":"2641","20":"765","21":"102","22":"NA","_rn_":"70"},{"1":"Commercial","2":"6","3":"West TH 36","4":"yes","5":"N/A","6":"no","7":"1","8":"Manning Ave","9":"N/A","10":"no","11":"16","12":"Stillwater Blvd South","13":"yes","14":"N/A","15":"no","16":"0: Average Day (M-Su)","17":"0: All Day (12am-12am)","18":"12","19":"34268","20":"7720","21":"6620","22":"NA","_rn_":"71"},{"1":"Commercial","2":"6","3":"West TH 36","4":"yes","5":"N/A","6":"no","7":"1","8":"Manning Ave","9":"N/A","10":"no","11":"16","12":"Stillwater Blvd South","13":"yes","14":"N/A","15":"no","16":"0: Average Day (M-Su)","17":"2: Peak AM (6am-10am)","18":"7","19":"9795","20":"2298","21":"2120","22":"NA","_rn_":"72"}],"options":{"columns":{"min":{},"max":[10],"total":[22]},"rows":{"min":[10],"max":[10],"total":[6]},"pages":{}}}
+  </script>
+</div>
+<!-- rnb-frame-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudGFpbChtZl9jb21baXMubmEobWZfY29tJEF2Zy5UcmlwLkR1cmF0aW9uLi5zZWMuKSxdKVxuYGBgIn0= -->
+<pre class="r"><code>tail(mf_com[is.na(mf_com$Avg.Trip.Duration..sec.),])</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-frame-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbImRhdGEuZnJhbWUiXSwibmNvbCI6MjIsIm5yb3ciOjZ9LCJyZGYiOiJINHNJQUFBQUFBQUFCdDFXVDIvVE1CUjMvMjFyZ1dwUTJnbHh3RUlJRFltYWpTR1FlbXNYSVNiUnJ0b3FiZUtDVE9LMjFoS25jckoyUFFFM3VBQUN6aHk0ODJtUStCeDhnc0ZMRzVNMFRhUnBDSVk0L0JMN3ZaK2ZuOS96czcyajdkOHQ3QmNRUW1tVXlXWlFPZ1BOYkJvK0taUkZlZTkvaEZDbUJJMEtZQm13NENzS203WmxNYWx6YXY1QkNVSVhKbk1pVkVwQTJLZmxUY2tjZDhqWkNEZk1vWUgzemt3KzYxZG16SnpUTmlPV1duZnFwMjNPV2tvTCt4U3RJQjhwSDVrSXduT2NhMUlodU9qaCtwQWxpM0RuRWQ2NGovY2FlTmZscGptaUxwUFRPRzZMNmc2MUJtZkcrMWRqdjVpQThCd1hXN1owKzNnKzNHZWsrSDhySW16anluck5XNjJrUFliM0dEc3c2Qml2TnF1ZC9xMlRFc3ByQVVHYktuY1BUNlQ4bmJsblYxSGVxT0VtTjZxVEtkYlhxRlhkR0ZqS3l1VjdOZHhtOUFDM20zZ1Y1TlVIZ2U1dkRnektZUW1RQlp3SDVEeGpmbC9wdndGcWdEZUEyNkcrcnk5K1JTZ1AvWVZYa05IWFlPNFRiSS8zRVgwRGpxNHZVR1dYZ2o0cWV2cm4zNUZYZlo5UCtvL2NyemxCclY5N3VxSU9TWTBOdWM1SVp6eFFGVlhjbHJ6SEJYbGlDMGEyTkhYeGhLVXRzT1RMcjg2d0hkS21qa002ZldrZjl2bys1VnFZb25ISmRKZmJnaENEOVNSakRvbXp4QjNTNEFGWjVRNFNaNWlNUE9RbW5LQVJEMWRpbENGSGI4YW9rNTI1SHNPTzk2bWt3WVhNQloyWW1mV29QS2NLK1lQbng4Vkc3OFljTDlucmVadnhQaS9CNWcrbmZOSnZVK21xOHQwbVRhS1JqcVRkTHRjSjJYVWZreTFoc0NNU2w5SmtXbHpNazluekswM21ydFNIUFZEekFkRU81WFFFY1poT0lucytMKzBSVWZ2ZUw3THNDOEJMd0Z2QU84QUh3TWRvc2VnbXBNSXZGaVVzR05TbHBDdTlKQ0owSEJteWFBODhQMkJRdXVRZkIrSEJLZWxaUU5PbkRJcGF0cnBQZGR2Q3Jib1RZcVY4cDFPK09kV3VUR2RPLzRnY3BndE1RRkpVVW5OTVNsdXFqa21mTWZYc0xVSlVKa0VoQThtRlNub0JwQTV4YlRkNEh1dTJxU1NUOWFMam44V2NTT2pIQ3dBQSJ9 -->
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["Device.Type"],"name":[1],"type":["chr"],"align":["left"]},{"label":["Origin.Zone.ID"],"name":[2],"type":["int"],"align":["right"]},{"label":["Origin.Zone.Name"],"name":[3],"type":["chr"],"align":["left"]},{"label":["Origin.Zone.Is.Pass.Through"],"name":[4],"type":["chr"],"align":["left"]},{"label":["Origin.Zone.Direction..degrees."],"name":[5],"type":["chr"],"align":["left"]},{"label":["Origin.Zone.is.Bi.Direction"],"name":[6],"type":["chr"],"align":["left"]},{"label":["Middle.Filter.Zone.ID"],"name":[7],"type":["int"],"align":["right"]},{"label":["Middle.Filter.Zone.Name"],"name":[8],"type":["chr"],"align":["left"]},{"label":["Middle.Filter.Zone.Direction..degrees."],"name":[9],"type":["chr"],"align":["left"]},{"label":["Middle.Filter.Zone.is.Bi.Direction"],"name":[10],"type":["chr"],"align":["left"]},{"label":["Destination.Zone.ID"],"name":[11],"type":["int"],"align":["right"]},{"label":["Destination.Zone.Name"],"name":[12],"type":["chr"],"align":["left"]},{"label":["Destination.Zone.Is.Pass.Through"],"name":[13],"type":["chr"],"align":["left"]},{"label":["Destination.Zone.Direction..degrees."],"name":[14],"type":["chr"],"align":["left"]},{"label":["Destination.Zone.is.Bi.Direction"],"name":[15],"type":["chr"],"align":["left"]},{"label":["Day.Type"],"name":[16],"type":["chr"],"align":["left"]},{"label":["Day.Part"],"name":[17],"type":["chr"],"align":["left"]},{"label":["O.M.D.Traffic..StL.Index."],"name":[18],"type":["int"],"align":["right"]},{"label":["Origin.Zone.Traffic..StL.Index."],"name":[19],"type":["int"],"align":["right"]},{"label":["Middle.Filter.Zone.Traffic..StL.Index."],"name":[20],"type":["int"],"align":["right"]},{"label":["Destination.Zone.Traffic..StL.Index."],"name":[21],"type":["int"],"align":["right"]},{"label":["Avg.Trip.Duration..sec."],"name":[22],"type":["dbl"],"align":["right"]}],"data":[{"1":"Commercial","2":"19","3":"Crestview Blvd W","4":"yes","5":"N/A","6":"no","7":"1","8":"Manning Ave","9":"N/A","10":"no","11":"7","12":"North Manning Ave","13":"yes","14":"N/A","15":"no","16":"1: Average Weekday (M-Th)","17":"3: Mid-Day (10am-3pm)","18":"8","19":"214","20":"3795","21":"3795","22":"NA","_rn_":"1152"},{"1":"Commercial","2":"19","3":"Crestview Blvd W","4":"yes","5":"N/A","6":"no","7":"1","8":"Manning Ave","9":"N/A","10":"no","11":"7","12":"North Manning Ave","13":"yes","14":"N/A","15":"no","16":"1: Average Weekday (M-Th)","17":"4: Peak PM (3pm-7pm)","18":"4","19":"58","20":"2362","21":"2370","22":"NA","_rn_":"1153"},{"1":"Commercial","2":"19","3":"Crestview Blvd W","4":"yes","5":"N/A","6":"no","7":"3","8":"TH 36 WB Stillwater Blvd On-Ramp","9":"N/A","10":"no","11":"7","12":"North Manning Ave","13":"yes","14":"N/A","15":"no","16":"0: Average Day (M-Su)","17":"3: Mid-Day (10am-3pm)","18":"12","19":"142","20":"1672","21":"2989","22":"NA","_rn_":"1167"},{"1":"Commercial","2":"19","3":"Crestview Blvd W","4":"yes","5":"N/A","6":"no","7":"3","8":"TH 36 WB Stillwater Blvd On-Ramp","9":"N/A","10":"no","11":"7","12":"North Manning Ave","13":"yes","14":"N/A","15":"no","16":"0: Average Day (M-Su)","17":"4: Peak PM (3pm-7pm)","18":"5","19":"44","20":"649","21":"1810","22":"NA","_rn_":"1168"},{"1":"Commercial","2":"19","3":"Crestview Blvd W","4":"yes","5":"N/A","6":"no","7":"3","8":"TH 36 WB Stillwater Blvd On-Ramp","9":"N/A","10":"no","11":"7","12":"North Manning Ave","13":"yes","14":"N/A","15":"no","16":"1: Average Weekday (M-Th)","17":"3: Mid-Day (10am-3pm)","18":"21","19":"214","20":"2206","21":"3795","22":"NA","_rn_":"1171"},{"1":"Commercial","2":"19","3":"Crestview Blvd W","4":"yes","5":"N/A","6":"no","7":"3","8":"TH 36 WB Stillwater Blvd On-Ramp","9":"N/A","10":"no","11":"7","12":"North Manning Ave","13":"yes","14":"N/A","15":"no","16":"1: Average Weekday (M-Th)","17":"4: Peak PM (3pm-7pm)","18":"4","19":"58","20":"914","21":"2370","22":"NA","_rn_":"1172"}],"options":{"columns":{"min":{},"max":[10],"total":[22]},"rows":{"min":[10],"max":[10],"total":[6]},"pages":{}}}
+  </script>
+</div>
+<!-- rnb-frame-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>Unclear as to why these values are NA. Check with the experts.</p>
@@ -301,40 +459,95 @@ tail(mf_com[is.na(mf_com$Avg.Trip.Duration..sec.),])</code></pre>
 <h3>mf_personnal</h3>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuXG5tZl9wZXJzX25hbWUgPC0gZGlyKClbZ3JlcGwoXCIqX21mX3BlcnNvbmFsLmNzdlwiLGRpcigpKV1bMV1cblxubWZfcGVycyA8LSByZWFkLmNzdihtZl9wZXJzX25hbWUsc3RyaW5nc0FzRmFjdG9ycyA9IEZBTFNFKVxuZGlyKClcbnN0cihtZl9wZXJzKVxuXG5gYGAifQ== -->
-<pre class="r"><code>
-mf_pers_name &lt;- dir()[grepl(&quot;*_mf_personal.csv&quot;,dir())][1]
-
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubWZfcGVyc19uYW1lIDwtIGRpcigpW2dyZXBsKFwiKl9tZl9wZXJzb25hbC5jc3ZcIixkaXIoKSldWzFdXG5tZl9wZXJzIDwtIHJlYWQuY3N2KG1mX3BlcnNfbmFtZSxzdHJpbmdzQXNGYWN0b3JzID0gRkFMU0UpXG5kaXIoKVxuYGBgIn0= -->
+<pre class="r"><code>mf_pers_name &lt;- dir()[grepl(&quot;*_mf_personal.csv&quot;,dir())][1]
 mf_pers &lt;- read.csv(mf_pers_name,stringsAsFactors = FALSE)
-dir()
-str(mf_pers)
-</code></pre>
+dir()</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiIFsxXSBcIlByb2plY3RfT0RfTUYudHh0XCIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuIFsyXSBcIlJFQURNRV9PRF9NRi50eHRcIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuIFszXSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfODA0MV9tZl9jb21tZXJjaWFsLmNzdlwiICAgICAgICAgICAgIFxuIFs0XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfODA0MV9tZl9wZXJzb25hbC5jc3ZcIiAgICAgICAgICAgICAgIFxuIFs1XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfODA0MV96b25lX3RyYWZmaWNfbWZfY29tbWVyY2lhbC5jc3ZcIlxuIFs2XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfODA0MV96b25lX3RyYWZmaWNfbWZfcGVyc29uYWwuY3N2XCIgIFxuIFs3XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfODA0MV96b25lcy5jc3ZcIiAgICAgICAgICAgICAgICAgICAgIFxuIFs4XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfZGVzdGluYXRpb25fem9uZV9zZXQuY3BnXCIgICAgICAgICAgIFxuIFs5XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfZGVzdGluYXRpb25fem9uZV9zZXQuZGJmXCIgICAgICAgICAgIFxuWzEwXSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfZGVzdGluYXRpb25fem9uZV9zZXQucHJqXCIgICAgICAgICAgIFxuWzExXSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfZGVzdGluYXRpb25fem9uZV9zZXQuc2hwXCIgICAgICAgICAgIFxuWzEyXSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfZGVzdGluYXRpb25fem9uZV9zZXQuc2h4XCIgICAgICAgICAgIFxuWzEzXSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfbWlkZGxlX2ZpbHRlcl96b25lX3NldC5jcGdcIiAgICAgICAgIFxuWzE0XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfbWlkZGxlX2ZpbHRlcl96b25lX3NldC5kYmZcIiAgICAgICAgIFxuWzE1XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfbWlkZGxlX2ZpbHRlcl96b25lX3NldC5wcmpcIiAgICAgICAgIFxuWzE2XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfbWlkZGxlX2ZpbHRlcl96b25lX3NldC5zaHBcIiAgICAgICAgIFxuWzE3XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfbWlkZGxlX2ZpbHRlcl96b25lX3NldC5zaHhcIiAgICAgICAgIFxuWzE4XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfb3JpZ2luX3pvbmVfc2V0LmNwZ1wiICAgICAgICAgICAgICAgIFxuWzE5XSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfb3JpZ2luX3pvbmVfc2V0LmRiZlwiICAgICAgICAgICAgICAgIFxuWzIwXSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfb3JpZ2luX3pvbmVfc2V0LnByalwiICAgICAgICAgICAgICAgIFxuWzIxXSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfb3JpZ2luX3pvbmVfc2V0LnNocFwiICAgICAgICAgICAgICAgIFxuWzIyXSBcIlRIXzM2X01hbm5pbmdfRXhwYW5kZWRfb3JpZ2luX3pvbmVfc2V0LnNoeFwiICAgICAgICAgICAgICAgIFxuIn0= -->
+<pre><code> [1] &quot;Project_OD_MF.txt&quot;                                         
+ [2] &quot;README_OD_MF.txt&quot;                                          
+ [3] &quot;TH_36_Manning_Expanded_8041_mf_commercial.csv&quot;             
+ [4] &quot;TH_36_Manning_Expanded_8041_mf_personal.csv&quot;               
+ [5] &quot;TH_36_Manning_Expanded_8041_zone_traffic_mf_commercial.csv&quot;
+ [6] &quot;TH_36_Manning_Expanded_8041_zone_traffic_mf_personal.csv&quot;  
+ [7] &quot;TH_36_Manning_Expanded_8041_zones.csv&quot;                     
+ [8] &quot;TH_36_Manning_Expanded_destination_zone_set.cpg&quot;           
+ [9] &quot;TH_36_Manning_Expanded_destination_zone_set.dbf&quot;           
+[10] &quot;TH_36_Manning_Expanded_destination_zone_set.prj&quot;           
+[11] &quot;TH_36_Manning_Expanded_destination_zone_set.shp&quot;           
+[12] &quot;TH_36_Manning_Expanded_destination_zone_set.shx&quot;           
+[13] &quot;TH_36_Manning_Expanded_middle_filter_zone_set.cpg&quot;         
+[14] &quot;TH_36_Manning_Expanded_middle_filter_zone_set.dbf&quot;         
+[15] &quot;TH_36_Manning_Expanded_middle_filter_zone_set.prj&quot;         
+[16] &quot;TH_36_Manning_Expanded_middle_filter_zone_set.shp&quot;         
+[17] &quot;TH_36_Manning_Expanded_middle_filter_zone_set.shx&quot;         
+[18] &quot;TH_36_Manning_Expanded_origin_zone_set.cpg&quot;                
+[19] &quot;TH_36_Manning_Expanded_origin_zone_set.dbf&quot;                
+[20] &quot;TH_36_Manning_Expanded_origin_zone_set.prj&quot;                
+[21] &quot;TH_36_Manning_Expanded_origin_zone_set.shp&quot;                
+[22] &quot;TH_36_Manning_Expanded_origin_zone_set.shx&quot;                </code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc3RyKG1mX3BlcnMpXG5gYGAifQ== -->
+<pre class="r"><code>str(mf_pers)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiJ2RhdGEuZnJhbWUnOlx0MTA5MyBvYnMuIG9mICAyMiB2YXJpYWJsZXM6XG4gJCBEZXZpY2UuVHlwZSAgICAgICAgICAgICAgICAgICAgICAgICAgIDogY2hyICBcIlBlcnNvbmFsXCIgXCJQZXJzb25hbFwiIFwiUGVyc29uYWxcIiBcIlBlcnNvbmFsXCIgLi4uXG4gJCBPcmlnaW4uWm9uZS5JRCAgICAgICAgICAgICAgICAgICAgICAgIDogaW50ICA0IDQgNCA0IDQgNCA0IDQgNCA0IC4uLlxuICQgT3JpZ2luLlpvbmUuTmFtZSAgICAgICAgICAgICAgICAgICAgICA6IGNociAgXCJOb3JlbGwgQXZlXCIgXCJOb3JlbGwgQXZlXCIgXCJOb3JlbGwgQXZlXCIgXCJOb3JlbGwgQXZlXCIgLi4uXG4gJCBPcmlnaW4uWm9uZS5Jcy5QYXNzLlRocm91Z2ggICAgICAgICAgIDogY2hyICBcInllc1wiIFwieWVzXCIgXCJ5ZXNcIiBcInllc1wiIC4uLlxuICQgT3JpZ2luLlpvbmUuRGlyZWN0aW9uLi5kZWdyZWVzLiAgICAgICA6IGNociAgXCJOL0FcIiBcIk4vQVwiIFwiTi9BXCIgXCJOL0FcIiAuLi5cbiAkIE9yaWdpbi5ab25lLmlzLkJpLkRpcmVjdGlvbiAgICAgICAgICAgOiBjaHIgIFwibm9cIiBcIm5vXCIgXCJub1wiIFwibm9cIiAuLi5cbiAkIE1pZGRsZS5GaWx0ZXIuWm9uZS5JRCAgICAgICAgICAgICAgICAgOiBpbnQgIDEgMSAxIDEgMSAxIDEgMSAxIDEgLi4uXG4gJCBNaWRkbGUuRmlsdGVyLlpvbmUuTmFtZSAgICAgICAgICAgICAgIDogY2hyICBcIk1hbm5pbmcgQXZlXCIgXCJNYW5uaW5nIEF2ZVwiIFwiTWFubmluZyBBdmVcIiBcIk1hbm5pbmcgQXZlXCIgLi4uXG4gJCBNaWRkbGUuRmlsdGVyLlpvbmUuRGlyZWN0aW9uLi5kZWdyZWVzLjogY2hyICBcIk4vQVwiIFwiTi9BXCIgXCJOL0FcIiBcIk4vQVwiIC4uLlxuICQgTWlkZGxlLkZpbHRlci5ab25lLmlzLkJpLkRpcmVjdGlvbiAgICA6IGNociAgXCJub1wiIFwibm9cIiBcIm5vXCIgXCJub1wiIC4uLlxuICQgRGVzdGluYXRpb24uWm9uZS5JRCAgICAgICAgICAgICAgICAgICA6IGludCAgNyA3IDcgNyA3IDcgNyA3IDcgNyAuLi5cbiAkIERlc3RpbmF0aW9uLlpvbmUuTmFtZSAgICAgICAgICAgICAgICAgOiBjaHIgIFwiTm9ydGggTWFubmluZyBBdmVcIiBcIk5vcnRoIE1hbm5pbmcgQXZlXCIgXCJOb3J0aCBNYW5uaW5nIEF2ZVwiIFwiTm9ydGggTWFubmluZyBBdmVcIiAuLi5cbiAkIERlc3RpbmF0aW9uLlpvbmUuSXMuUGFzcy5UaHJvdWdoICAgICAgOiBjaHIgIFwieWVzXCIgXCJ5ZXNcIiBcInllc1wiIFwieWVzXCIgLi4uXG4gJCBEZXN0aW5hdGlvbi5ab25lLkRpcmVjdGlvbi4uZGVncmVlcy4gIDogY2hyICBcIk4vQVwiIFwiTi9BXCIgXCJOL0FcIiBcIk4vQVwiIC4uLlxuICQgRGVzdGluYXRpb24uWm9uZS5pcy5CaS5EaXJlY3Rpb24gICAgICA6IGNociAgXCJub1wiIFwibm9cIiBcIm5vXCIgXCJub1wiIC4uLlxuICQgRGF5LlR5cGUgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA6IGNociAgXCIwOiBBdmVyYWdlIERheSAoTS1TdSlcIiBcIjA6IEF2ZXJhZ2UgRGF5IChNLVN1KVwiIFwiMDogQXZlcmFnZSBEYXkgKE0tU3UpXCIgXCIwOiBBdmVyYWdlIERheSAoTS1TdSlcIiAuLi5cbiAkIERheS5QYXJ0ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgOiBjaHIgIFwiMDogQWxsIERheSAoMTJhbS0xMmFtKVwiIFwiMjogUGVhayBBTSAoNmFtLTEwYW0pXCIgXCIzOiBNaWQtRGF5ICgxMGFtLTNwbSlcIiBcIjQ6IFBlYWsgUE0gKDNwbS03cG0pXCIgLi4uXG4gJCBPLk0uRC5UcmFmZmljLi5TdEwuSW5kZXguICAgICAgICAgICAgIDogaW50ICAyNTMgMTcgODcgODcgNjEgMjM1IDc4IDc4IDc4IDI5NiAuLi5cbiAkIE9yaWdpbi5ab25lLlRyYWZmaWMuLlN0TC5JbmRleC4gICAgICAgOiBpbnQgIDExMDcxIDI1MzAgNDI0OSAzMzQxIDg4MSAxMTQxMSAzOTkxIDMzNjUgOTM5IDEwMjU5IC4uLlxuICQgTWlkZGxlLkZpbHRlci5ab25lLlRyYWZmaWMuLlN0TC5JbmRleC46IGludCAgMTk3ODcgNDA2NiA3MzAyIDU5NzYgMjIzMyAxOTA2NSA1ODM4IDU5MzIgMjE3NiAyMDY2NiAuLi5cbiAkIERlc3RpbmF0aW9uLlpvbmUuVHJhZmZpYy4uU3RMLkluZGV4LiAgOiBpbnQgIDE5NDk5IDQwMjIgNzEyOCA1OTE1IDIyMjUgMTg5MzkgNTcxMyA1OTMyIDIxOTEgMjAwNzUgLi4uXG4gJCBBdmcuVHJpcC5EdXJhdGlvbi4uc2VjLiAgICAgICAgICAgICAgIDogY2hyICBcIjI3MlwiIFwiMjQ0XCIgXCIzMTNcIiBcIjI5M1wiIC4uLlxuIn0= -->
+<pre><code>'data.frame':   1093 obs. of  22 variables:
+ $ Device.Type                           : chr  &quot;Personal&quot; &quot;Personal&quot; &quot;Personal&quot; &quot;Personal&quot; ...
+ $ Origin.Zone.ID                        : int  4 4 4 4 4 4 4 4 4 4 ...
+ $ Origin.Zone.Name                      : chr  &quot;Norell Ave&quot; &quot;Norell Ave&quot; &quot;Norell Ave&quot; &quot;Norell Ave&quot; ...
+ $ Origin.Zone.Is.Pass.Through           : chr  &quot;yes&quot; &quot;yes&quot; &quot;yes&quot; &quot;yes&quot; ...
+ $ Origin.Zone.Direction..degrees.       : chr  &quot;N/A&quot; &quot;N/A&quot; &quot;N/A&quot; &quot;N/A&quot; ...
+ $ Origin.Zone.is.Bi.Direction           : chr  &quot;no&quot; &quot;no&quot; &quot;no&quot; &quot;no&quot; ...
+ $ Middle.Filter.Zone.ID                 : int  1 1 1 1 1 1 1 1 1 1 ...
+ $ Middle.Filter.Zone.Name               : chr  &quot;Manning Ave&quot; &quot;Manning Ave&quot; &quot;Manning Ave&quot; &quot;Manning Ave&quot; ...
+ $ Middle.Filter.Zone.Direction..degrees.: chr  &quot;N/A&quot; &quot;N/A&quot; &quot;N/A&quot; &quot;N/A&quot; ...
+ $ Middle.Filter.Zone.is.Bi.Direction    : chr  &quot;no&quot; &quot;no&quot; &quot;no&quot; &quot;no&quot; ...
+ $ Destination.Zone.ID                   : int  7 7 7 7 7 7 7 7 7 7 ...
+ $ Destination.Zone.Name                 : chr  &quot;North Manning Ave&quot; &quot;North Manning Ave&quot; &quot;North Manning Ave&quot; &quot;North Manning Ave&quot; ...
+ $ Destination.Zone.Is.Pass.Through      : chr  &quot;yes&quot; &quot;yes&quot; &quot;yes&quot; &quot;yes&quot; ...
+ $ Destination.Zone.Direction..degrees.  : chr  &quot;N/A&quot; &quot;N/A&quot; &quot;N/A&quot; &quot;N/A&quot; ...
+ $ Destination.Zone.is.Bi.Direction      : chr  &quot;no&quot; &quot;no&quot; &quot;no&quot; &quot;no&quot; ...
+ $ Day.Type                              : chr  &quot;0: Average Day (M-Su)&quot; &quot;0: Average Day (M-Su)&quot; &quot;0: Average Day (M-Su)&quot; &quot;0: Average Day (M-Su)&quot; ...
+ $ Day.Part                              : chr  &quot;0: All Day (12am-12am)&quot; &quot;2: Peak AM (6am-10am)&quot; &quot;3: Mid-Day (10am-3pm)&quot; &quot;4: Peak PM (3pm-7pm)&quot; ...
+ $ O.M.D.Traffic..StL.Index.             : int  253 17 87 87 61 235 78 78 78 296 ...
+ $ Origin.Zone.Traffic..StL.Index.       : int  11071 2530 4249 3341 881 11411 3991 3365 939 10259 ...
+ $ Middle.Filter.Zone.Traffic..StL.Index.: int  19787 4066 7302 5976 2233 19065 5838 5932 2176 20666 ...
+ $ Destination.Zone.Traffic..StL.Index.  : int  19499 4022 7128 5915 2225 18939 5713 5932 2191 20075 ...
+ $ Avg.Trip.Duration..sec.               : chr  &quot;272&quot; &quot;244&quot; &quot;313&quot; &quot;293&quot; ...</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>Lets sgtart at the end with the most interesting field; “Avg.Trip.Duration..sec”. We want to check the data for outliers, missing values or interesting trents</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuXG4jIyMgY2hhbmdlIHZhcmlhYmxlIHRvIG51bWVyaWNcblxuXG5tZl9wZXJzJEF2Zy5UcmlwLkR1cmF0aW9uLi5zZWMuIDwtICBhcy5udW1lcmljKG1mX3BlcnMkQXZnLlRyaXAuRHVyYXRpb24uLnNlYy4pXG5cbmhpc3QobWZfcGVycyRBdmcuVHJpcC5EdXJhdGlvbi4uc2VjLixicmVha3MgPSAyMDApXG5cbnRhYmxlKGlzLm5hKG1mX3BlcnMkQXZnLlRyaXAuRHVyYXRpb24uLnNlYy4pKVxuXG5gYGAifQ== -->
-<pre class="r"><code>
-### change variable to numeric
-
-
-mf_pers$Avg.Trip.Duration..sec. &lt;-  as.numeric(mf_pers$Avg.Trip.Duration..sec.)
-
-hist(mf_pers$Avg.Trip.Duration..sec.,breaks = 200)
-
-table(is.na(mf_pers$Avg.Trip.Duration..sec.))
-</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuIyMjIGNoYW5nZSB2YXJpYWJsZSB0byBudW1lcmljXG5tZl9wZXJzJEF2Zy5UcmlwLkR1cmF0aW9uLi5zZWMuIDwtICBhcy5udW1lcmljKG1mX3BlcnMkQXZnLlRyaXAuRHVyYXRpb24uLnNlYy4pXG5gYGAifQ== -->
+<pre class="r"><code>### change variable to numeric
+mf_pers$Avg.Trip.Duration..sec. &lt;-  as.numeric(mf_pers$Avg.Trip.Duration..sec.)</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiTkFzIGludHJvZHVjZWQgYnkgY29lcmNpb25cbiJ9 -->
+<pre><code>NAs introduced by coercion</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuaGlzdChtZl9wZXJzJEF2Zy5UcmlwLkR1cmF0aW9uLi5zZWMuLGJyZWFrcyA9IDIwMClcbmBgYCJ9 -->
+<pre class="r"><code>hist(mf_pers$Avg.Trip.Duration..sec.,breaks = 200)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-plot-begin eyJjb25kaXRpb25zIjpbXSwiaGVpZ2h0Ijo0MzIuNjMyOSwic2l6ZV9iZWhhdmlvciI6MCwid2lkdGgiOjcwMH0= -->
+<p><img src="data:image/png;base64,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" /></p>
+<!-- rnb-plot-end -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudGFibGUoaXMubmEobWZfcGVycyRBdmcuVHJpcC5EdXJhdGlvbi4uc2VjLikpXG5gYGAifQ== -->
+<pre class="r"><code>table(is.na(mf_pers$Avg.Trip.Duration..sec.))</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG5GQUxTRSAgVFJVRSBcbiAgOTgyICAgMTExIFxuIn0= -->
+<pre><code>
+FALSE  TRUE 
+  982   111 </code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuXG5tZl9wZXJzX21lbHQgPC0gbWVsdChtZl9wZXJzLG1lYXN1cmUudmFycyA9IGNvbG5hbWVzKG1mX3BlcnMpWzI6MTVdLGlkLnZhcnMgPSBjb2xuYW1lcyhtZl9wZXJzKVtjKDEsMTY6MjIpXSlcblxubWZfcGVyc19tZWx0JGdyb3VwIDwtIGlmZWxzZShncmVwbChcIk9yaWdpblwiLG1mX3BlcnNfbWVsdCR2YXJpYWJsZSksXCJGcm9tXCIsXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgaWZlbHNlKGdyZXBsKFwiTWlkZGxlXCIsbWZfcGVyc19tZWx0JHZhcmlhYmxlKSxcIlRocm91Z2hcIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZmVsc2UoZ3JlcGwoXCJEZXN0aW5hdGlvblwiLG1mX3BlcnNfbWVsdCR2YXJpYWJsZSksXCJUb1wiLE5BKSkpXG5gYGAifQ== -->
-<pre class="r"><code>
-mf_pers_melt &lt;- melt(mf_pers,measure.vars = colnames(mf_pers)[2:15],id.vars = colnames(mf_pers)[c(1,16:22)])
-
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubWZfcGVyc19tZWx0IDwtIG1lbHQobWZfcGVycyxtZWFzdXJlLnZhcnMgPSBjb2xuYW1lcyhtZl9wZXJzKVsyOjE1XSxpZC52YXJzID0gY29sbmFtZXMobWZfcGVycylbYygxLDE2OjIyKV0pXG5tZl9wZXJzX21lbHQkZ3JvdXAgPC0gaWZlbHNlKGdyZXBsKFwiT3JpZ2luXCIsbWZfcGVyc19tZWx0JHZhcmlhYmxlKSxcIkZyb21cIixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZmVsc2UoZ3JlcGwoXCJNaWRkbGVcIixtZl9wZXJzX21lbHQkdmFyaWFibGUpLFwiVGhyb3VnaFwiLFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmZWxzZShncmVwbChcIkRlc3RpbmF0aW9uXCIsbWZfcGVyc19tZWx0JHZhcmlhYmxlKSxcIlRvXCIsTkEpKSlcbmBgYCJ9 -->
+<pre class="r"><code>mf_pers_melt &lt;- melt(mf_pers,measure.vars = colnames(mf_pers)[2:15],id.vars = colnames(mf_pers)[c(1,16:22)])
 mf_pers_melt$group &lt;- ifelse(grepl(&quot;Origin&quot;,mf_pers_melt$variable),&quot;From&quot;,
                             ifelse(grepl(&quot;Middle&quot;,mf_pers_melt$variable),&quot;Through&quot;,
                             ifelse(grepl(&quot;Destination&quot;,mf_pers_melt$variable),&quot;To&quot;,NA)))</code></pre>
@@ -347,11 +560,13 @@ mf_pers_melt$group &lt;- ifelse(grepl(&quot;Origin&quot;,mf_pers_melt$variable),
 <p>We combine the commerical and personnal dataset.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuXG5tZiA8LSByYmluZChtZl9wZXJzX21lbHQsbWZfY29tX21lbHQpXG5cbmBgYCJ9 -->
-<pre class="r"><code>
-mf &lt;- rbind(mf_pers_melt,mf_com_melt)
-</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubWYgPC0gcmJpbmQobWZfcGVyc19tZWx0LG1mX2NvbV9tZWx0KVxuYGBgIn0= -->
+<pre class="r"><code>mf &lt;- rbind(mf_pers_melt,mf_com_melt)</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiRXJyb3IgaW4gcmJpbmQobWZfcGVyc19tZWx0LCBtZl9jb21fbWVsdCkgOiBcbiAgb2JqZWN0ICdtZl9jb21fbWVsdCcgbm90IGZvdW5kXG4ifQ== -->
+<pre><code>Error in rbind(mf_pers_melt, mf_com_melt) : 
+  object 'mf_com_melt' not found</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -364,12 +579,6 @@ mf &lt;- rbind(mf_pers_melt,mf_com_melt)
 <h3>Origin Shapefile</h3>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc2hhcGVfb3JnX25hbWUgPC0gZGlyKClbZ3JlcGwoXCIqX29yaWdpbl96b25lX3NldC5jcGcqXCIsZGlyKCkpXVxuc2hhcGVfb3JnX25hbWUgPC0gc3Vic3RyKHNoYXBlX29yZ19uYW1lLDEsbmNoYXIoc2hhcGVfb3JnX25hbWUpLTQpXG5cbnNoYXBlX29yZyA8LSByZ2RhbDo6cmVhZE9HUihkc249Jy4nLGxheWVyID0gc2hhcGVfb3JnX25hbWUpXG5gYGAifQ== -->
-<pre class="r"><code>shape_org_name &lt;- dir()[grepl(&quot;*_origin_zone_set.cpg*&quot;,dir())]
-shape_org_name &lt;- substr(shape_org_name,1,nchar(shape_org_name)-4)
-
-shape_org &lt;- rgdal::readOGR(dsn='.',layer = shape_org_name)</code></pre>
-<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
@@ -411,30 +620,10 @@ leaflet(shape_org) %&gt;%
 <h3>Destination Shapefile</h3>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc2hhcGVfZGVzdF9uYW1lIDwtIGRpcigpW2dyZXBsKFwiKl9kZXN0aW5hdGlvbl96b25lX3NldC5jcGcqXCIsZGlyKCkpXVxuc2hhcGVfZGVzdF9uYW1lIDwtIHN1YnN0cihzaGFwZV9kZXN0X25hbWUsMSxuY2hhcihzaGFwZV9kZXN0X25hbWUpLTQpXG5cbnNoYXBlX2Rlc3QgPC0gcmdkYWw6OnJlYWRPR1IoZHNuPScuJyxsYXllciA9IHNoYXBlX2Rlc3RfbmFtZSlcblxuYGBgIn0= -->
-<pre class="r"><code>shape_dest_name &lt;- dir()[grepl(&quot;*_destination_zone_set.cpg*&quot;,dir())]
-shape_dest_name &lt;- substr(shape_dest_name,1,nchar(shape_dest_name)-4)
-
-shape_dest &lt;- rgdal::readOGR(dsn='.',layer = shape_dest_name)
-</code></pre>
-<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuXG5cbmxhYmVsc19kZXN0IDwtIHBhc3RlKCdJRDonLHNoYXBlX2Rlc3QkaWQsJywgJywgc2hhcGVfZGVzdCRuYW1lLHNlcD0nJylcblxubGVhZmxldChzaGFwZV9kZXN0KSAlPiVcbiAgYWRkVGlsZXMoZ3JvdXAgPSBcIk9TTSAoZGVmYXVsdClcIikgJT4lXG4gIGFkZFBvbHlnb25zKGNvbG9yID0gXCJyZWRcIiwgd2VpZ2h0ID0gMSwgc21vb3RoRmFjdG9yID0gMC41LFxuICAgIG9wYWNpdHkgPSAxLjAsIGZpbGxPcGFjaXR5ID0gMC41LFxuICAgIGhpZ2hsaWdodE9wdGlvbnMgPSBoaWdobGlnaHRPcHRpb25zKGNvbG9yID0gXCJ3aGl0ZVwiLCB3ZWlnaHQgPSA1LFxuICAgICAgYnJpbmdUb0Zyb250ID0gVFJVRSksbGFiZWw9bGFiZWxzX2Rlc3QpXG5cbmBgYCJ9 -->
-<pre class="r"><code>
-
-labels_dest &lt;- paste('ID:',shape_dest$id,', ', shape_dest$name,sep='')
-
-leaflet(shape_dest) %&gt;%
-  addTiles(group = &quot;OSM (default)&quot;) %&gt;%
-  addPolygons(color = &quot;red&quot;, weight = 1, smoothFactor = 0.5,
-    opacity = 1.0, fillOpacity = 0.5,
-    highlightOptions = highlightOptions(color = &quot;white&quot;, weight = 5,
-      bringToFront = TRUE),label=labels_dest)
-</code></pre>
-<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -442,28 +631,10 @@ leaflet(shape_dest) %&gt;%
 <h3>Middle Shapefile</h3>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuc2hhcGVfbWlkX25hbWUgPC0gZGlyKClbZ3JlcGwoXCIqX2ZpbHRlcl96b25lX3NldC5jcGcqXCIsZGlyKCkpXVxuc2hhcGVfbWlkX25hbWUgPC0gc3Vic3RyKHNoYXBlX21pZF9uYW1lLDEsbmNoYXIoc2hhcGVfbWlkX25hbWUpLTQpXG5cbnNoYXBlX21pZCA8LSByZ2RhbDo6cmVhZE9HUihkc249Jy4nLGxheWVyID0gc2hhcGVfbWlkX25hbWUpXG5cbmBgYCJ9 -->
-<pre class="r"><code>shape_mid_name &lt;- dir()[grepl(&quot;*_filter_zone_set.cpg*&quot;,dir())]
-shape_mid_name &lt;- substr(shape_mid_name,1,nchar(shape_mid_name)-4)
-
-shape_mid &lt;- rgdal::readOGR(dsn='.',layer = shape_mid_name)
-</code></pre>
-<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuXG5sYWJlbHNfbWlkIDwtIHBhc3RlKCdJRDonLHNoYXBlX21pZCRpZCwnLCAnLCBzaGFwZV9taWQkbmFtZSxzZXA9JycpXG5cbmxlYWZsZXQoc2hhcGVfbWlkKSAlPiVcbiAgYWRkVGlsZXMoZ3JvdXAgPSBcIk9TTSAoZGVmYXVsdClcIikgJT4lXG4gIGFkZFBvbHlnb25zKGNvbG9yID0gXCJyZWRcIiwgd2VpZ2h0ID0gMSwgc21vb3RoRmFjdG9yID0gMC41LFxuICAgIG9wYWNpdHkgPSAxLjAsIGZpbGxPcGFjaXR5ID0gMC41LFxuICAgIGhpZ2hsaWdodE9wdGlvbnMgPSBoaWdobGlnaHRPcHRpb25zKGNvbG9yID0gXCJ3aGl0ZVwiLCB3ZWlnaHQgPSA1LFxuICAgICAgYnJpbmdUb0Zyb250ID0gVFJVRSksbGFiZWw9bGFiZWxzX21pZClcbmBgYCJ9 -->
-<pre class="r"><code>
-labels_mid &lt;- paste('ID:',shape_mid$id,', ', shape_mid$name,sep='')
-
-leaflet(shape_mid) %&gt;%
-  addTiles(group = &quot;OSM (default)&quot;) %&gt;%
-  addPolygons(color = &quot;red&quot;, weight = 1, smoothFactor = 0.5,
-    opacity = 1.0, fillOpacity = 0.5,
-    highlightOptions = highlightOptions(color = &quot;white&quot;, weight = 5,
-      bringToFront = TRUE),label=labels_mid)</code></pre>
-<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
