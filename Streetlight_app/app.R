@@ -1,8 +1,8 @@
 
 library(shiny)
 library(data.table)
+library(leaflet)
 
-pathx <-"C:/Users/dgallen/Desktop/Streetlight/TH_36_Manning_Expanded_Updated_8041_Travel"
 
 ui <- fluidPage(
   titlePanel("Multiple file uploads"),
@@ -19,7 +19,7 @@ ui <- fluidPage(
       plotOutput('hist1'),
       plotOutput('hist2'),
       textOutput('path'),
-      plotOutput('shapefile')
+      leafletOutput('shapefile')
     )
   )
 )
@@ -49,16 +49,25 @@ server <- function(input, output) {
     hist(mf_com$`Avg Trip Duration (sec)`,breaks = 200)
   }) 
   
-  pathtoshape <-  reactive({as.character(input$path)})
+  pathtoshape <-  reactive({as.character(gsub("\\\\", "/", input$path))})
 
   output$path <- renderText({pathtoshape()})
  
-  output$shapefile <- renderPlot({
+  output$shapefile <- renderLeaflet({
     
     input$plotButton1
 
-    isolate(plot(readOGR(dsn=pathtoshape(),
-                         layer = 'TH_36_Manning_Expanded_destination_zone_set')))
+    shape <- isolate(readOGR(dsn=pathtoshape(),
+                         layer = 'TH_36_Manning_Expanded_destination_zone_set'))
+    
+    leaflet(shape) %>%
+      addTiles(group = "OSM (default)") %>%
+      addPolygons(color = "red", weight = 1, smoothFactor = 0.5,
+                  opacity = 1.0, fillOpacity = 0.5,
+                  highlightOptions = highlightOptions(color = "white", weight = 5,
+                                                      bringToFront = TRUE))
+    
+    
     })
 }
 
