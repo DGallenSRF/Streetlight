@@ -5,54 +5,81 @@ library(leaflet)
 library(rgdal)
 
 
-ui <- fluidPage(
-  
-  fluidRow(
-    column(12,
-           titlePanel("Multiple file uploads"),
-           column(6,
-                  fileInput("csvs",
-                                label="Upload CSVs here",
-                                multiple = TRUE),
-                  hr(),
-                  textOutput('csvs')
-                  ),
-           column(6,
-                  textInput("path","Path to Shapefile"),
-                  hr(),
-                  textOutput('path')
-                  )
-    )
+ui <- navbarPage(
+  title = 'Streetlight!',
+  tabPanel('Load Data',
+           fluidRow(
+             column(12,
+                    column(6,
+                           fileInput("csvs",
+                                     label="Upload CSVs here",
+                                     multiple = TRUE),
+                           hr(),
+                           tableOutput('csvs')
+                    ),
+                    column(6,
+                           textInput("path","Path to Shapefile"),
+                           hr(),
+                           tableOutput('Shapefile_names')
+                    )
+             )
+           )
+  ),
+  tabPanel("Shapefiles",
+           fluidRow(
+             column(12,
+                    selectInput('Shapefile_dropdown', 'Select Shapefile', '',width = 1000),
+                    # allows for long texts to not be wrapped, and sets width of drop-down
+                    hr(),
+                    leafletOutput('shapefile'),
+                    hr(),
+                    tableOutput('shape_table')
+             )
+           )
   )
-  # fluidRow(
-  #   column(12,
-  # 
-  #     textOutput('path'),
-  #     leafletOutput('shapefile')
-  #   )
-  # )
 )
 
 
-server <- function(input, output) {
- 
+
+server <- function(input, output,session) {
   
-   mycsvs<-eventReactive(input$csvs,{
+  
+  mycsvs<-eventReactive(input$csvs,{
     lapply(input$csvs$datapath, fread)
   })
-     
-  output$csvs <- renderText({input$csvs$name}) 
+  
+  output$csvs <- renderTable({
+    data.frame(CSVs = input$csvs$name)
+    }) 
+  
+  output$Shapefile_names <- renderTable({
+    data.frame(Shapefiles=dir(pathtoshape())[grepl('.shp',dir(pathtoshape()))])
+  })
   
   pathtoshape <-  reactive({as.character(gsub("\\\\", "/", input$path))})
-
-  output$path <- renderText({dir(pathtoshape())[grepl('.shp',dir(pathtoshape()))]})
- 
+  
+  Shapefile_IDs <- reactive({
+    vars <- dir(pathtoshape())[grepl('.shp',dir(pathtoshape()))]
+    return(vars)
+  })
+  
+  observe({
+    updateSelectInput(session,'Shapefile_dropdown',
+                      choices = Shapefile_IDs()
+    )
+  })
+  
+  layers <- reactive({
+    name <- input$Shapefile_dropdown
+    fixed_name <- gsub('.shp','',name)
+    return(fixed_name)
+  })
+  
+  #Leaflet
   output$shapefile <- renderLeaflet({
     
-    input$plotButton2
-
-    shape <- isolate(readOGR(dsn=pathtoshape(),
-                         layer = 'TH_36_Manning_Expanded_destination_zone_set'))
+    shape <- readOGR(dsn=pathtoshape(),
+                     layer = layers())
     
     leaflet(shape) %>%
       addTiles(group = "OSM (default)") %>%
@@ -62,7 +89,14 @@ server <- function(input, output) {
                                                       bringToFront = TRUE))
     
     
-    })
+  })
+  
+  output$shape_table <- renderTable({
+    
+    shape <- readOGR(dsn=pathtoshape(),
+                     layer = layers())
+    data.frame(shape)
+  })
 }
 
 shinyApp(ui = ui, server = server)
