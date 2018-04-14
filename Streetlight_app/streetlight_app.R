@@ -2,6 +2,7 @@
 library(shiny)
 library(data.table)
 library(leaflet)
+library(rgdal)
 
 
 ui <- fluidPage(
