@@ -7,19 +7,17 @@ navbarPage("Streetlight",
   tabPanel("Load Directory",
     sidebarLayout(
       sidebarPanel(
-        shinyDirButton("dir", "Chose directory", "Upload")
-  ),
-  mainPanel(
-    h4("output$dir"),
-    verbatimTextOutput("dir"), br(),
-    h4("Files in that dir"),
-    verbatimTextOutput("files")
+        fileInput("file1",label =  "Choose CSV File",multiple = TRUE,
+                  accept = c(
+                    "text/csv",
+                    "text/comma-separated-values,text/plain",
+                    ".csv")
+        )
+      ),
+      mainPanel(
+        textOutput("count")
+      )
     )
-  )
-  ),
-  tabPanel("Shapefiles",
-             mainPanel(
-               plotOutput("plot1")
   )
 )
 
