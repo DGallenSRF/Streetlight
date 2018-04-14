@@ -1,0 +1,575 @@
+Device Type,Zone Type,Zone ID,Zone Name,Zone Is Pass-Through,Zone Direction (degrees),Zone is Bi-Direction,Day Type,Day Part,Zone Traffic (Trip Counts),Zone Traffic (StL Index)
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),5378,7810
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),11,16
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),740,1075
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),2296,3334
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),1756,2550
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),575,835
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),3116,7903
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),5,13
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),437,1108
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),1218,3089
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),1073,2721
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),383,971
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),1470,7492
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),3,15
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),189,963
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),729,3716
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),423,2156
+Personal,Origin,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),126,642
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),1946,2826
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),10,15
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),270,392
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),752,1092
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),741,1076
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),173,251
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),1146,2906
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),5,13
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),163,413
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),412,1045
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),467,1184
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),99,251
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),502,2559
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),2,10
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),70,357
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),229,1167
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),152,775
+Personal,Origin,11,Oak Green Ave South,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),49,250
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),113,164
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),1,1
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),20,29
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),46,67
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),38,55
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),8,12
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),59,150
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),1,3
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),7,18
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),26,66
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),20,51
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),5,13
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),34,173
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),7,36
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),11,56
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),15,76
+Personal,Origin,12,Stillwater Motors,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),1,5
+Personal,Origin,13,58th St West,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),871,1265
+Personal,Origin,13,58th St West,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),3,4
+Personal,Origin,13,58th St West,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),181,263
+Personal,Origin,13,58th St West,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),349,507
+Personal,Origin,13,58th St West,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),290,421
+Personal,Origin,13,58th St West,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),48,70
+Personal,Origin,13,58th St West,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),627,1590
+Personal,Origin,13,58th St West,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),2,5
+Personal,Origin,13,58th St West,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),145,368
+Personal,Origin,13,58th St West,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),240,609
+Personal,Origin,13,58th St West,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),210,533
+Personal,Origin,13,58th St West,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),30,76
+Personal,Origin,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),116,591
+Personal,Origin,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),1,5
+Personal,Origin,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),9,46
+Personal,Origin,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),60,306
+Personal,Origin,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),36,183
+Personal,Origin,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),10,51
+Personal,Origin,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),4650,6753
+Personal,Origin,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),31,45
+Personal,Origin,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),911,1323
+Personal,Origin,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),1873,2720
+Personal,Origin,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),1328,1929
+Personal,Origin,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),507,736
+Personal,Origin,14,Greeley St,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),3002,7614
+Personal,Origin,14,Greeley St,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),17,43
+Personal,Origin,14,Greeley St,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),672,1704
+Personal,Origin,14,Greeley St,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),1161,2945
+Personal,Origin,14,Greeley St,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),829,2102
+Personal,Origin,14,Greeley St,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),323,819
+Personal,Origin,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),1007,5132
+Personal,Origin,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),12,61
+Personal,Origin,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),111,566
+Personal,Origin,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),458,2334
+Personal,Origin,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),314,1600
+Personal,Origin,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),112,571
+Personal,Origin,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),6055,8793
+Personal,Origin,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),52,76
+Personal,Origin,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),1095,1590
+Personal,Origin,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),2572,3735
+Personal,Origin,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),1751,2543
+Personal,Origin,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),585,850
+Personal,Origin,15,Washington Ave,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),3620,9181
+Personal,Origin,15,Washington Ave,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),24,61
+Personal,Origin,15,Washington Ave,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),693,1758
+Personal,Origin,15,Washington Ave,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),1451,3680
+Personal,Origin,15,Washington Ave,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),1069,2711
+Personal,Origin,15,Washington Ave,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),383,971
+Personal,Origin,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),1539,7844
+Personal,Origin,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),19,97
+Personal,Origin,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),212,1081
+Personal,Origin,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),755,3848
+Personal,Origin,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),410,2090
+Personal,Origin,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),143,729
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),8859,12865
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),55,80
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),1514,2199
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),3291,4779
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),3042,4418
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),957,1390
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),5281,13394
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),35,89
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),1014,2572
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),1766,4479
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),1880,4768
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),586,1486
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),2290,11672
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),17,87
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),247,1259
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),1078,5494
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),714,3639
+Personal,Origin,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),234,1193
+Personal,Origin,17,58th St East,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),5915,8590
+Personal,Origin,17,58th St East,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),32,46
+Personal,Origin,17,58th St East,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),1014,1473
+Personal,Origin,17,58th St East,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),2439,3542
+Personal,Origin,17,58th St East,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),1949,2830
+Personal,Origin,17,58th St East,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),481,699
+Personal,Origin,17,58th St East,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),3526,8943
+Personal,Origin,17,58th St East,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),16,41
+Personal,Origin,17,58th St East,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),681,1727
+Personal,Origin,17,58th St East,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),1347,3416
+Personal,Origin,17,58th St East,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),1174,2977
+Personal,Origin,17,58th St East,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),308,781
+Personal,Origin,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),1537,7834
+Personal,Origin,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),12,61
+Personal,Origin,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),174,887
+Personal,Origin,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),785,4001
+Personal,Origin,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),462,2355
+Personal,Origin,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),104,530
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),7118,10337
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),107,155
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),1107,1608
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),2716,3944
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),2408,3497
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),780,1133
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),4177,10594
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),53,134
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),745,1889
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),1497,3797
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),1433,3634
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),449,1139
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),2032,10357
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),42,214
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),206,1050
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),870,4434
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),677,3451
+Personal,Origin,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),237,1208
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),1050,1525
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),3,4
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),194,282
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),417,606
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),333,484
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),103,150
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),681,1727
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),1,3
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),146,370
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),251,637
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),216,548
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),67,170
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),223,1137
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),1,5
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),28,143
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),106,540
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),68,347
+Personal,Origin,19,Crestview Blvd W,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),20,102
+Personal,Origin,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),273,396
+Personal,Origin,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),2,3
+Personal,Origin,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),48,70
+Personal,Origin,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),101,147
+Personal,Origin,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),90,131
+Personal,Origin,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),32,46
+Personal,Origin,20,North Frontage Road,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),184,467
+Personal,Origin,20,North Frontage Road,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),1,3
+Personal,Origin,20,North Frontage Road,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),33,84
+Personal,Origin,20,North Frontage Road,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),72,183
+Personal,Origin,20,North Frontage Road,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),54,137
+Personal,Origin,20,North Frontage Road,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),24,61
+Personal,Origin,20,North Frontage Road,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),44,224
+Personal,Origin,20,North Frontage Road,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),1,5
+Personal,Origin,20,North Frontage Road,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),4,20
+Personal,Origin,20,North Frontage Road,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),20,102
+Personal,Origin,20,North Frontage Road,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),15,76
+Personal,Origin,20,North Frontage Road,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),4,20
+Personal,Origin,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),6170,8960
+Personal,Origin,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),90,131
+Personal,Origin,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),1309,1901
+Personal,Origin,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),2479,3600
+Personal,Origin,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),1758,2553
+Personal,Origin,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),534,775
+Personal,Origin,4,Norell Ave,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),3695,9371
+Personal,Origin,4,Norell Ave,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),67,170
+Personal,Origin,4,Norell Ave,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),908,2303
+Personal,Origin,4,Norell Ave,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),1370,3475
+Personal,Origin,4,Norell Ave,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),1018,2582
+Personal,Origin,4,Norell Ave,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),332,842
+Personal,Origin,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),1633,8323
+Personal,Origin,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),10,51
+Personal,Origin,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),208,1060
+Personal,Origin,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),777,3960
+Personal,Origin,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),486,2477
+Personal,Origin,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),152,775
+Personal,Origin,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),23588,34255
+Personal,Origin,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),384,558
+Personal,Origin,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),5128,7447
+Personal,Origin,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),8434,12248
+Personal,Origin,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),7090,10296
+Personal,Origin,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),2552,3706
+Personal,Origin,6,West TH 36,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),14283,36224
+Personal,Origin,6,West TH 36,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),193,489
+Personal,Origin,6,West TH 36,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),3650,9257
+Personal,Origin,6,West TH 36,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),4755,12060
+Personal,Origin,6,West TH 36,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),4201,10655
+Personal,Origin,6,West TH 36,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),1484,3764
+Personal,Origin,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),5975,30453
+Personal,Origin,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),118,601
+Personal,Origin,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),639,3257
+Personal,Origin,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),2543,12961
+Personal,Origin,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),1891,9638
+Personal,Origin,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),784,3996
+Personal,Origin,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),11495,16693
+Personal,Origin,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),123,179
+Personal,Origin,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),2618,3802
+Personal,Origin,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),3646,5295
+Personal,Origin,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),3735,5424
+Personal,Origin,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),1373,1994
+Personal,Origin,7,North Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),6762,17150
+Personal,Origin,7,North Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),64,162
+Personal,Origin,7,North Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),1795,4552
+Personal,Origin,7,North Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),1774,4499
+Personal,Origin,7,North Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),2268,5752
+Personal,Origin,7,North Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),861,2184
+Personal,Origin,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),3111,15856
+Personal,Origin,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),35,178
+Personal,Origin,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),400,2039
+Personal,Origin,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),1420,7237
+Personal,Origin,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),918,4679
+Personal,Origin,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),338,1723
+Personal,Origin,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),330,479
+Personal,Origin,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),2,3
+Personal,Origin,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),55,80
+Personal,Origin,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),118,171
+Personal,Origin,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),116,168
+Personal,Origin,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),39,57
+Personal,Origin,8,South Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),189,479
+Personal,Origin,8,South Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),1,3
+Personal,Origin,8,South Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),35,89
+Personal,Origin,8,South Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),63,160
+Personal,Origin,8,South Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),67,170
+Personal,Origin,8,South Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),23,58
+Personal,Origin,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),102,520
+Personal,Origin,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),1,5
+Personal,Origin,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),14,71
+Personal,Origin,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),41,209
+Personal,Origin,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),32,163
+Personal,Origin,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),14,71
+Personal,Origin,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),12598,18295
+Personal,Origin,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),162,235
+Personal,Origin,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),2253,3272
+Personal,Origin,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),4821,7001
+Personal,Origin,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),3826,5556
+Personal,Origin,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),1536,2231
+Personal,Origin,9,East TH 36,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),7439,18867
+Personal,Origin,9,East TH 36,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),77,195
+Personal,Origin,9,East TH 36,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),1512,3835
+Personal,Origin,9,East TH 36,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),2705,6860
+Personal,Origin,9,East TH 36,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),2250,5706
+Personal,Origin,9,East TH 36,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),895,2270
+Personal,Origin,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),3409,17375
+Personal,Origin,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),51,260
+Personal,Origin,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),381,1942
+Personal,Origin,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),1494,7615
+Personal,Origin,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),1034,5270
+Personal,Origin,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),449,2288
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),5378,7810
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),11,16
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),740,1075
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),2296,3334
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),1756,2550
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),575,835
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),3116,7903
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),5,13
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),437,1108
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),1218,3089
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),1073,2721
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),383,971
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),1470,7492
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),3,15
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),189,963
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),729,3716
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),423,2156
+Personal,Destination,10,Crestview Blvd E,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),126,642
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),1946,2826
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),10,15
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),270,392
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),752,1092
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),741,1076
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),173,251
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),1146,2906
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),5,13
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),163,413
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),412,1045
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),467,1184
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),99,251
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),502,2559
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),2,10
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),70,357
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),229,1167
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),152,775
+Personal,Destination,11,Oak Green Ave South,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),49,250
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),113,164
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),1,1
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),20,29
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),46,67
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),38,55
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),8,12
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),59,150
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),1,3
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),7,18
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),26,66
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),20,51
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),5,13
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),34,173
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),7,36
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),11,56
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),15,76
+Personal,Destination,12,Stillwater Motors,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),1,5
+Personal,Destination,13,58th St West,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),871,1265
+Personal,Destination,13,58th St West,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),3,4
+Personal,Destination,13,58th St West,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),181,263
+Personal,Destination,13,58th St West,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),349,507
+Personal,Destination,13,58th St West,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),290,421
+Personal,Destination,13,58th St West,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),48,70
+Personal,Destination,13,58th St West,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),627,1590
+Personal,Destination,13,58th St West,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),2,5
+Personal,Destination,13,58th St West,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),145,368
+Personal,Destination,13,58th St West,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),240,609
+Personal,Destination,13,58th St West,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),210,533
+Personal,Destination,13,58th St West,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),30,76
+Personal,Destination,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),116,591
+Personal,Destination,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),1,5
+Personal,Destination,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),9,46
+Personal,Destination,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),60,306
+Personal,Destination,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),36,183
+Personal,Destination,13,58th St West,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),10,51
+Personal,Destination,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),4650,6753
+Personal,Destination,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),31,45
+Personal,Destination,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),911,1323
+Personal,Destination,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),1873,2720
+Personal,Destination,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),1328,1929
+Personal,Destination,14,Greeley St,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),507,736
+Personal,Destination,14,Greeley St,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),3002,7614
+Personal,Destination,14,Greeley St,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),17,43
+Personal,Destination,14,Greeley St,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),672,1704
+Personal,Destination,14,Greeley St,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),1161,2945
+Personal,Destination,14,Greeley St,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),829,2102
+Personal,Destination,14,Greeley St,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),323,819
+Personal,Destination,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),1007,5132
+Personal,Destination,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),12,61
+Personal,Destination,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),111,566
+Personal,Destination,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),458,2334
+Personal,Destination,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),314,1600
+Personal,Destination,14,Greeley St,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),112,571
+Personal,Destination,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),6055,8793
+Personal,Destination,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),52,76
+Personal,Destination,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),1095,1590
+Personal,Destination,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),2572,3735
+Personal,Destination,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),1751,2543
+Personal,Destination,15,Washington Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),585,850
+Personal,Destination,15,Washington Ave,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),3620,9181
+Personal,Destination,15,Washington Ave,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),24,61
+Personal,Destination,15,Washington Ave,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),693,1758
+Personal,Destination,15,Washington Ave,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),1451,3680
+Personal,Destination,15,Washington Ave,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),1069,2711
+Personal,Destination,15,Washington Ave,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),383,971
+Personal,Destination,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),1539,7844
+Personal,Destination,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),19,97
+Personal,Destination,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),212,1081
+Personal,Destination,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),755,3848
+Personal,Destination,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),410,2090
+Personal,Destination,15,Washington Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),143,729
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),8859,12865
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),55,80
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),1514,2199
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),3291,4779
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),3042,4418
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),957,1390
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),5281,13394
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),35,89
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),1014,2572
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),1766,4479
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),1880,4768
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),586,1486
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),2290,11672
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),17,87
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),247,1259
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),1078,5494
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),714,3639
+Personal,Destination,16,Stillwater Blvd South,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),234,1193
+Personal,Destination,17,58th St East,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),5915,8590
+Personal,Destination,17,58th St East,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),32,46
+Personal,Destination,17,58th St East,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),1014,1473
+Personal,Destination,17,58th St East,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),2439,3542
+Personal,Destination,17,58th St East,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),1949,2830
+Personal,Destination,17,58th St East,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),481,699
+Personal,Destination,17,58th St East,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),3526,8943
+Personal,Destination,17,58th St East,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),16,41
+Personal,Destination,17,58th St East,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),681,1727
+Personal,Destination,17,58th St East,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),1347,3416
+Personal,Destination,17,58th St East,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),1174,2977
+Personal,Destination,17,58th St East,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),308,781
+Personal,Destination,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),1537,7834
+Personal,Destination,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),12,61
+Personal,Destination,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),174,887
+Personal,Destination,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),785,4001
+Personal,Destination,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),462,2355
+Personal,Destination,17,58th St East,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),104,530
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),7118,10337
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),107,155
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),1107,1608
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),2716,3944
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),2408,3497
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),780,1133
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),4177,10594
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),53,134
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),745,1889
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),1497,3797
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),1433,3634
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),449,1139
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),2032,10357
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),42,214
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),206,1050
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),870,4434
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),677,3451
+Personal,Destination,18,North Stillwater Blvd,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),237,1208
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),1050,1525
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),3,4
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),194,282
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),417,606
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),333,484
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),103,150
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),681,1727
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),1,3
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),146,370
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),251,637
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),216,548
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),67,170
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),223,1137
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),1,5
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),28,143
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),106,540
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),68,347
+Personal,Destination,19,Crestview Blvd W,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),20,102
+Personal,Destination,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),273,396
+Personal,Destination,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),2,3
+Personal,Destination,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),48,70
+Personal,Destination,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),101,147
+Personal,Destination,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),90,131
+Personal,Destination,20,North Frontage Road,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),32,46
+Personal,Destination,20,North Frontage Road,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),184,467
+Personal,Destination,20,North Frontage Road,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),1,3
+Personal,Destination,20,North Frontage Road,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),33,84
+Personal,Destination,20,North Frontage Road,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),72,183
+Personal,Destination,20,North Frontage Road,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),54,137
+Personal,Destination,20,North Frontage Road,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),24,61
+Personal,Destination,20,North Frontage Road,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),44,224
+Personal,Destination,20,North Frontage Road,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),1,5
+Personal,Destination,20,North Frontage Road,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),4,20
+Personal,Destination,20,North Frontage Road,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),20,102
+Personal,Destination,20,North Frontage Road,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),15,76
+Personal,Destination,20,North Frontage Road,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),4,20
+Personal,Destination,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),6170,8960
+Personal,Destination,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),90,131
+Personal,Destination,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),1309,1901
+Personal,Destination,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),2479,3600
+Personal,Destination,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),1758,2553
+Personal,Destination,4,Norell Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),534,775
+Personal,Destination,4,Norell Ave,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),3695,9371
+Personal,Destination,4,Norell Ave,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),67,170
+Personal,Destination,4,Norell Ave,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),908,2303
+Personal,Destination,4,Norell Ave,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),1370,3475
+Personal,Destination,4,Norell Ave,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),1018,2582
+Personal,Destination,4,Norell Ave,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),332,842
+Personal,Destination,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),1633,8323
+Personal,Destination,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),10,51
+Personal,Destination,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),208,1060
+Personal,Destination,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),777,3960
+Personal,Destination,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),486,2477
+Personal,Destination,4,Norell Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),152,775
+Personal,Destination,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),23588,34255
+Personal,Destination,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),384,558
+Personal,Destination,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),5128,7447
+Personal,Destination,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),8434,12248
+Personal,Destination,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),7090,10296
+Personal,Destination,6,West TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),2552,3706
+Personal,Destination,6,West TH 36,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),14283,36224
+Personal,Destination,6,West TH 36,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),193,489
+Personal,Destination,6,West TH 36,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),3650,9257
+Personal,Destination,6,West TH 36,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),4755,12060
+Personal,Destination,6,West TH 36,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),4201,10655
+Personal,Destination,6,West TH 36,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),1484,3764
+Personal,Destination,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),5975,30453
+Personal,Destination,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),118,601
+Personal,Destination,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),639,3257
+Personal,Destination,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),2543,12961
+Personal,Destination,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),1891,9638
+Personal,Destination,6,West TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),784,3996
+Personal,Destination,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),11495,16693
+Personal,Destination,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),123,179
+Personal,Destination,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),2618,3802
+Personal,Destination,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),3646,5295
+Personal,Destination,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),3735,5424
+Personal,Destination,7,North Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),1373,1994
+Personal,Destination,7,North Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),6762,17150
+Personal,Destination,7,North Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),64,162
+Personal,Destination,7,North Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),1795,4552
+Personal,Destination,7,North Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),1774,4499
+Personal,Destination,7,North Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),2268,5752
+Personal,Destination,7,North Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),861,2184
+Personal,Destination,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),3111,15856
+Personal,Destination,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),35,178
+Personal,Destination,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),400,2039
+Personal,Destination,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),1420,7237
+Personal,Destination,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),918,4679
+Personal,Destination,7,North Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),338,1723
+Personal,Destination,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),330,479
+Personal,Destination,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),2,3
+Personal,Destination,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),55,80
+Personal,Destination,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),118,171
+Personal,Destination,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),116,168
+Personal,Destination,8,South Manning Ave,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),39,57
+Personal,Destination,8,South Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),189,479
+Personal,Destination,8,South Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),1,3
+Personal,Destination,8,South Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),35,89
+Personal,Destination,8,South Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),63,160
+Personal,Destination,8,South Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),67,170
+Personal,Destination,8,South Manning Ave,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),23,58
+Personal,Destination,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),102,520
+Personal,Destination,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),1,5
+Personal,Destination,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),14,71
+Personal,Destination,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),41,209
+Personal,Destination,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),32,163
+Personal,Destination,8,South Manning Ave,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),14,71
+Personal,Destination,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),0: All Day (12am-12am),12598,18295
+Personal,Destination,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),1: Early AM (12am-6am),162,235
+Personal,Destination,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),2: Peak AM (6am-10am),2253,3272
+Personal,Destination,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),3: Mid-Day (10am-3pm),4821,7001
+Personal,Destination,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),4: Peak PM (3pm-7pm),3826,5556
+Personal,Destination,9,East TH 36,yes,N/A,no,0: Average Day (M-Su),5: Late PM (7pm-12am),1536,2231
+Personal,Destination,9,East TH 36,yes,N/A,no,1: Average Weekday (Tu-F),0: All Day (12am-12am),7439,18867
+Personal,Destination,9,East TH 36,yes,N/A,no,1: Average Weekday (Tu-F),1: Early AM (12am-6am),77,195
+Personal,Destination,9,East TH 36,yes,N/A,no,1: Average Weekday (Tu-F),2: Peak AM (6am-10am),1512,3835
+Personal,Destination,9,East TH 36,yes,N/A,no,1: Average Weekday (Tu-F),3: Mid-Day (10am-3pm),2705,6860
+Personal,Destination,9,East TH 36,yes,N/A,no,1: Average Weekday (Tu-F),4: Peak PM (3pm-7pm),2250,5706
+Personal,Destination,9,East TH 36,yes,N/A,no,1: Average Weekday (Tu-F),5: Late PM (7pm-12am),895,2270
+Personal,Destination,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),0: All Day (12am-12am),3409,17375
+Personal,Destination,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),1: Early AM (12am-6am),51,260
+Personal,Destination,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),2: Peak AM (6am-10am),381,1942
+Personal,Destination,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),3: Mid-Day (10am-3pm),1494,7615
+Personal,Destination,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),4: Peak PM (3pm-7pm),1034,5270
+Personal,Destination,9,East TH 36,yes,N/A,no,2: Average Weekend Day (Sa-Su),5: Late PM (7pm-12am),449,2288
