@@ -2,7 +2,7 @@
 library(shiny)
 library(data.table)
 library(leaflet)
-library(rgdal)
+library(maptools)
 
 
 ui <- navbarPage(
@@ -10,16 +10,14 @@ ui <- navbarPage(
   tabPanel('Load Data',
            fluidRow(
              column(12,
+                    fileInput("csvs",
+                              label="Upload all files in folder",
+                              multiple = TRUE),
+                    hr(),
                     column(6,
-                           fileInput("csvs",
-                                     label="Upload CSVs here",
-                                     multiple = TRUE),
-                           hr(),
                            tableOutput('csvs')
                     ),
                     column(6,
-                           textInput("path","Path to Shapefile"),
-                           hr(),
                            tableOutput('Shapefile_names')
                     )
              )
@@ -36,67 +34,102 @@ ui <- navbarPage(
                     tableOutput('shape_table')
              )
            )
-  )
+  ),
+  tabPanel('Personnal'
+           ),
+  tabPanel('Commercial'
+           ),
+  tabPanel('Details'
+           )
 )
 
 
 
 server <- function(input, output,session) {
   
-  
+  #read the selected csvs
   mycsvs<-eventReactive(input$csvs,{
     lapply(input$csvs$datapath, fread)
   })
   
+  #show list of csv files
   output$csvs <- renderTable({
-    data.frame(CSVs = input$csvs$name)
-    }) 
+    
+    toMatch <- c(".txt",'.csv')
+    
+    data.frame(Files =
+                 unique(grep(paste(toMatch,collapse = '|'),
+                             input$csvs$name,value = TRUE)))
+  }) 
   
+  #return a list of the shapefiles in the path in table format
   output$Shapefile_names <- renderTable({
-    data.frame(Shapefiles=dir(pathtoshape())[grepl('.shp',dir(pathtoshape()))])
+    data.frame(Shapefiles=input$csvs$name[grepl('.shp',input$csvs$name)])
   })
   
-  pathtoshape <-  reactive({as.character(gsub("\\\\", "/", input$path))})
-  
+  #return list of shapefiles in the folder
   Shapefile_IDs <- reactive({
-    vars <- dir(pathtoshape())[grepl('.shp',dir(pathtoshape()))]
+    vars <- input$csvs$name[grepl('.shp',input$csvs$name)]
     return(vars)
   })
   
+  ##update drop down menu for shapefiles in folder path
   observe({
     updateSelectInput(session,'Shapefile_dropdown',
                       choices = Shapefile_IDs()
     )
   })
   
-  layers <- reactive({
-    name <- input$Shapefile_dropdown
-    fixed_name <- gsub('.shp','',name)
-    return(fixed_name)
+  
+  uploadShpfile <- reactive({
+    if (!is.null(input$csvs)){
+      shpDF <- input$csvs
+      prevWD <- getwd()
+      uploadDirectory <- dirname(shpDF$datapath[1])
+      setwd(uploadDirectory)
+      for (i in 1:nrow(shpDF)){
+        file.rename(shpDF$datapath[i], shpDF$name[i])
+      }
+      shpName <- shpDF$name[grep(x=shpDF$name, pattern="*.shp")]
+      shpPath <- paste(uploadDirectory, input$Shapefile_dropdown, sep="/")
+      setwd(prevWD)
+      shpFile <- readShapePoly(shpPath)
+      return(shpFile)
+    } else {
+      return()
+    }
   })
   
-  #Leaflet
+  
+
+
+  
+  #  #Leaflet
   output$shapefile <- renderLeaflet({
     
-    shape <- readOGR(dsn=pathtoshape(),
-                     layer = layers())
+    shape <- uploadShpfile()
+    
+    labels_org <- paste('ID:',shape$id,', ', shape$name,sep='')
     
     leaflet(shape) %>%
       addTiles(group = "OSM (default)") %>%
       addPolygons(color = "red", weight = 1, smoothFactor = 0.5,
                   opacity = 1.0, fillOpacity = 0.5,
                   highlightOptions = highlightOptions(color = "white", weight = 5,
-                                                      bringToFront = TRUE))
+                                                      bringToFront = TRUE),label=labels_org)
     
     
   })
   
+  #show attributes for the shapefile
   output$shape_table <- renderTable({
     
-    shape <- readOGR(dsn=pathtoshape(),
-                     layer = layers())
+    shape <- uploadShpfile()
     data.frame(shape)
   })
+  
+  #personnal
+  
 }
 
 shinyApp(ui = ui, server = server)

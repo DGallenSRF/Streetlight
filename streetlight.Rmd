@@ -101,7 +101,14 @@ Unclear as to why these values are NA. Check with the experts.
 
 We now melt down the commerical dataset. We want each row to be an origin, a pass_through or a destination. We can now easily use group by operations. Wide to long.
 
-v
+```{r melt down mf coms}
+
+mf_com_melt <- melt(mf_com,measure.vars = colnames(mf_com)[2:15],id.vars = colnames(mf_com)[c(1,16:22)])
+
+mf_com_melt$group <- ifelse(grepl("Origin",mf_com_melt$variable),"From",
+                            ifelse(grepl("Middle",mf_com_melt$variable),"Through",
+                            ifelse(grepl("Destination",mf_com_melt$variable),"To",NA)))
+```
 
 Each row is now as we want.
 
@@ -133,7 +140,7 @@ table(is.na(mf_pers$Avg.Trip.Duration..sec.))
 
 ```
 
-```{r melt down mfcom}
+```{r melt down mf pers}
 
 mf_pers_melt <- melt(mf_pers,measure.vars = colnames(mf_pers)[2:15],id.vars = colnames(mf_pers)[c(1,16:22)])
 
@@ -171,7 +178,7 @@ shape_org <- rgdal::readOGR(dsn='.',layer = shape_org_name)
 ```
 
 ```{r}
-trueCentroids <- as.data.frame(gCentroid(shape_dest,byid = TRUE))
+trueCentroids <- as.data.frame(gCentroid(shape_org,byid = TRUE))
 ```
 
 
