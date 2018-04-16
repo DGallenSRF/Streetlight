@@ -2,7 +2,7 @@
 library(shiny)
 library(data.table)
 library(leaflet)
-
+library(rgdal)
 
 ui <- fluidPage(
   titlePanel("Multiple file uploads"),
@@ -12,13 +12,13 @@ ui <- fluidPage(
                 label="Upload CSVs here",
                 multiple = TRUE),
       actionButton('plotButton','Plot!'),
-    textInput("path","Path","Path to File"),
+    textInput("path","Path"),
     actionButton('plotButton1','Plot!')
     ),
     mainPanel(
-      plotOutput('hist1'),
-      plotOutput('hist2'),
-      textOutput('path'),
+      # plotOutput('hist1'),
+      # plotOutput('hist2'),
+      textOutput('dir'),
       leafletOutput('shapefile')
     )
   )
@@ -32,33 +32,33 @@ server <- function(input, output) {
     lapply(input$csvs$datapath, fread)
   })
      
-  output$hist1 <- renderPlot({
-    
-    input$plotButton
-    mf_com <- isolate(as.data.frame(mycsvs()[[1]]))
-    mf_com$`Avg Trip Duration (sec)` <-  as.numeric(mf_com$`Avg Trip Duration (sec)`)
-    
-    hist(mf_com$`Avg Trip Duration (sec)`,breaks = 200)
-  }) 
-
-  output$hist2 <- renderPlot({
-    input$plotButton
-    mf_com <- isolate(as.data.frame(mycsvs()[[2]]))
-    mf_com$`Avg Trip Duration (sec)` <-  as.numeric(mf_com$`Avg Trip Duration (sec)`)
-    
-    hist(mf_com$`Avg Trip Duration (sec)`,breaks = 200)
-  }) 
+  # output$hist1 <- renderPlot({
+  #   
+  #   input$plotButton
+  #   mf_com <- isolate(as.data.frame(mycsvs()[[1]]))
+  #   mf_com$`Avg Trip Duration (sec)` <-  as.numeric(mf_com$`Avg Trip Duration (sec)`)
+  #   
+  #   hist(mf_com$`Avg Trip Duration (sec)`,breaks = 200)
+  # }) 
+  # 
+  # output$hist2 <- renderPlot({
+  #   input$plotButton
+  #   mf_com <- isolate(as.data.frame(mycsvs()[[2]]))
+  #   mf_com$`Avg Trip Duration (sec)` <-  as.numeric(mf_com$`Avg Trip Duration (sec)`)
+  #   
+  #   hist(mf_com$`Avg Trip Duration (sec)`,breaks = 200)
+  # }) 
   
   pathtoshape <-  reactive({as.character(gsub("\\\\", "/", input$path))})
 
-  output$path <- renderText({pathtoshape()})
+  output$dir <- renderText({dir(pathtoshape())})
  
   output$shapefile <- renderLeaflet({
     
     input$plotButton1
 
     shape <- isolate(readOGR(dsn=pathtoshape(),
-                         layer = 'TH_36_Manning_Expanded_destination_zone_set'))
+                         layer = 'TH_36_Manning_Ave_middle_filter_zone_set'))
     
     leaflet(shape) %>%
       addTiles(group = "OSM (default)") %>%
