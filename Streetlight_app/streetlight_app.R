@@ -1,10 +1,9 @@
 
 library(shiny)
-library(data.table)
 library(leaflet)
 library(maptools)
-library(DT)
 library(tidyverse)
+library(zoo)
 
 
 ui <- navbarPage(
@@ -218,14 +217,14 @@ server <- function(input, output,session) {
   })
   
   
-  output$per_table <- renderDataTable({
+  output$per_table <- renderTable({
     x <-  mf_per_dat_OD()%>%
       filter(Day.Type==input$Day_Typeper)%>%
       filter(Day.Part==input$Day_Partper)%>%
       filter(Middle.Filter.Zone.Name==input$Middle_filterper)%>%
       select(Origin.Zone.Name,Destination.Zone.Name,Avg.Trip.Duration..sec.)%>%
-      dcast(formula = Origin.Zone.Name ~ Destination.Zone.Name)
-    data.table(x)
+      spread(Destination.Zone.Name,Avg.Trip.Duration..sec.)
+    x
     
   })
   
@@ -281,14 +280,14 @@ server <- function(input, output,session) {
   })
   
   
-  output$com_table <- renderDataTable({
+  output$com_table <- renderTable({
     x <-  mf_com_dat_OD()%>%
       filter(Day.Type==input$Day_Typecom)%>%
       filter(Day.Part==input$Day_Partcom)%>%
       filter(Middle.Filter.Zone.Name==input$Middle_filtercom)%>%
       select(Origin.Zone.Name,Destination.Zone.Name,Avg.Trip.Duration..sec.)%>%
-      dcast(formula = Origin.Zone.Name ~ Destination.Zone.Name)
-    data.table(x)
+      spread(Origin.Zone.Name,Avg.Trip.Duration..sec.)
+    x
     
   })
   
@@ -306,11 +305,12 @@ server <- function(input, output,session) {
       separate(V1,c('variable','value'),':')
     
     project$Info <- ifelse(unlist(lapply(project$variable,function(x) any(x==c(0:10))))==TRUE,NA,project$variable)%>%
-      na.locf()
+    na.locf()
     
     project_details <- select(project,Info,value)%>%
       filter(value!=' ')
   })
+  
   output$pro_detail <- renderTable({
     project_detail()
     
