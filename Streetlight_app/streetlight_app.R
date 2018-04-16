@@ -3,6 +3,8 @@ library(shiny)
 library(data.table)
 library(leaflet)
 library(maptools)
+library(DT)
+library(tidyverse)
 
 
 ui <- navbarPage(
@@ -37,13 +39,44 @@ ui <- navbarPage(
            )
   ),
   tabPanel('Personnal',
-           tableOutput('table')
-
+           fluidRow(
+             column(4,
+                    selectInput('Day_Typeper',"Day_Type",'')),
+             column(4,
+                    selectInput('Day_Partper','Day_Part','')),
+             column(4,
+                    selectInput('Middle_filterper','Middle_filter',''))
            ),
-  tabPanel('Commercial'
-           ),
-  tabPanel('Details'
+           hr(),
+           fluidRow(
+             column(12,
+                    tags$div(
+                      HTML("<h3 align='center'>Avg OD Trip Duration (seconds)</h3>")
+                    ),
+                    tableOutput('per_table'))
            )
+  ),
+  tabPanel('Commercial',
+           fluidRow(
+             column(4,
+                    selectInput('Day_Typecom',"Day_Type",'')),
+             column(4,
+                    selectInput('Day_Partcom','Day_Part','')),
+             column(4,
+                    selectInput('Middle_filtercom','Middle_filter',''))
+           ),
+           hr(),
+           fluidRow(
+             column(12,
+                    tags$div(
+                      HTML("<h3 align='center'>Avg OD Trip Duration (seconds)</h3>")
+                    ),
+                    tableOutput('com_table'))
+           )
+  ),
+  tabPanel('Details',
+           tableOutput('pro_detail')
+  )
 )
 
 
@@ -134,41 +167,155 @@ server <- function(input, output,session) {
     data.frame(shape)
   })
   
+  #PERSONAL
+  
+  mf_per_table <- eventReactive(input$csvs,{
+    
+    mf_per_names <- input$csvs$name[grep("*_mf_personal.csv",input$csvs$name)]
+    
+    mf_per_dat <- mf_per_names[!grepl('zone',mf_per_names)]
+    input$csvs$datapath[input$csvs$name==mf_per_dat]
+  })
+  
+  mf_per_dat_OD <- reactive({
+    var <- read.csv(mf_per_table(),stringsAsFactors = FALSE)
+    
+    var$Avg.Trip.Duration..sec. <-  as.numeric(var$Avg.Trip.Duration..sec.)
+    
+    mf_per_dat_OD <- select(var,c("Origin.Zone.ID","Origin.Zone.Name","Middle.Filter.Zone.ID","Middle.Filter.Zone.Name","Destination.Zone.ID","Destination.Zone.Name","Device.Type","Day.Type","Day.Part","O.M.D.Traffic..StL.Index.","Origin.Zone.Traffic..StL.Index.","Middle.Filter.Zone.Traffic..StL.Index.","Destination.Zone.Traffic..StL.Index.","Avg.Trip.Duration..sec."))
+    return(mf_per_dat_OD)
+  })
+  
+  DayTypeper <- reactive({
+    dat <- mf_per_dat_OD()
+    return(levels(as.factor(dat$Day.Type)))
+  })
+  
+  observe({
+    updateSelectInput(session, "Day_Typeper",
+                      choices = DayTypeper())
+  })
+  
+  DayPartper <- reactive({
+    dat <- mf_per_dat_OD()
+    return(levels(as.factor(dat$Day.Part)))
+  })
+  
+  observe({
+    updateSelectInput(session, "Day_Partper",
+                      choices = DayPartper())
+  })
+  
+  
+  MiddleFilterper <- reactive({
+    dat <- mf_per_dat_OD()
+    return(levels(as.factor(dat$Middle.Filter.Zone.Name)))
+  })
+  
+  observe({
+    updateSelectInput(session, "Middle_filterper",
+                      choices = MiddleFilterper())
+  })
+  
+  
+  output$per_table <- renderDataTable({
+    x <-  mf_per_dat_OD()%>%
+      filter(Day.Type==input$Day_Typeper)%>%
+      filter(Day.Part==input$Day_Partper)%>%
+      filter(Middle.Filter.Zone.Name==input$Middle_filterper)%>%
+      select(Origin.Zone.Name,Destination.Zone.Name,Avg.Trip.Duration..sec.)%>%
+      dcast(formula = Origin.Zone.Name ~ Destination.Zone.Name)
+    data.table(x)
+    
+  })
+  
+  
   #COMMERCIAL
 
-  mf_com_table <- reactive({
+  mf_com_table <- eventReactive(input$csvs,{
     
     mf_com_names <- input$csvs$name[grep("*_mf_commercial.csv",input$csvs$name)]
     
     mf_com_dat <- mf_com_names[!grepl('zone',mf_com_names)]
     input$csvs$datapath[input$csvs$name==mf_com_dat]
   })
-
-  output$table <- renderTable({
+  
+  mf_com_dat_OD <- reactive({
     var <- read.csv(mf_com_table(),stringsAsFactors = FALSE)
-
     
-    mf_com_dat_melt <- melt(mf_com_dat,
-                            measure.vars = c("Origin.Zone.ID","Origin.Zone.Name",
-                                             "Middle.Filter.Zone.ID","Middle.Filter.Zone.Name",
-                                             "Destination.Zone.ID","Destination.Zone.Name"),
-                            id.vars = c("Device.Type","Day.Type",
-                                        "Day.Part","O.M.D.Traffic..StL.Index.",
-                                        "Origin.Zone.Traffic..StL.Index.","Middle.Filter.Zone.Traffic..StL.Index.",
-                                        "Destination.Zone.Traffic..StL.Index.","Avg.Trip.Duration..sec."))
+    var$Avg.Trip.Duration..sec. <-  as.numeric(var$Avg.Trip.Duration..sec.)
     
-    mf_com_dat_melt$group <- ifelse(grepl("Origin",mf_com_dat_melt$variable),"From",
-                                    ifelse(grepl("Middle",mf_com_dat_melt$variable),"Through",
-                                           ifelse(grepl("Destination",mf_com_dat_melt$variable),"To",NA)))
-    
-    return(data.table(select(mf_com_dat_melt,Day.Type,Day.Part,Avg.Trip.Duration..sec.)))
+    mf_com_dat_OD <- select(var,c("Origin.Zone.ID","Origin.Zone.Name","Middle.Filter.Zone.ID","Middle.Filter.Zone.Name","Destination.Zone.ID","Destination.Zone.Name","Device.Type","Day.Type","Day.Part","O.M.D.Traffic..StL.Index.","Origin.Zone.Traffic..StL.Index.","Middle.Filter.Zone.Traffic..StL.Index.","Destination.Zone.Traffic..StL.Index.","Avg.Trip.Duration..sec."))
+    return(mf_com_dat_OD)
+  })
+  
+  DayTypecom <- reactive({
+    dat <- mf_com_dat_OD()
+    return(levels(as.factor(dat$Day.Type)))
+  })
+  
+  observe({
+    updateSelectInput(session, "Day_Typecom",
+                      choices = DayTypecom())
+    })
+  
+  DayPartcom <- reactive({
+    dat <- mf_com_dat_OD()
+    return(levels(as.factor(dat$Day.Part)))
+  })
+  
+  observe({
+    updateSelectInput(session, "Day_Partcom",
+                      choices = DayPartcom())
   })
   
   
-  # output$table <- renderTable({
-  #   read.csv(mf_com_table(),stringsAsFactors = FALSE)
-  # })
-
+  MiddleFiltercom <- reactive({
+    dat <- mf_com_dat_OD()
+    return(levels(as.factor(dat$Middle.Filter.Zone.Name)))
+  })
+  
+  observe({
+    updateSelectInput(session, "Middle_filtercom",
+                      choices = MiddleFiltercom())
+  })
+  
+  
+  output$com_table <- renderDataTable({
+    x <-  mf_com_dat_OD()%>%
+      filter(Day.Type==input$Day_Typecom)%>%
+      filter(Day.Part==input$Day_Partcom)%>%
+      filter(Middle.Filter.Zone.Name==input$Middle_filtercom)%>%
+      select(Origin.Zone.Name,Destination.Zone.Name,Avg.Trip.Duration..sec.)%>%
+      dcast(formula = Origin.Zone.Name ~ Destination.Zone.Name)
+    data.table(x)
+    
+  })
+  
+  
+  #DETAILS
+  details <- eventReactive(input$csvs,{
+    
+    det_name <-  input$csvs$name[grep("Project_OD_MF.txt",input$csvs$name)]
+    
+    input$csvs$datapath[input$csvs$name==det_name]
+  })
+  
+  project_detail <- reactive({
+    project <- read.table(details(),sep='\n',stringsAsFactors = FALSE)%>%
+      separate(V1,c('variable','value'),':')
+    
+    project$Info <- ifelse(unlist(lapply(project$variable,function(x) any(x==c(0:10))))==TRUE,NA,project$variable)%>%
+      na.locf()
+    
+    project_details <- select(project,Info,value)%>%
+      filter(value!=' ')
+  })
+  output$pro_detail <- renderTable({
+    project_detail()
+    
+  })
+  
   
 }
 

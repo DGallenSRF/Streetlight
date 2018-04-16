@@ -114,6 +114,21 @@ mf_com_dat_melt$group <- ifelse(grepl("Origin",mf_com_dat_melt$variable),"From",
 
 Each row is now as we want.
 
+create an OD matrix
+
+```{r}
+mf_com_dat_OD <- select(mf_com_dat,c("Origin.Zone.ID","Origin.Zone.Name","Middle.Filter.Zone.ID","Middle.Filter.Zone.Name","Destination.Zone.ID","Destination.Zone.Name","Device.Type","Day.Type","Day.Part","O.M.D.Traffic..StL.Index.","Origin.Zone.Traffic..StL.Index.","Middle.Filter.Zone.Traffic..StL.Index.","Destination.Zone.Traffic..StL.Index.","Avg.Trip.Duration..sec."))
+
+x <-  mf_com_dat_OD%>%
+  filter(Day.Type=='0: Average Day (M-Su)')%>%
+  filter(Day.Part=='0: All Day (12am-12am)')%>%
+  filter(Middle.Filter.Zone.Name=='TH 36 WB Stillwater Blvd On-Ramp')%>%
+  select(Origin.Zone.Name,Destination.Zone.Name,Avg.Trip.Duration..sec.)%>%
+  dcast(formula = Origin.Zone.Name ~ Destination.Zone.Name)
+
+```
+
+
 ### mf_personnal
 
 

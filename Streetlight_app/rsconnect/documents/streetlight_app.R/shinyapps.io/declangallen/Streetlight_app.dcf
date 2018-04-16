@@ -5,9 +5,9 @@ account: declangallen
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 321619
-bundleId: 1319825
+bundleId: 1320189
 url: https://declangallen.shinyapps.io/Streetlight_app/
-when: 1523824373.84103
+when: 1523848682.22429
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: TH_36_Manning_Expanded_destination_zone_set.cpg|TH_36_Manning_Expanded_destination_zone_set.dbf|TH_36_Manning_Expanded_destination_zone_set.prj|TH_36_Manning_Expanded_destination_zone_set.shp|TH_36_Manning_Expanded_destination_zone_set.shx
+ignoredFiles: srf_edit.jpg
