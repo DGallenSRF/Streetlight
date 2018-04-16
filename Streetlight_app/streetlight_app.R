@@ -7,6 +7,7 @@ library(maptools)
 
 ui <- navbarPage(
   title = 'Streetlight!',
+  
   tabPanel('Load Data',
            fluidRow(
              column(12,
@@ -35,7 +36,9 @@ ui <- navbarPage(
              )
            )
   ),
-  tabPanel('Personnal'
+  tabPanel('Personnal',
+           tableOutput('table')
+
            ),
   tabPanel('Commercial'
            ),
@@ -47,12 +50,14 @@ ui <- navbarPage(
 
 server <- function(input, output,session) {
   
-  #read the selected csvs
+  #LOAD
+  #read the selected files
   mycsvs<-eventReactive(input$csvs,{
     lapply(input$csvs$datapath, fread)
   })
   
-  #show list of csv files
+  #LOAD
+  #show list of csv + txt files
   output$csvs <- renderTable({
     
     toMatch <- c(".txt",'.csv')
@@ -62,17 +67,20 @@ server <- function(input, output,session) {
                              input$csvs$name,value = TRUE)))
   }) 
   
+  #LOAD
   #return a list of the shapefiles in the path in table format
   output$Shapefile_names <- renderTable({
     data.frame(Shapefiles=input$csvs$name[grepl('.shp',input$csvs$name)])
   })
   
+  #LOAD
   #return list of shapefiles in the folder
   Shapefile_IDs <- reactive({
     vars <- input$csvs$name[grepl('.shp',input$csvs$name)]
     return(vars)
   })
   
+  #LOAD
   ##update drop down menu for shapefiles in folder path
   observe({
     updateSelectInput(session,'Shapefile_dropdown',
@@ -80,7 +88,7 @@ server <- function(input, output,session) {
     )
   })
   
-  
+  ##SHAPEFILES
   uploadShpfile <- reactive({
     if (!is.null(input$csvs)){
       shpDF <- input$csvs
@@ -100,11 +108,8 @@ server <- function(input, output,session) {
     }
   })
   
-  
-
-
-  
-  #  #Leaflet
+  ##SHAPEFILES
+  #Leaflet
   output$shapefile <- renderLeaflet({
     
     shape <- uploadShpfile()
@@ -121,6 +126,7 @@ server <- function(input, output,session) {
     
   })
   
+  ##SHAPEFILES
   #show attributes for the shapefile
   output$shape_table <- renderTable({
     
@@ -128,7 +134,41 @@ server <- function(input, output,session) {
     data.frame(shape)
   })
   
-  #personnal
+  #COMMERCIAL
+
+  mf_com_table <- reactive({
+    
+    mf_com_names <- input$csvs$name[grep("*_mf_commercial.csv",input$csvs$name)]
+    
+    mf_com_dat <- mf_com_names[!grepl('zone',mf_com_names)]
+    input$csvs$datapath[input$csvs$name==mf_com_dat]
+  })
+
+  output$table <- renderTable({
+    var <- read.csv(mf_com_table(),stringsAsFactors = FALSE)
+
+    
+    mf_com_dat_melt <- melt(mf_com_dat,
+                            measure.vars = c("Origin.Zone.ID","Origin.Zone.Name",
+                                             "Middle.Filter.Zone.ID","Middle.Filter.Zone.Name",
+                                             "Destination.Zone.ID","Destination.Zone.Name"),
+                            id.vars = c("Device.Type","Day.Type",
+                                        "Day.Part","O.M.D.Traffic..StL.Index.",
+                                        "Origin.Zone.Traffic..StL.Index.","Middle.Filter.Zone.Traffic..StL.Index.",
+                                        "Destination.Zone.Traffic..StL.Index.","Avg.Trip.Duration..sec."))
+    
+    mf_com_dat_melt$group <- ifelse(grepl("Origin",mf_com_dat_melt$variable),"From",
+                                    ifelse(grepl("Middle",mf_com_dat_melt$variable),"Through",
+                                           ifelse(grepl("Destination",mf_com_dat_melt$variable),"To",NA)))
+    
+    return(data.table(select(mf_com_dat_melt,Day.Type,Day.Part,Avg.Trip.Duration..sec.)))
+  })
+  
+  
+  # output$table <- renderTable({
+  #   read.csv(mf_com_table(),stringsAsFactors = FALSE)
+  # })
+
   
 }
 

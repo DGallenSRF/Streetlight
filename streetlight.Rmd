@@ -63,26 +63,28 @@ We examine the first csv file. We want to set a function that will find a the ri
 
 ```{r mf_commerical read data}
 
-mf_com_name <- dir()[grepl("*_mf_commercial.csv",dir())][1]
+mf_com_names <- dir()[grepl("*_mf_commercial.csv",dir())]
 
-mf_com <- read.csv(mf_com_name,stringsAsFactors = FALSE)
+mf_com_dat <- read.csv(mf_com_names[!grepl('zone',mf_com_names)],stringsAsFactors = FALSE)
 
-str(mf_com)
+mf_com_zone <- read.csv(mf_com_names[grepl('zone',mf_com_names)],stringsAsFactors = FALSE)
+
+str(mf_com_dat)
 
 ```
 
 Lets sgtart at the end with the most interesting field; "Avg.Trip.Duration..sec". We want to check the data for outliers, missing values or interesting trents
 
-```{r mf_com avg trip duration}
+```{r mf_com_dat avg trip duration}
 
 ### change variable to numeric
 
 
-mf_com$Avg.Trip.Duration..sec. <-  as.numeric(mf_com$Avg.Trip.Duration..sec.)
+mf_com_dat$Avg.Trip.Duration..sec. <-  as.numeric(mf_com_dat$Avg.Trip.Duration..sec.)
 
-hist(mf_com$Avg.Trip.Duration..sec.,breaks = 200)
+hist(mf_com_dat$Avg.Trip.Duration..sec.,breaks = 200)
 
-table(is.na(mf_com$Avg.Trip.Duration..sec.))
+table(is.na(mf_com_dat$Avg.Trip.Duration..sec.))
 
 ```
 
@@ -90,11 +92,11 @@ Looks like we have some extreme outliers and 10% NAs which is significant.
 
 Lets invesitgate the NAs.
 
-```{r mf_com NAs}
+```{r mf_com_dat NAs}
 
 
-head(mf_com[is.na(mf_com$Avg.Trip.Duration..sec.),])
-tail(mf_com[is.na(mf_com$Avg.Trip.Duration..sec.),])
+head(mf_com_dat[is.na(mf_com_dat$Avg.Trip.Duration..sec.),])
+tail(mf_com_dat[is.na(mf_com_dat$Avg.Trip.Duration..sec.),])
 ```
 
 Unclear as to why these values are NA. Check with the experts. 
@@ -103,11 +105,11 @@ We now melt down the commerical dataset. We want each row to be an origin, a pas
 
 ```{r melt down mf coms}
 
-mf_com_melt <- melt(mf_com,measure.vars = colnames(mf_com)[2:15],id.vars = colnames(mf_com)[c(1,16:22)])
+mf_com_dat_melt <- melt(mf_com_dat,measure.vars = c("Origin.Zone.ID","Origin.Zone.Name","Middle.Filter.Zone.ID","Middle.Filter.Zone.Name","Destination.Zone.ID","Destination.Zone.Name"),id.vars = c("Device.Type","Day.Type","Day.Part","O.M.D.Traffic..StL.Index.","Origin.Zone.Traffic..StL.Index.","Middle.Filter.Zone.Traffic..StL.Index.","Destination.Zone.Traffic..StL.Index.","Avg.Trip.Duration..sec."))
 
-mf_com_melt$group <- ifelse(grepl("Origin",mf_com_melt$variable),"From",
-                            ifelse(grepl("Middle",mf_com_melt$variable),"Through",
-                            ifelse(grepl("Destination",mf_com_melt$variable),"To",NA)))
+mf_com_dat_melt$group <- ifelse(grepl("Origin",mf_com_dat_melt$variable),"From",
+                                ifelse(grepl("Middle",mf_com_dat_melt$variable),"Through",
+                                       ifelse(grepl("Destination",mf_com_dat_melt$variable),"To",NA)))
 ```
 
 Each row is now as we want.
@@ -125,7 +127,7 @@ str(mf_pers)
 
 ```
 
-Lets sgtart at the end with the most interesting field; "Avg.Trip.Duration..sec". We want to check the data for outliers, missing values or interesting trents
+Lets start at the end with the most interesting field; "Avg.Trip.Duration..sec". We want to check the data for outliers, missing values or interesting trents
 
 ```{r mf_pers avg trip duration}
 
