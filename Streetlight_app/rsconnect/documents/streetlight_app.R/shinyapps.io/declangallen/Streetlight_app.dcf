@@ -1,0 +1,12 @@
+name: Streetlight_app
+title: Streetlight_app
+username:
+account: declangallen
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 321619
+bundleId: 1320242
+url: https://declangallen.shinyapps.io/Streetlight_app/
+when: 1523852109.13702
+asMultiple: FALSE
+asStatic: FALSE
