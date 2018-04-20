@@ -113,7 +113,7 @@ mf_com_dat_melt$group <- ifelse(grepl("Origin",mf_com_dat_melt$variable),"From",
 
 Each row is now as we want.
 
-create an OD matrix
+Create an OD matrix
 
 ```{r}
 mf_com_dat_OD <- select(mf_com_dat,c("Origin.Zone.ID","Origin.Zone.Name","Middle.Filter.Zone.ID","Middle.Filter.Zone.Name","Destination.Zone.ID","Destination.Zone.Name","Device.Type","Day.Type","Day.Part","O.M.D.Traffic..StL.Index.","Origin.Zone.Traffic..StL.Index.","Middle.Filter.Zone.Traffic..StL.Index.","Destination.Zone.Traffic..StL.Index.","Avg.Trip.Duration..sec."))
@@ -121,7 +121,7 @@ mf_com_dat_OD <- select(mf_com_dat,c("Origin.Zone.ID","Origin.Zone.Name","Middle
 
 total <-  sum(mf_com_dat_OD$Avg.Trip.Duration..sec.)
 
-x <-  mf_com_dat_OD%>%
+mf_com_dat_OD_matrix <-  mf_com_dat_OD%>%
   filter(Day.Type=='0: Average Day (M-Su)',
          Day.Part=='0: All Day (12am-12am)',
          Middle.Filter.Zone.Name=='TH 36 WB Stillwater Blvd On-Ramp')%>%
@@ -200,7 +200,7 @@ shape_org <- rgdal::readOGR(dsn='.',layer = shape_org_name)
 ```
 
 ```{r}
-trueCentroids <- as.data.frame(rgeos::gCentroid(shape_org,byid = TRUE))
+trueCentroids <- SpatialPointsDataFrame(rgeos::gCentroid(shape_org_merge,byid = TRUE),shape_org_merge@data,match.ID = FALSE)%>%as.data.frame()
 ```
 
 
@@ -212,7 +212,21 @@ icons <- awesomeIcons(
   library = 'ion'
 )
 
-labels_org <- paste('ID:',shape_org$id,', ', shape_org$name,sep='')
+total_org <- mf_com_dat_OD%>%
+  filter(Day.Type=='0: Average Day (M-Su)',
+         Day.Part=='0: All Day (12am-12am)',
+         Middle.Filter.Zone.Name=='TH 36 WB Stillwater Blvd On-Ramp')%>%
+  select(Origin.Zone.ID,Destination.Zone.Name,Avg.Trip.Duration..sec.)%>%
+  mutate(Avg.Dur.Perc. = round(Avg.Trip.Duration..sec./(sum(Avg.Trip.Duration..sec.,na.rm = TRUE))*100,2))%>%
+  select(Destination.Zone.Name,Avg.Dur.Perc.,Origin.Zone.ID)%>%
+  spread(key=Destination.Zone.Name,value=Avg.Dur.Perc.)%>%
+  mutate(Total.Perc = rowSums(.[-1],na.rm = T))%>%
+  select(Origin.Zone.ID,Total.Perc)
+
+
+labels_org <- paste('ID:',shape_org$idsha,', ', shape_org$name,sep='')
+
+shape_org_merge <- merge(shape_org,total_org,by.x='id',by.y='Origin.Zone.ID',all.x=TRUE)
 
 leaflet(shape_org) %>%
   addTiles(group = "OSM (default)") %>%
@@ -220,7 +234,8 @@ leaflet(shape_org) %>%
     opacity = 1.0, fillOpacity = 0.5,
     highlightOptions = highlightOptions(color = "white", weight = 5,
       bringToFront = TRUE),label=labels_org)%>%
-  addAwesomeMarkers(trueCentroids,lng = ~trueCentroids$x,lat=~trueCentroids$y,icon = icons)
+  addCircleMarkers(lat=~trueCentroids$y,lng=~trueCentroids$x
+                   ,radius=~trueCentroids$Total.Perc)
 ```
 
 
