@@ -223,7 +223,10 @@ server <- function(input, output,session) {
       filter(Day.Part==input$Day_Partper)%>%
       filter(Middle.Filter.Zone.Name==input$Middle_filterper)%>%
       select(Origin.Zone.Name,Destination.Zone.Name,Avg.Trip.Duration..sec.)%>%
-      spread(Destination.Zone.Name,Avg.Trip.Duration..sec.)
+      mutate(Avg.Dur.Perc. = round(Avg.Trip.Duration..sec./(sum(Avg.Trip.Duration..sec.,na.rm = TRUE))*100,2))%>%
+      select(Destination.Zone.Name,Avg.Dur.Perc.,Origin.Zone.Name)%>%
+      spread(key=Destination.Zone.Name,value=Avg.Dur.Perc.)%>%
+      mutate(Total.Perc = rowSums(.[-1],na.rm = T))
     x
     
   })
